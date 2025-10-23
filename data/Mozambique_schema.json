@@ -1,0 +1,1407 @@
+[
+  {
+    "url": "https://www.africanews.com/2024/10/20/mozambique-rocked-by-killing-of-two-prominent-opposition-figures/",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "name": "Mozambique rocked by killing of two prominent opposition figures",
+        "datePublished": "2024-10-20T09:14:08+02:00",
+        "image": "https://static.euronews.com/articles/stories/08/80/14/52/900x506_cmsv2_5519b8cb-0c77-5c0f-b1e8-484ec16eb58c-8801452.jpg",
+        "articleSection": "World",
+        "articleBody": "",
+        "url": "http://www.africanews.com/2024/10/20/mozambique-rocked-by-killing-of-two-prominent-opposition-figures/",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Africanews"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": ""
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.reuters.com/world/africa/least-10-shot-dead-mozambique-post-election-protests-medical-associations-say-2024-10-30/",
+    "status_code": 401,
+    "status_reason": "HTTP Forbidden",
+    "schema": {
+      "error": "HTTP 401: HTTP Forbidden"
+    }
+  },
+  {
+    "url": "https://www.reuters.com/world/africa/mozambique-ruling-partys-candidate-wins-presidential-election-results-show-2024-10-24/",
+    "status_code": 401,
+    "status_reason": "HTTP Forbidden",
+    "schema": {
+      "error": "HTTP 401: HTTP Forbidden"
+    }
+  },
+  {
+    "url": "https://www.reuters.com/world/africa/mozambique-police-clash-with-opposition-protesters-after-disputed-election-2024-10-21/",
+    "status_code": 401,
+    "status_reason": "HTTP Forbidden",
+    "schema": {
+      "error": "HTTP 401: HTTP Forbidden"
+    }
+  },
+  {
+    "url": "https://www.africanews.com/2024/10/31/mozambique-faces-social-media-restrictions-amid-election-disputes-and-tensions/",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "name": "Mozambique faces social media restrictions amid election disputes and tensions",
+        "datePublished": "2024-10-31T15:35:00+01:00",
+        "image": "https://static.euronews.com/articles/stories/08/82/56/88/900x506_cmsv2_d0e3ea78-20f6-5b7f-95ab-5ac984887b10-8825688.jpg",
+        "articleSection": "World",
+        "articleBody": "",
+        "url": "http://www.africanews.com/2024/10/31/mozambique-faces-social-media-restrictions-amid-election-disputes-and-tensions/",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Africanews"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": ""
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.africanews.com/2024/10/26/mozambique-ruling-party-calls-for-dialogue-as-opposition-rejects-vote-result/",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "name": "Mozambique ruling party calls for dialogue as opposition rejects vote result",
+        "datePublished": "2024-10-26T10:25:52+02:00",
+        "image": "https://static.euronews.com/articles/stories/08/81/56/30/900x506_cmsv2_3084ab2c-d363-57b8-b091-58ccc78990e4-8815630.jpg",
+        "articleSection": "World",
+        "articleBody": "",
+        "url": "http://www.africanews.com/2024/10/26/mozambique-ruling-party-calls-for-dialogue-as-opposition-rejects-vote-result/",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Africanews"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": ""
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.africanews.com/2024/10/31/post-election-protests-in-mozambique-leave-10-dead-dozens-injured/",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "name": "Post-election protests in Mozambique leave 10 dead, dozens injured",
+        "datePublished": "2024-10-31T07:15:38+01:00",
+        "image": "https://static.euronews.com/articles/stories/08/81/28/22/900x506_cmsv2_5bf43e11-2658-57e5-a05a-2c1e1c13a4ee-8812822.jpg",
+        "articleSection": "World",
+        "articleBody": "",
+        "url": "http://www.africanews.com/2024/10/31/post-election-protests-in-mozambique-leave-10-dead-dozens-injured/",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Africanews"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": ""
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.africanews.com/2024/10/23/eu-observers-flag-irregularities-and-alteration-of-results-in-mozambique-election/",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "name": "EU observers flag irregularities and &#039;alteration of results&#039; in Mozambique election",
+        "datePublished": "2024-10-23T10:34:58+02:00",
+        "image": "https://static.euronews.com/articles/stories/08/80/67/74/900x506_cmsv2_b44984a5-5d0f-5bfd-b163-b98b32b43c88-8806774.jpg",
+        "articleSection": "World",
+        "articleBody": "",
+        "url": "http://www.africanews.com/2024/10/23/eu-observers-flag-irregularities-and-alteration-of-results-in-mozambique-election/",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Africanews"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": ""
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.africanews.com/2024/10/25/mozambique-let-us-engage-in-dialogue-says-president-elect-after-days-of-opposition-protest/",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "name": "Mozambique: “Let us engage in dialogue,” says President-elect after days of opposition protest",
+        "datePublished": "2024-10-25T06:44:48+02:00",
+        "image": "https://static.euronews.com/articles/stories/08/81/32/30/900x506_cmsv2_fa8d9dbe-cdd6-5833-a890-2ff3990ebe60-8813230.jpg",
+        "articleSection": "World",
+        "articleBody": "",
+        "url": "http://www.africanews.com/2024/10/25/mozambique-let-us-engage-in-dialogue-says-president-elect-after-days-of-opposition-protest/",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Africanews"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": ""
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.africanews.com/2024/10/15/un-southern-africa-faces-worst-hunger-crisis-in-decades-due-to-el-nino/",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "name": "UN: Southern Africa faces worst hunger crisis in decades due to El Niño",
+        "datePublished": "2024-10-15T15:56:02+02:00",
+        "image": "https://static.euronews.com/articles/stories/08/79/26/08/900x506_cmsv2_94aea5f4-a735-5cf4-b8bf-c894de264e8d-8792608.jpg",
+        "articleSection": "World",
+        "articleBody": "",
+        "url": "http://www.africanews.com/2024/10/15/un-southern-africa-faces-worst-hunger-crisis-in-decades-due-to-el-nino/",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Africanews"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": ""
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.africanews.com/2024/11/05/mozambiques-president-urges-an-end-to-deadly-protests-against-recent-election-results/",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "name": "Mozambique&#039;s President urges an end to deadly protests against recent election results",
+        "datePublished": "2024-11-05T15:01:32+01:00",
+        "image": "https://static.euronews.com/articles/stories/08/83/36/96/900x506_cmsv2_9bc2abe2-ca00-50c4-9634-f18815672555-8833696.jpg",
+        "articleSection": "World",
+        "articleBody": "",
+        "url": "http://www.africanews.com/2024/11/05/mozambiques-president-urges-an-end-to-deadly-protests-against-recent-election-results/",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Africanews"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": ""
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.africanews.com/2024/11/07/post-election-violence-intensifies-in-mozambique-ahead-of-sadc-meeting/",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "name": "Post-election violence intensifies in Mozambique ahead of SADC meeting",
+        "datePublished": "2024-11-07T18:25:26+01:00",
+        "image": "https://static.euronews.com/articles/stories/08/83/87/92/900x506_cmsv2_5a66af8c-baeb-512b-a077-a063f62191e5-8838792.jpg",
+        "articleSection": "World",
+        "articleBody": "",
+        "url": "http://www.africanews.com/2024/11/07/post-election-violence-intensifies-in-mozambique-ahead-of-sadc-meeting/",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Africanews"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": ""
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.africanews.com/2024/11/08/why-mozambiques-election-has-sparked-weeks-of-protests-and-a-violent-crackdown-by-police/",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "name": "Why Mozambique&#039;s election has sparked weeks of protests and a violent crackdown by police",
+        "datePublished": "2024-11-07T11:56:25+01:00",
+        "image": "https://static.euronews.com/articles/stories/08/83/77/70/900x506_cmsv2_c12baae4-6fea-5cb0-aea6-e3a22c66774f-8837770.jpg",
+        "articleSection": "World",
+        "articleBody": "",
+        "url": "http://www.africanews.com/2024/11/08/why-mozambiques-election-has-sparked-weeks-of-protests-and-a-violent-crackdown-by-police/",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Africanews"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": ""
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://allafrica.com/stories/202411210032.html",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "headline": "Mozambique President Wants Talks to End Weeks of Post-Election Unrest",
+        "@type": "NewsArticle",
+        "image": [
+          "https://cdn02.allafrica.com/download/pic/main/main/csiid/00630073:a018d46d366b1f21a647e21f0b58b4c3:arc614x376:w1200.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://web.archive.org/web/20241121042916/https://allafrica.com/stories/202411200090.html",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "https://web.archive.org/web/20241121042916/https://schema.org",
+        "headline": "Mozambique: Three More Protesters Shot Dead, Opposition Leader Declares Period of Mourning",
+        "image": [
+          "https://web.archive.org/web/20241121042916/https://cdn09.allafrica.com/download/pic/main/main/csiid/00660608:11461d8b17ea433cf3aa761d1a7024f4:arc614x376:w1200.jpg"
+        ],
+        "@type": "NewsArticle"
+      }
+    ]
+  },
+  {
+    "url": "https://web.archive.org/web/20241116024131/https://allafrica.com/stories/202411150102.html",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "image": [
+          "https://web.archive.org/web/20241116024131/https://cdn07.allafrica.com/download/pic/main/main/csiid/00660406:646ec611042531b0664d6d7be9896e7e:arc614x376:w1200.jpg"
+        ],
+        "headline": "Mozambique: The Roots of Unprecedented Protest in Mozambique",
+        "@context": "https://web.archive.org/web/20241116024131/https://schema.org",
+        "@type": "NewsArticle"
+      }
+    ]
+  },
+  {
+    "url": "https://web.archive.org/web/20241116122202/https://issafrica.org/iss-today/the-many-roots-of-mozambiques-deadly-insurgency",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": []
+  },
+  {
+    "url": "https://www.africanews.com/2024/11/26/10-children-killed-in-mozambique-election-protests-hrw/",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "name": "10 children killed in Mozambique election protests: HRW",
+        "datePublished": "2024-11-25T15:23:37+01:00",
+        "image": "https://static.euronews.com/articles/stories/08/84/03/12/900x506_cmsv2_407bc699-0df0-535b-a403-58360950f846-8840312.jpg",
+        "articleSection": "World",
+        "articleBody": "",
+        "url": "http://www.africanews.com/2024/11/26/10-children-killed-in-mozambique-election-protests-hrw/",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Africanews"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": ""
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.africanews.com/2024/12/07/following-deadly-mozambique-protests-ngo-reports-higher-death-toll/",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "name": "Following deadly Mozambique protests NGO reports higher death toll",
+        "datePublished": "2024-12-07T08:31:11+01:00",
+        "image": "https://static.euronews.com/articles/stories/08/89/62/38/900x506_cmsv2_7d59672f-e352-558f-9ec7-31ad649b267b-8896238.jpg",
+        "articleSection": "World",
+        "articleBody": "",
+        "url": "http://www.africanews.com/2024/12/07/following-deadly-mozambique-protests-ngo-reports-higher-death-toll/",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Africanews"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": ""
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://allafrica.com/stories/202412060012.html",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@type": "NewsArticle",
+        "@context": "https://schema.org",
+        "headline": "Mozambique's Deadly Protests - How the Country Got Here",
+        "image": [
+          "https://cdn08.allafrica.com/download/pic/main/main/csiid/00260854:e8962aa187cfb70a2ab3f1b1cce31b0f:arc614x376:w1200.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://www.africanews.com/2024/12/17/damage-and-rebuilding-after-cyclone-chido-hits-mozambique/",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "name": "Damage and rebuilding after Cyclone Chido hits Mozambique",
+        "datePublished": "2024-12-17T06:45:49+01:00",
+        "image": "https://static.euronews.com/articles/stories/08/91/53/92/900x506_cmsv2_a3a6fd0b-f768-59f5-8ff1-a375393802aa-8915392.jpg",
+        "articleSection": "World",
+        "articleBody": "",
+        "url": "http://www.africanews.com/2024/12/17/damage-and-rebuilding-after-cyclone-chido-hits-mozambique/",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Africanews"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": ""
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.reuters.com/world/europe/mayotte-authorities-fear-hunger-disease-race-help-cyclone-survivors-2024-12-17/",
+    "status_code": 401,
+    "status_reason": "HTTP Forbidden",
+    "schema": {
+      "error": "HTTP 401: HTTP Forbidden"
+    }
+  },
+  {
+    "url": "https://allafrica.com/stories/202412180040.html",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "image": [
+          "https://cdn01.allafrica.com/download/pic/main/main/csiid/00660966:322540fd35558d7e69b4753268a70fda:arc614x376:w1200.jpg"
+        ],
+        "headline": "Mozambique: Cyclone Chido Kills At Least 34 in Mozambique",
+        "@context": "https://schema.org",
+        "@type": "NewsArticle"
+      }
+    ]
+  },
+  {
+    "url": "https://www.africanews.com/2024/12/18/cyclone-chido-kills-at-least-45-people-in-mozambique-and-leaves-hundreds-injured/",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "name": "Cyclone Chido kills at least 45 people in Mozambique and leaves hundreds injured",
+        "datePublished": "2024-12-18T17:18:24+01:00",
+        "image": "https://static.euronews.com/articles/stories/08/91/98/02/900x506_cmsv2_64fdcdb3-54b5-56a9-935f-0b47a1a279a0-8919802.jpg",
+        "articleSection": "World",
+        "articleBody": "",
+        "url": "http://www.africanews.com/2024/12/18/cyclone-chido-kills-at-least-45-people-in-mozambique-and-leaves-hundreds-injured/",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Africanews"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": ""
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.dw.com/en/more-climate-challenges-ahead-for-mozambique-and-malawi/a-71106623",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.dw.com/en/more-climate-challenges-ahead-for-mozambique-and-malawi/a-71106623"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Deutsche Welle",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://dw.com/images/icons/favicon-180x180.png",
+            "width": "180",
+            "height": "180"
+          }
+        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Mimi Mefo Takambou",
+            "url": "https://www.dw.com/en/mimi-mefo-takambou/person-49492598"
+          },
+          {
+            "@type": "Person",
+            "name": "Josephine Mahachi",
+            "url": "https://www.dw.com/en/josephine-mahachi/person-47895834"
+          }
+        ],
+        "headline": "More climate challenges ahead for Mozambique and Malawi",
+        "image": [
+          "https://static.dw.com/image/71081168_804.jpg",
+          "https://static.dw.com/image/71081168_604.jpg"
+        ],
+        "datePublished": "2024-12-19T17:03:45.688Z",
+        "dateModified": "2024-12-20T14:53:35.919Z"
+      }
+    ]
+  },
+  {
+    "url": "https://www.iol.co.za/news/africa/cyclone-chido-death-toll-rises-to-94-in-mozambique-110000-homes-destroyed-97eb92f8-5961-411e-8f6f-12755c73b6fb",
+    "status_code": 403,
+    "status_reason": "Forbidden",
+    "schema": {
+      "error": "HTTP 403: Forbidden"
+    }
+  },
+  {
+    "url": "https://www.africanews.com/2024/12/23/cyclone-chido-leaves-94-dead-in-mozambique/",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "name": "Cyclone Chido leaves 94 dead in Mozambique",
+        "datePublished": "2024-12-23T07:11:52+01:00",
+        "image": "https://static.euronews.com/articles/stories/07/42/70/50/900x506_cmsv2_0161f85c-4af5-5572-ba1b-6ac2f4bc4899-7427050.jpg",
+        "articleSection": "World",
+        "articleBody": "",
+        "url": "http://www.africanews.com/2024/12/23/cyclone-chido-leaves-94-dead-in-mozambique/",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Africanews"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": ""
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://allafrica.com/stories/202412220112.html",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@type": "NewsArticle",
+        "image": [
+          "https://cdn02.allafrica.com/download/pic/main/main/csiid/00260616:9557dfa4567949caedf629692c05120b:arc614x376:w1200.jpg"
+        ],
+        "headline": "Mozambique: Mondlane Threatens More Unrest",
+        "@context": "https://schema.org"
+      }
+    ]
+  },
+  {
+    "url": "https://allafrica.com/stories/202412230047.html",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "headline": "Mozambique: Chaos on Monday? Big Money at Stake, But Youth Can Bring Change",
+        "@context": "https://schema.org",
+        "image": [
+          "https://cdn07.allafrica.com/download/pic/main/main/csiid/00660406:646ec611042531b0664d6d7be9896e7e:arc614x376:w1200.jpg"
+        ],
+        "@type": "NewsArticle"
+      }
+    ]
+  },
+  {
+    "url": "https://allafrica.com/stories/202412230051.html",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@type": "NewsArticle",
+        "headline": "Mozambique: President Assures the Country He Will Leave Office in January",
+        "image": [
+          "https://cdn02.allafrica.com/download/pic/main/main/csiid/00260616:9557dfa4567949caedf629692c05120b:arc614x376:w1200.jpg"
+        ],
+        "@context": "https://schema.org"
+      }
+    ]
+  },
+  {
+    "url": "https://www.dw.com/en/mozambique-top-court-confirms-disputed-frelimo-election-victory/a-71147364",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.dw.com/en/mozambique-top-court-confirms-disputed-frelimo-election-victory/a-71147364"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Deutsche Welle",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://dw.com/images/icons/favicon-180x180.png",
+            "width": "180",
+            "height": "180"
+          }
+        },
+        "author": [
+          {
+            "@type": "Organization",
+            "name": "Deutsche Welle",
+            "url": "https://www.dw.com"
+          }
+        ],
+        "headline": "Mozambique: Top Court confirms disputed Frelimo election win",
+        "image": [
+          "https://static.dw.com/image/71088276_804.jpg",
+          "https://static.dw.com/image/71088276_604.jpg"
+        ],
+        "datePublished": "2024-12-23T15:24:35.716Z",
+        "dateModified": "2024-12-23T16:27:07.309Z"
+      }
+    ]
+  },
+  {
+    "url": "https://www.nytimes.com/2024/12/23/world/africa/mozambique-disputed-election-results-upheld-chapo.html",
+    "status_code": 403,
+    "status_reason": "Forbidden",
+    "schema": {
+      "error": "HTTP 403: Forbidden"
+    }
+  },
+  {
+    "url": "https://allafrica.com/stories/202412240500.html",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "headline": "Mozambique's Highest Court Upholds Victory for the Ruling Frelimo Party",
+        "image": [
+          "https://cdn02.allafrica.com/download/pic/main/main/csiid/00260616:9557dfa4567949caedf629692c05120b:arc614x376:w1200.jpg"
+        ],
+        "@type": "NewsArticle",
+        "@context": "https://schema.org"
+      }
+    ]
+  },
+  {
+    "url": "https://web.archive.org/web/20241203212317/https://www.thenewhumanitarian.org/news-feature/2024/10/08/mozambique-cabo-delgado-insurgency-conflict-without-end",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "https://web.archive.org/web/20241203212317/https://schema.org",
+        "@graph": [
+          {
+            "@type": "NewsArticle",
+            "headline": "In Mozambique’s Cabo Delgado, extraction and insurgency without end",
+            "name": "In Mozambique’s Cabo Delgado, extraction and insurgency without end",
+            "about": "News feature",
+            "description": "The likely election of Daniel Chapo as president is expected to do little to change dynamics that have forced a million people from their homes.",
+            "image": {
+              "@type": "ImageObject",
+              "url": "https://web.archive.org/web/20241203212317/https://assets.thenewhumanitarian.org/s3fs-public/styles/social_large/public/2024-10/header-cabo-delgado-humanitarian.jpg?itok=XOL49tsA"
+            },
+            "datePublished": "2024-10-08T10:50:19+0100",
+            "dateModified": "2024-10-08T10:51:38+0100",
+            "author": {
+              "@type": "Person",
+              "@id": "https://web.archive.org/web/20241203212317/https://www.thenewhumanitarian.org/authors/kang-chun-cheng",
+              "name": "Kang-Chun Cheng",
+              "url": "https://web.archive.org/web/20241203212317/https://www.thenewhumanitarian.org/authors/kang-chun-cheng"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "The New Humanitarian",
+              "url": "https://web.archive.org/web/20241203212317/https://www.thenewhumanitarian.org"
+            },
+            "mainEntityOfPage": "https://web.archive.org/web/20241203212317/https://www.thenewhumanitarian.org/news-feature/2024/10/08/mozambique-cabo-delgado-insurgency-conflict-without-end"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://web.archive.org/web/20241203212317/https://www.thenewhumanitarian.org",
+            "name": "The New Humanitarian",
+            "url": "https://web.archive.org/web/20241203212317/https://www.thenewhumanitarian.org",
+            "publisher": {
+              "@type": "Organization",
+              "@id": "https://web.archive.org/web/20241203212317/https://www.thenewhumanitarian.org",
+              "name": "The New Humanitarian",
+              "url": "https://web.archive.org/web/20241203212317/https://www.thenewhumanitarian.org",
+              "sameAs": [
+                "https://web.archive.org/web/20241203212317/https://twitter.com/newhumanitarian",
+                "https://web.archive.org/web/20241203212317/https://www.facebook.com/NewHumanitarian",
+                "https://web.archive.org/web/20241203212317/https://www.youtube.com/c/newhumanitarian"
+              ],
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://web.archive.org/web/20241203212317/https://www.thenewhumanitarian.org/themes/custom/tnh/images/logo.svg"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://www.bbc.com/news/articles/cnv36qrnejno",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "http://schema.org",
+        "@type": "ReportageNewsArticle",
+        "url": "https://www.bbc.com/news/articles/cnv36qrnejno",
+        "publisher": {
+          "@type": "NewsMediaOrganization",
+          "name": "BBC News",
+          "publishingPrinciples": "http://www.bbc.co.uk/news/help-41670342",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://static.files.bbci.co.uk/ws/simorgh-assets/public/news/images/metadata/poster-1024x576.png"
+          }
+        },
+        "datePublished": "2024-12-25T20:42:51.557Z",
+        "dateModified": "2024-12-25T20:42:51.557Z",
+        "description": "The prisoners took advantage of ongoing political unrest triggered by disputed poll results, police say.",
+        "headline": "Mozambique unrest: Hundreds flee Maputo jail amid poll protests",
+        "image": {
+          "@type": "ImageObject",
+          "width": 1024,
+          "height": 576,
+          "url": "https://ichef.bbci.co.uk/news/1024/branded_news/222f/live/1fcff9a0-c2fe-11ef-bc93-876f5f56d09e.jpg"
+        },
+        "thumbnailUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/222f/live/1fcff9a0-c2fe-11ef-bc93-876f5f56d09e.jpg",
+        "mainEntityOfPage": "https://www.bbc.com/news/articles/cnv36qrnejno",
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Ido Vock"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://www.dw.com/en/mozambique-over-1500-inmates-escape-maputo-jail-after-riot/a-71159126",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.dw.com/en/mozambique-over-1500-inmates-escape-maputo-jail-after-riot/a-71159126"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Deutsche Welle",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://dw.com/images/icons/favicon-180x180.png",
+            "width": "180",
+            "height": "180"
+          }
+        },
+        "author": [
+          {
+            "@type": "Organization",
+            "name": "Deutsche Welle",
+            "url": "https://www.dw.com"
+          }
+        ],
+        "headline": "Mozambique: Over 1,500 inmates escape Maputo jail after riot",
+        "image": [
+          "https://static.dw.com/image/71149014_804.jpg",
+          "https://static.dw.com/image/71149014_604.jpg"
+        ],
+        "datePublished": "2024-12-25T19:17:40.055Z",
+        "dateModified": "2024-12-25T20:08:36.643Z"
+      }
+    ]
+  },
+  {
+    "url": "https://www.africanews.com/2024/12/25/21-dead-as-mozambique-erupts-in-violence-after-election-court-ruling/",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "name": "21 dead as Mozambique erupts in violence after election court ruling",
+        "datePublished": "2024-12-25T08:08:59+01:00",
+        "image": "https://static.euronews.com/articles/stories/08/92/97/70/900x506_cmsv2_ccfa5785-b7f3-531c-b86b-92a159897705-8929770.jpg",
+        "articleSection": "World",
+        "articleBody": "",
+        "url": "http://www.africanews.com/2024/12/25/21-dead-as-mozambique-erupts-in-violence-after-election-court-ruling/",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Africanews"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": ""
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://web.archive.org/web/20241226143912/https://www.africanews.com/2024/12/26/1500-escape-mozambique-prison-33-dead-in-post-election-chaos/",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "https://web.archive.org/web/20241226143912/http://schema.org",
+        "@type": "Article",
+        "name": "1,500 escape Mozambique prison; 33 dead in post-election chaos",
+        "datePublished": "2024-12-26T06:28:32+01:00",
+        "image": "https://web.archive.org/web/20241226143912/https://static.euronews.com/articles/stories/08/87/92/12/900x506_cmsv2_e3113fbf-84e8-58e2-9ca2-f938390d20d8-8879212.jpg",
+        "articleSection": "World",
+        "articleBody": "",
+        "url": "https://web.archive.org/web/20241226143912/http://www.africanews.com/2024/12/26/1500-escape-mozambique-prison-33-dead-in-post-election-chaos/",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Africanews"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": ""
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.dw.com/en/mozambiques-major-cities-paralyzed-by-post-election-unrest/a-71172456",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.dw.com/en/mozambiques-major-cities-paralyzed-by-post-election-unrest/a-71172456"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Deutsche Welle",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://dw.com/images/icons/favicon-180x180.png",
+            "width": "180",
+            "height": "180"
+          }
+        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Isaac Kaledzi",
+            "url": "https://www.dw.com/en/isaac-kaledzi/person-36290439"
+          },
+          {
+            "@type": "Person",
+            "name": "Romeu da Silva"
+          }
+        ],
+        "headline": "Mozambique's major cities paralyzed by post-election unrest",
+        "image": [
+          "https://static.dw.com/image/71163334_804.jpg",
+          "https://static.dw.com/image/71163334_604.jpg"
+        ],
+        "datePublished": "2024-12-27T16:53:54.219Z",
+        "dateModified": "2024-12-27T18:55:55.117Z"
+      }
+    ]
+  },
+  {
+    "url": "https://www.dw.com/en/mozambique-thousands-flee-to-malawi-amid-election-unrest/a-71177712",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.dw.com/en/mozambique-thousands-flee-to-malawi-amid-election-unrest/a-71177712"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Deutsche Welle",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://dw.com/images/icons/favicon-180x180.png",
+            "width": "180",
+            "height": "180"
+          }
+        },
+        "author": [
+          {
+            "@type": "Organization",
+            "name": "Deutsche Welle",
+            "url": "https://www.dw.com"
+          }
+        ],
+        "headline": "Mozambique: Thousands flee to Malawi amid election unrest",
+        "image": [
+          "https://static.dw.com/image/71177633_804.jpg",
+          "https://static.dw.com/image/71177633_604.jpg"
+        ],
+        "datePublished": "2024-12-28T20:59:26.45Z",
+        "dateModified": "2024-12-28T20:59:26.45Z"
+      }
+    ]
+  },
+  {
+    "url": "https://www.africanews.com/2024/12/30/mozambique-mondlane-announces-break-in-election-protests/",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "name": "Mozambique: Mondlane announces break in election protests",
+        "datePublished": "2024-12-30T19:25:38+01:00",
+        "image": "https://static.euronews.com/articles/stories/08/92/97/72/900x506_cmsv2_4736d40b-4304-5127-8d7f-20f75d046ab9-8929772.jpg",
+        "articleSection": "World",
+        "articleBody": "",
+        "url": "http://www.africanews.com/2024/12/30/mozambique-mondlane-announces-break-in-election-protests/",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Africanews"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": ""
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://allafrica.com/stories/202412310088.html",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "headline": "Mozambique: Over 13,000 Mozambicans Flee to Malawi Amid Post-Election Violence",
+        "@type": "NewsArticle",
+        "image": [
+          "https://cdn05.allafrica.com/download/pic/main/main/csiid/00661051:75a8db309516649051767f7c6437e5d9:arc614x376:w1200.jpg"
+        ],
+        "@context": "https://schema.org"
+      }
+    ]
+  },
+  {
+    "url": "https://allafrica.com/stories/202412300142.html",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "headline": "Mozambique: State-Orchestrated Jailbreak - 134 Dead in 4 Days",
+        "@type": "NewsArticle",
+        "image": [
+          "https://cdn02.allafrica.com/download/pic/main/main/csiid/00260616:9557dfa4567949caedf629692c05120b:arc614x376:w1200.jpg"
+        ],
+        "@context": "https://schema.org"
+      }
+    ]
+  },
+  {
+    "url": "https://www.africanews.com/2024/12/31/mozambique-south-africa-sends-special-envoy-to-help-quell-unrest/",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "name": "Mozambique: South Africa sends special envoy to help quell unrest ",
+        "datePublished": "2024-12-31T11:38:07+01:00",
+        "image": "https://static.euronews.com/articles/stories/08/83/87/92/900x506_cmsv2_5a66af8c-baeb-512b-a077-a063f62191e5-8838792.jpg",
+        "articleSection": "World",
+        "articleBody": "",
+        "url": "http://www.africanews.com/2024/12/31/mozambique-south-africa-sends-special-envoy-to-help-quell-unrest/",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Africanews"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": ""
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.africanews.com/2025/01/06/exiled-mozambique-opposition-leader-to-return-on-january-9th/",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "name": "Exiled Mozambique opposition leader to return on January 9th",
+        "datePublished": "2025-01-06T07:23:15+01:00",
+        "image": "https://static.euronews.com/articles/stories/08/95/09/22/900x506_cmsv2_feac7a7a-e48a-585e-9caf-a32294d4a609-8950922.jpg",
+        "articleSection": "World",
+        "articleBody": "",
+        "url": "http://www.africanews.com/2025/01/06/exiled-mozambique-opposition-leader-to-return-on-january-9th/",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Africanews"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": ""
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://allafrica.com/stories/202501060233.html",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "image": [
+          "https://cdn07.allafrica.com/download/pic/main/main/csiid/00660406:646ec611042531b0664d6d7be9896e7e:arc614x376:w1200.jpg"
+        ],
+        "@type": "NewsArticle",
+        "headline": "Mozambique: Post-Election Chaos in Mozambique Sparks Mass Exodus to Malawi",
+        "@context": "https://schema.org"
+      }
+    ]
+  },
+  {
+    "url": "https://www.dw.com/en/mozambique-tensions-rise-as-main-opposition-leader-returns/a-71253026",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.dw.com/en/mozambique-tensions-rise-as-main-opposition-leader-returns/a-71253026"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Deutsche Welle",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://dw.com/images/icons/favicon-180x180.png",
+            "width": "180",
+            "height": "180"
+          }
+        },
+        "author": [
+          {
+            "@type": "Organization",
+            "name": "Deutsche Welle",
+            "url": "https://www.dw.com"
+          }
+        ],
+        "headline": "Mozambique: Tensions rise as main opposition leader returns",
+        "image": [
+          "https://static.dw.com/image/71253004_804.jpg",
+          "https://static.dw.com/image/71253004_604.jpg"
+        ],
+        "datePublished": "2025-01-09T09:10:57.48Z",
+        "dateModified": "2025-01-09T13:21:16.815Z"
+      }
+    ]
+  },
+  {
+    "url": "https://web.archive.org/web/20250115051918/https://www.bbc.com/news/articles/cr7en1452xjo",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "https://web.archive.org/web/20250115051918/http://schema.org",
+        "@type": "ReportageNewsArticle",
+        "url": "https://web.archive.org/web/20250115051918/https://www.bbc.com/news/articles/cr7en1452xjo",
+        "publisher": {
+          "@type": "NewsMediaOrganization",
+          "name": "BBC News",
+          "publishingPrinciples": "https://web.archive.org/web/20250115051918/http://www.bbc.co.uk/news/help-41670342",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://web.archive.org/web/20250115051918/https://static.files.bbci.co.uk/ws/simorgh-assets/public/news/images/metadata/poster-1024x576.png"
+          }
+        },
+        "datePublished": "2025-01-15T01:17:14.802Z",
+        "dateModified": "2025-01-15T01:17:14.802Z",
+        "description": "There is a huge question over Daniel Chapo's legitimacy and people are threatening demonstrations.",
+        "headline": "Daniel Chapo: Mozambique to get new president amid swirl of protest",
+        "image": {
+          "@type": "ImageObject",
+          "width": 1024,
+          "height": 576,
+          "url": "https://web.archive.org/web/20250115051918/https://ichef.bbci.co.uk/news/1024/branded_news/68c4/live/8a8f19f0-d277-11ef-94cb-5f844ceb9e30.jpg"
+        },
+        "thumbnailUrl": "https://web.archive.org/web/20250115051918/https://ichef.bbci.co.uk/news/1024/branded_news/68c4/live/8a8f19f0-d277-11ef-94cb-5f844ceb9e30.jpg",
+        "mainEntityOfPage": "https://web.archive.org/web/20250115051918/https://www.bbc.com/news/articles/cr7en1452xjo",
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Jose Tembe in Maputo & Natasha Booty in London"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://web.archive.org/web/20241208142137/https://www.bbc.com/news/world-africa-52532741",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "https://web.archive.org/web/20241208142137/http://schema.org",
+        "@type": "ReportageNewsArticle",
+        "url": "https://web.archive.org/web/20241208142137/https://www.bbc.com/news/world-africa-52532741",
+        "publisher": {
+          "@type": "NewsMediaOrganization",
+          "name": "BBC News",
+          "publishingPrinciples": "https://web.archive.org/web/20241208142137/http://www.bbc.co.uk/news/help-41670342",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://web.archive.org/web/20241208142137/https://static.files.bbci.co.uk/ws/simorgh-assets/public/news/images/metadata/poster-1024x576.png"
+          }
+        },
+        "datePublished": "2020-05-04T23:04:25.000Z",
+        "dateModified": "2020-05-04T23:04:25.000Z",
+        "description": "Islamist militants have stepped up attacks in the north, raising fears of greater instability.",
+        "headline": "Mozambique: Is Cabo Delgado the latest Islamic State outpost?",
+        "image": {
+          "@type": "ImageObject",
+          "width": 1024,
+          "height": 576,
+          "url": "https://web.archive.org/web/20241208142137/https://ichef.bbci.co.uk/news/1024/branded_news/4A39/production/_112110091_p08c6zks.jpg"
+        },
+        "thumbnailUrl": "https://web.archive.org/web/20241208142137/https://ichef.bbci.co.uk/news/1024/branded_news/4A39/production/_112110091_p08c6zks.jpg",
+        "mainEntityOfPage": "https://web.archive.org/web/20241208142137/https://www.bbc.com/news/world-africa-52532741",
+        "author": {
+          "@type": "NewsMediaOrganization",
+          "name": "BBC News",
+          "noBylinesPolicy": "https://web.archive.org/web/20241208142137/http://www.bbc.co.uk/news/help-41670342#authorexpertise",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://web.archive.org/web/20241208142137/https://static.files.bbci.co.uk/ws/simorgh-assets/public/news/images/metadata/poster-1024x576.png"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.dw.com/en/mozambique-chapo-sworn-into-office-amid-social-tensions/video-71301709",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        "name": "Mozambique: Chapo sworn into office amid social unrest",
+        "description": "Daniel Chapo has taken office as the new president of Mozambique, continuing the hold of the FRELIMO party. But the southern African country is mired in political tensions. Supporters of opposition candidate Venancio Mondlane continue to protest as seven people died on Wednesday, increasing the number of fatalities to 307 since the end of elections in October 2024.\n",
+        "thumbnailUrl": [
+          "https://static.dw.com/image/71296909_804.jpg",
+          "https://static.dw.com/image/71296909_604.jpg"
+        ],
+        "uploadDate": "2025-01-15T16:10:18.184Z",
+        "dateModified": "2025-01-16T12:30:42.15Z",
+        "duration": "PT1M29S",
+        "contentUrl": "https://hlsvod.dw.com/i/Events/mp4/vdt/2025/dwvgeng250115_mozambique_president_01smw_,AVC_480x270,AVC_512x288,AVC_640x360,AVC_960x540,AVC_1280x720,AVC_1920x1080,.mp4.csmil/master.m3u8"
+      }
+    ]
+  },
+  {
+    "url": "https://www.africanews.com/2025/01/15/mozambique-daniel-chapo-sworn-in-as-president/",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "name": "Mozambique: Daniel Chapo sworn in as president",
+        "datePublished": "2025-01-15T11:51:47+01:00",
+        "image": "https://static.euronews.com/articles/stories/08/97/38/86/900x506_cmsv2_459011bc-234c-5381-b94a-85b10500747f-8973886.jpg",
+        "articleSection": "World",
+        "articleBody": "",
+        "url": "http://www.africanews.com/2025/01/15/mozambique-daniel-chapo-sworn-in-as-president/",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Africanews"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": ""
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://www.aljazeera.com/opinions/2025/2/4/sadc-must-act-now-to-save-mozambique-from-becoming-a-failed-state",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+        "mainEntityOfPage": "https://www.aljazeera.com/opinions/2025/2/4/sadc-must-act-now-to-save-mozambique-from-becoming-a-failed-state",
+        "headline": "SADC must act now to save Mozambique from becoming a failed state",
+        "description": "The elections are over, and a new president is sworn in. But all is still not well in the Southern African nation.",
+        "author": {
+          "@type": "Person",
+          "name": "Tafi Mhaka",
+          "url": "https://www.aljazeera.com/author/tafi_mhaka_180504152518903"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Al Jazeera",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.aljazeera.com/images/logo_aje.png",
+            "width": 224,
+            "height": 291
+          }
+        },
+        "image": [
+          {
+            "@type": "ImageObject",
+            "url": "https://www.aljazeera.com/wp-content/uploads/2025/02/RC286CA3KCA7-1738668892.jpg?resize=1920%2C1440",
+            "height": 1440,
+            "width": 1920
+          },
+          {
+            "@type": "ImageObject",
+            "url": "https://www.aljazeera.com/wp-content/uploads/2025/02/RC286CA3KCA7-1738668892.jpg?resize=1920%2C1080",
+            "height": 1080,
+            "width": 1920
+          },
+          {
+            "@type": "ImageObject",
+            "url": "https://www.aljazeera.com/wp-content/uploads/2025/02/RC286CA3KCA7-1738668892.jpg?resize=1800%2C1800",
+            "height": 1800,
+            "width": 1800
+          },
+          {
+            "@type": "ImageObject",
+            "url": "https://www.aljazeera.com/wp-content/uploads/2025/02/RC286CA3KCA7-1738668892.jpg?resize=1200%2C630",
+            "height": 630,
+            "width": 1200
+          }
+        ],
+        "datePublished": "2025-02-04T11:43:10Z",
+        "dateModified": "2025-02-04T11:43:10Z"
+      },
+      {
+        "@context": "https://schema.org/",
+        "@type": "WebPage",
+        "name": "SADC must act now to save Mozambique from becoming a failed state",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [
+            ".article-header"
+          ]
+        },
+        "url": "https://www.aljazeera.com/opinions/2025/2/4/sadc-must-act-now-to-save-mozambique-from-becoming-a-failed-state"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Opinions",
+            "item": "https://www.aljazeera.com/opinions/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Elections",
+            "item": "https://www.aljazeera.com/tag/elections/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://web.archive.org/web/20240715013430/https://www.bbc.com/news/world-africa-65707334",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "https://web.archive.org/web/20240715013430/http://schema.org",
+        "@type": "ReportageNewsArticle",
+        "url": "https://web.archive.org/web/20240715013430/https://www.bbc.com/news/world-africa-65707334",
+        "publisher": {
+          "@type": "NewsMediaOrganization",
+          "name": "BBC News",
+          "publishingPrinciples": "https://web.archive.org/web/20240715013430/http://www.bbc.co.uk/news/help-41670342",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://web.archive.org/web/20240715013430/https://static.files.bbci.co.uk/ws/simorgh-assets/public/news/images/metadata/poster-1024x576.png"
+          }
+        },
+        "datePublished": "2023-05-28T02:44:33.000Z",
+        "dateModified": "2023-05-28T02:44:33.000Z",
+        "description": "Misinformation about measures taken to tackle cholera outbreaks has led to violent protests.",
+        "headline": "Mozambique cholera: Why outbreaks have sparked unrest",
+        "image": {
+          "@type": "ImageObject",
+          "width": 1024,
+          "height": 576,
+          "url": "https://web.archive.org/web/20240715013430/https://ichef.bbci.co.uk/news/1024/branded_news/E962/production/_129864795_gettyimages-1133282178.jpg"
+        },
+        "thumbnailUrl": "https://web.archive.org/web/20240715013430/https://ichef.bbci.co.uk/news/1024/branded_news/E962/production/_129864795_gettyimages-1133282178.jpg",
+        "mainEntityOfPage": "https://web.archive.org/web/20240715013430/https://www.bbc.com/news/world-africa-65707334",
+        "author": [
+          {
+            "@type": "Person",
+            "name": "By Peter Mwai and Paul Brown "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://www.bbc.com/news/articles/c78wnz4vjpyo",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "http://schema.org",
+        "@type": "ReportageNewsArticle",
+        "url": "https://www.bbc.com/news/articles/c78wnz4vjpyo",
+        "publisher": {
+          "@type": "NewsMediaOrganization",
+          "name": "BBC News",
+          "publishingPrinciples": "http://www.bbc.co.uk/news/help-41670342",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://static.files.bbci.co.uk/ws/simorgh-assets/public/news/images/metadata/poster-1024x576.png"
+          }
+        },
+        "datePublished": "2025-01-24T11:34:24.652Z",
+        "dateModified": "2025-01-24T11:34:24.652Z",
+        "description": "Bernadino Rafael denies claims he worked with criminal groups to kidnap and kill protesters.",
+        "headline": "Bernadino Rafael: Mozambique's President Daniel Chapo sacks police chief accused of abuses",
+        "image": {
+          "@type": "ImageObject",
+          "width": 1024,
+          "height": 576,
+          "url": "https://ichef.bbci.co.uk/news/1024/branded_news/582a/live/1f6f5b30-da38-11ef-95b0-9ba717ab19ce.jpg"
+        },
+        "thumbnailUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/582a/live/1f6f5b30-da38-11ef-95b0-9ba717ab19ce.jpg",
+        "mainEntityOfPage": "https://www.bbc.com/news/articles/c78wnz4vjpyo",
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Jose Tembe & Natasha Booty"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://web.archive.org/web/20250115014356/https://www.bbc.com/news/articles/czr722v4x8yo",
+    "status_code": 200,
+    "status_reason": null,
+    "schema": [
+      {
+        "@context": "https://web.archive.org/web/20250115014356/http://schema.org",
+        "@type": "ReportageNewsArticle",
+        "url": "https://web.archive.org/web/20250115014356/https://www.bbc.com/news/articles/czr722v4x8yo",
+        "publisher": {
+          "@type": "NewsMediaOrganization",
+          "name": "BBC News",
+          "publishingPrinciples": "https://web.archive.org/web/20250115014356/http://www.bbc.co.uk/news/help-41670342",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://web.archive.org/web/20250115014356/https://static.files.bbci.co.uk/ws/simorgh-assets/public/news/images/metadata/poster-1024x576.png"
+          }
+        },
+        "datePublished": "2024-11-23T02:30:56.378Z",
+        "dateModified": "2024-11-23T02:30:56.378Z",
+        "description": "The southern African state has been a shaken by a wave of protests and killings since disputed elections. ",
+        "headline": "Mozambique election crisis: Police accused of killing pot-banging protesters",
+        "image": {
+          "@type": "ImageObject",
+          "width": 1024,
+          "height": 576,
+          "url": "https://web.archive.org/web/20250115014356/https://ichef.bbci.co.uk/news/1024/branded_news/94cb/live/1ff38760-a848-11ef-bedf-b33f5e62d7cd.jpg"
+        },
+        "thumbnailUrl": "https://web.archive.org/web/20250115014356/https://ichef.bbci.co.uk/news/1024/branded_news/94cb/live/1ff38760-a848-11ef-bedf-b33f5e62d7cd.jpg",
+        "mainEntityOfPage": "https://web.archive.org/web/20250115014356/https://www.bbc.com/news/articles/czr722v4x8yo",
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Ian Wafula "
+          }
+        ]
+      }
+    ]
+  }
+]

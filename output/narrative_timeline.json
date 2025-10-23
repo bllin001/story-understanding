@@ -1,0 +1,41 @@
+{
+  "narrative_source": "narrative.txt",
+  "timeline": [
+    {
+      "Date": "1975/06/25",
+      "Title": "Frelimo's Governance Start",
+      "Text": "Frelimo has governed Mozambique since its independence from Portugal in 1975.",
+      "Source": "Frelimo, which has governed Mozambique since its independence from Portugal in 1975.",
+      "Context": "Historical reference to the year 1975."
+    },
+    {
+      "Date": "2024/10/09",
+      "Title": "Contested Election Date",
+      "Text": "The contested election took place on 9 October.",
+      "Source": "Their deaths come as country waits for the results of the contested 9 October election.",
+      "Context": "Explicit date mentioned in the narrative."
+    },
+    {
+      "Date": "2024/10/18",
+      "Title": "Murder of Opposition Figures",
+      "Text": "Elvino Dias and Paulo Guambe were gunned down late on Friday night.",
+      "Source": "They were gunned down late on Friday night by attackers chasing the car they were travelling in.",
+      "Context": "Publication date 2024-10-20 minus 2 days = 2024-10-18 for 'Friday night'"
+    },
+    {
+      "Date": "2024/10/21",
+      "Title": "Nationwide Strike Call",
+      "Text": "Podemos has called for a nationwide strike on Monday.",
+      "Source": "Opposition parties have also cried fraud, and Podemos has called for a nationwide strike on Monday.",
+      "Context": "Publication date 2024-10-20 plus 1 day = 2024-10-21 for 'Monday'"
+    },
+    {
+      "Date": "2024/10/24",
+      "Title": "Election Results Announcement",
+      "Text": "The results of the election are due on 24 October.",
+      "Source": "They are due on the 24 October, with provisional results showing a probable win for Frelimo.",
+      "Context": "Explicit date mentioned in the narrative."
+    }
+  ],
+  "event_count": 5
+}

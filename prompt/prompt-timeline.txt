@@ -1,0 +1,85 @@
+-Goal-
+Given a narrative text about events with accompanying metadata schema, extract and organize all temporal information into a chronological timeline. Identify dates, time periods, and sequences of events mentioned in the narrative to create a comprehensive timeline. Use schema metadata to provide additional temporal context and source attribution.
+
+-Schema Context Integration-
+When available, incorporate schema metadata to enhance timeline accuracy:
+- Use publication date as a temporal anchor point for relative date calculations
+- Include source/publisher information for event credibility and attribution
+- Consider article categorization to understand the temporal scope and domain
+- Use metadata timestamps to establish precise temporal context for "recent" events
+- Leverage publication context to better interpret relative time references
+
+-Instructions-
+Follow these instructions as precisely as possible. Only provide the requested output, nothing more.
+
+1. Analyze the narrative text for all temporal information (explicit dates, relative time references, sequence indicators)
+2. Extract key events, developments, and milestones mentioned in the narrative
+3. Organize information chronologically by date or temporal sequence
+4. Infer dates when possible from context clues (e.g., "late Friday night", "on Monday", "ahead of", "since 1975")
+5. **Critical**: Use schema metadata publication date as the primary temporal anchor for calculating exact dates from relative references:
+   - "tuesday night" = Calculate the most recent Friday before publication date
+   - "Monday" = Calculate the upcoming Monday after publication date (or previous if context suggests past)
+   - "yesterday" = Publication date minus 1 day
+   - "next week" = Add 7 days to publication date
+   - "last month" = Subtract approximately 30 days from publication date
+   - "since [year]" = Use the specified year as start date
+   - Always convert relative time references to specific dates using publication date as anchor
+6. For events without specific dates, calculate exact dates using publication date arithmetic and temporal context clues
+7. Only use information that is explicitly stated or can be reasonably inferred from the narrative and metadata
+8. **Priority**: Always provide specific YYYY/MM/DD dates when possible by anchoring to publication date, avoiding vague relative references
+
+-Output Format-
+Provide a JSON array where each item contains:
+- "Date": **Always use "YYYY/MM/DD" format** - calculate exact dates using publication date as anchor for relative references
+- "Title": A brief, descriptive title for the event (2-6 words)
+- "Text": A concise description of what happened at that time
+- "Source": The exact sentence or text snippet from the narrative that mentions this event
+- "Context": Include the calculation method used (e.g., "Publication date 2024-10-20 minus 2 days = 2024-10-18 for 'Friday night'")
+
+-Template-
+=== Article Metadata (if available) ===
+Publication Date: [CRITICAL ANCHOR - Use this date to calculate all relative references]
+Source: [Publisher/Source for credibility context]
+Category: [Article section for scope understanding]
+
+=== Calculation Examples ===
+If Publication Date = 2024-10-20 (Sunday):
+- "tuesday night" = 2024-10-17 (most recent Friday)
+- "Monday" = 2024-10-21 (upcoming Monday) or 2024-10-14 (previous Monday if context suggests past)
+- "next week" = dates starting from 2024-10-27
+- "last month" = approximately 2024-09-20
+
+=== Narrative Text ===
+{narrative_text}
+
+=== Timeline ===
+[
+    {{
+        "Date": "YYYY/MM/DD" (calculated using publication date anchor),
+        "Title": "Brief descriptive title for the event",
+        "Text": "Description of what happened at this time based on the narrative",
+        "Source": "Exact sentence or text snippet from the narrative that mentions this event",
+        "Context": "Calculation: Publication date [YYYY-MM-DD] +/- [X days] = [Calculated date] for '[relative reference]'"
+    }}
+]
+
+=== End of Timeline ===
+
+-Real Data-
+######################
+Narrative: {narrative_text}
+
+Schema Metadata Context (if available):
+- Publication Date: [REQUIRED TEMPORAL ANCHOR - e.g., 2024-10-20 - Use for ALL relative date calculations]
+- Source/Publisher: [For event credibility and attribution context]
+- Article Category: [For temporal scope and domain understanding]  
+- URL: [For external temporal reference verification]
+- Time Zone Context: [For precise temporal positioning - default to publication timezone]
+
+**Date Calculation Priority**:
+1. Explicit dates mentioned in text (use as-is)
+2. Relative references + Publication date anchor = Exact calculated date
+3. Historical references (e.g., "since 1975") = Use historical year as start date
+4. Avoid vague relative terms - always calculate specific dates when publication date available
+######################
+Timeline:

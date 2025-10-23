@@ -1,0 +1,115 @@
+-Goal-
+Given a text document that is potentially relevant to this activity and a list of entity types, identify all entities of those types from the text and all relationships among the identified entities.
+
+-Steps-
+1. Identify all entities. For each identified entity, extract the following information:
+- entity_name: Name of the entity, capitalized
+- entity_type: One of the following types: [large language model, differential privacy, federated learning, healthcare, adversarial training, security measures, open-source tool, dataset, learning rate, AdaGrad, RMSprop, adapter architecture, LoRA, API, model support, evaluation metrics, deployment, Python library, hardware accelerators, hyperparameters, data preprocessing, data imbalance, GPU-based deployment, distributed inference]
+- entity_description: Comprehensive description of the entity's attributes and activities
+Format each entity as ("entity"{{tuple_delimiter}}<entity_name>{{tuple_delimiter}}<entity_type>{{tuple_delimiter}}<entity_description>)
+
+2. From the entities identified in step 1, identify all pairs of (source_entity, target_entity) that are *clearly related* to each other.
+For each pair of related entities, extract the following information:
+- source_entity: name of the source entity, as identified in step 1
+- target_entity: name of the target entity, as identified in step 1
+- relationship_description: explanation as to why you think the source entity and the target entity are related to each other
+- relationship_strength: an integer score between 1 to 10, indicating strength of the relationship between the source entity and target entity
+Format each relationship as ("relationship"{{tuple_delimiter}}<source_entity>{{tuple_delimiter}}<target_entity>{{tuple_delimiter}}<relationship_description>{{tuple_delimiter}}<relationship_strength>)
+
+3. Return output in The primary language of the provided text is "English." as a single list of all the entities and relationships identified in steps 1 and 2. Use **{{record_delimiter}}** as the list delimiter.
+
+4. If you have to translate into The primary language of the provided text is "English.", just translate the descriptions, nothing else!
+
+5. When finished, output {{completion_delimiter}}.
+
+-Examples-
+######################
+
+Example 1:
+
+entity_types: [large language model, differential privacy, federated learning, healthcare, adversarial training, security measures, open-source tool, dataset, learning rate, AdaGrad, RMSprop, adapter architecture, LoRA, API, model support, evaluation metrics, deployment, Python library, hardware accelerators, hyperparameters, data preprocessing, data imbalance, GPU-based deployment, distributed inference]
+text:
+ LLMs to create synthetic samples that mimic clients’ private data distribution using
+differential privacy. This approach significantly boosts SLMs’ performance by approximately 5% while
+maintaining data privacy with a minimal privacy budget, outperforming traditional methods relying
+solely on local private data.
+In healthcare, federated fine-tuning can allow hospitals to collaboratively train models on patient data
+without transferring sensitive information. This approach ensures data privacy while enabling the de-
+velopment of robust, generalisable AI systems.
+8https://ai.meta.com/responsible-ai/
+9https://huggingface.co/docs/hub/en/model-cards
+10https://www.tensorflow.org/responsible_ai/privacy/guide
+101 Frameworks for Enhancing Security
+Adversarial training and robust security measures[111] are essential for protecting fine-tuned models
+against attacks. The adversarial training approach involves training models with adversarial examples
+to improve their resilience against malicious inputs. Microsoft Azure’s
+------------------------
+output:
+("entity"{{tuple_delimiter}}DIFFERENTIAL PRIVACY{{tuple_delimiter}}differential privacy{{tuple_delimiter}}Differential privacy is a technique used to create synthetic samples that mimic clients' private data distribution while maintaining data privacy with a minimal privacy budget{{record_delimiter}}
+("entity"{{tuple_delimiter}}HEALTHCARE{{tuple_delimiter}}healthcare{{tuple_delimiter}}In healthcare, federated fine-tuning allows hospitals to collaboratively train models on patient data without transferring sensitive information, ensuring data privacy{{record_delimiter}}
+("entity"{{tuple_delimiter}}FEDERATED LEARNING{{tuple_delimiter}}federated learning{{tuple_delimiter}}Federated learning is a method that enables collaborative model training on decentralized data sources, such as hospitals, without sharing sensitive information{{record_delimiter}}
+("entity"{{tuple_delimiter}}ADVERSARIAL TRAINING{{tuple_delimiter}}adversarial training{{tuple_delimiter}}Adversarial training involves training models with adversarial examples to improve their resilience against malicious inputs{{record_delimiter}}
+("entity"{{tuple_delimiter}}SECURITY MEASURES{{tuple_delimiter}}security measures{{tuple_delimiter}}Robust security measures are essential for protecting fine-tuned models against attacks{{record_delimiter}}
+("relationship"{{tuple_delimiter}}DIFFERENTIAL PRIVACY{{tuple_delimiter}}FEDERATED LEARNING{{tuple_delimiter}}Differential privacy is used in federated learning to maintain data privacy while training models collaboratively{{tuple_delimiter}}8{{record_delimiter}}
+("relationship"{{tuple_delimiter}}HEALTHCARE{{tuple_delimiter}}FEDERATED LEARNING{{tuple_delimiter}}Federated learning is applied in healthcare to train models on patient data without transferring sensitive information{{tuple_delimiter}}9{{record_delimiter}}
+("relationship"{{tuple_delimiter}}ADVERSARIAL TRAINING{{tuple_delimiter}}SECURITY MEASURES{{tuple_delimiter}}Adversarial training is a security measure used to protect models against attacks by improving their resilience{{tuple_delimiter}}8{{completion_delimiter}}
+#############################
+
+
+Example 2:
+
+entity_types: [large language model, differential privacy, federated learning, healthcare, adversarial training, security measures, open-source tool, dataset, learning rate, AdaGrad, RMSprop, adapter architecture, LoRA, API, model support, evaluation metrics, deployment, Python library, hardware accelerators, hyperparameters, data preprocessing, data imbalance, GPU-based deployment, distributed inference]
+text:
+ARD [82] is an innovative open-source tool developed to enhance the safety of interactions
+with large language models (LLMs). This tool addresses three critical moderation tasks: detecting
+2https://huggingface.co/docs/transformers/en/model_doc/auto#transformers.AutoModelForCausalLM
+63 harmful intent in user prompts, identifying safety risks in model responses, and determining when a
+model appropriately refuses unsafe requests. Central to its development is WILDGUARD MIX3, a
+meticulously curated dataset comprising 92,000 labelled examples that include both benign prompts and
+adversarial attempts to bypass safety measures. The dataset is divided into WILDGUARD TRAIN, used
+for training the model, and WILDGUARD TEST, consisting of high-quality human-annotated examples
+for evaluation.
+The WILDGUARD model itself is fine-tuned on the Mistral-7B language model using the WILDGUARD
+TRAIN dataset, enabling it to perform all
+------------------------
+output:
+```plaintext
+("entity"{{tuple_delimiter}}ARD{{tuple_delimiter}}open-source tool{{tuple_delimiter}}ARD is an innovative open-source tool developed to enhance the safety of interactions with large language models by addressing moderation tasks such as detecting harmful intent, identifying safety risks, and determining appropriate refusals of unsafe requests)
+{{record_delimiter}}
+("entity"{{tuple_delimiter}}LARGE LANGUAGE MODELS{{tuple_delimiter}}large language model{{tuple_delimiter}}Large language models (LLMs) are advanced AI models designed to understand and generate human-like text, which ARD aims to interact with safely)
+{{record_delimiter}}
+("entity"{{tuple_delimiter}}WILDGUARD MIX3{{tuple_delimiter}}dataset{{tuple_delimiter}}WILDGUARD MIX3 is a meticulously curated dataset comprising 92,000 labeled examples, including benign prompts and adversarial attempts, used for training and evaluating safety measures in language models)
+{{record_delimiter}}
+("entity"{{tuple_delimiter}}WILDGUARD TRAIN{{tuple_delimiter}}dataset{{tuple_delimiter}}WILDGUARD TRAIN is a subset of the WILDGUARD MIX3 dataset used specifically for training the model on safety measures)
+{{record_delimiter}}
+("entity"{{tuple_delimiter}}WILDGUARD TEST{{tuple_delimiter}}dataset{{tuple_delimiter}}WILDGUARD TEST is a subset of the WILDGUARD MIX3 dataset consisting of high-quality human-annotated examples used for evaluating the model's performance)
+{{record_delimiter}}
+("entity"{{tuple_delimiter}}MISTRAL-7B{{tuple_delimiter}}large language model{{tuple_delimiter}}Mistral-7B is a language model that the WILDGUARD model is fine-tuned on using the WILDGUARD TRAIN dataset to enhance its safety performance)
+{{record_delimiter}}
+("entity"{{tuple_delimiter}}ADVERSARIAL ATTEMPTS{{tuple_delimiter}}adversarial training{{tuple_delimiter}}Adversarial attempts are part of the WILDGUARD MIX3 dataset, used to test and improve the model's ability to handle unsafe or harmful inputs)
+{{record_delimiter}}
+("entity"{{tuple_delimiter}}SAFETY MEASURES{{tuple_delimiter}}security measures{{tuple_delimiter}}Safety measures are protocols and techniques implemented to ensure that large language models interact safely with users, which ARD and the WILDGUARD dataset aim to enhance)
+{{record_delimiter}}
+("relationship"{{tuple_delimiter}}ARD{{tuple_delimiter}}LARGE LANGUAGE MODELS{{tuple_delimiter}}ARD is designed to enhance the safety of interactions with large language models by addressing critical moderation tasks{{tuple_delimiter}}8)
+{{record_delimiter}}
+("relationship"{{tuple_delimiter}}ARD{{tuple_delimiter}}WILDGUARD MIX3{{tuple_delimiter}}ARD uses the WILDGUARD MIX3 dataset to train and evaluate its moderation capabilities{{tuple_delimiter}}7)
+{{record_delimiter}}
+("relationship"{{tuple_delimiter}}WILDGUARD MIX3{{tuple_delimiter}}WILDGUARD TRAIN{{tuple_delimiter}}WILDGUARD TRAIN is a subset of the WILDGUARD MIX3 dataset used for training{{tuple_delimiter}}9)
+{{record_delimiter}}
+("relationship"{{tuple_delimiter}}WILDGUARD MIX3{{tuple_delimiter}}WILDGUARD TEST{{tuple_delimiter}}WILDGUARD TEST is a subset of the WILDGUARD MIX3 dataset used for evaluation{{tuple_delimiter}}9)
+{{record_delimiter}}
+("relationship"{{tuple_delimiter}}WILDGUARD TRAIN{{tuple_delimiter}}MISTRAL-7B{{tuple_delimiter}}The WILDGUARD TRAIN dataset is used to fine-tune the Mistral-7B language model{{tuple_delimiter}}8)
+{{record_delimiter}}
+("relationship"{{tuple_delimiter}}ADVERSARIAL ATTEMPTS{{tuple_delimiter}}SAFETY MEASURES{{tuple_delimiter}}Adversarial attempts are used to test and improve safety measures in language models{{tuple_delimiter}}7)
+{{completion_delimiter}}
+```
+#############################
+
+
+
+-Real Data-
+######################
+entity_types: [large language model, differential privacy, federated learning, healthcare, adversarial training, security measures, open-source tool, dataset, learning rate, AdaGrad, RMSprop, adapter architecture, LoRA, API, model support, evaluation metrics, deployment, Python library, hardware accelerators, hyperparameters, data preprocessing, data imbalance, GPU-based deployment, distributed inference]
+text: {input_text}
+######################
+output:

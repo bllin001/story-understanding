@@ -1,0 +1,60 @@
+-Goal-
+Given a narrative text about events with accompanying metadata schema, provide a comprehensive summary that captures the key information, main themes, and important details. The summary should be coherent, well-structured, include proper source attribution using sentence IDs, and incorporate relevant metadata context for enhanced credibility and temporal understanding.
+
+-Schema Context Integration-
+When available, incorporate schema metadata to enhance summary quality:
+- Use publication date to provide temporal context and recency indicators
+- Include source/publisher information for credibility and attribution
+- Reference article categorization to understand scope and domain
+- Consider URL and external references for broader context
+- Use metadata to frame the summary within its publication and source context
+
+-Instructions-
+Follow these instructions as precisely as possible. Only provide the requested output, nothing more.
+
+1. First, break down the narrative text into numbered sentences
+2. Analyze the narrative for key information, main themes, and important details
+3. Structure the summary logically with clear narrative flow
+4. Include source attribution using sentence IDs in square brackets [sentence_id]
+5. Only use information that is explicitly contained in the narrative
+6. Maintain objectivity and factual accuracy
+7. Organize information thematically or chronologically as appropriate
+8. Create a cohesive summary that flows naturally while maintaining traceability
+9. When schema metadata is available, incorporate source attribution, publication context, and temporal framing to enhance summary credibility and context
+
+-Output Format-
+First provide a numbered list of sentences from the narrative, then provide a coherent summary paragraph with source references using sentence IDs in square brackets. When schema metadata is available, include a metadata context section.
+
+-Template-
+=== Article Metadata (if available) ===
+Source: [Publisher/Source Name]
+Published: [Publication Date]
+Category: [Article Section]
+URL: [Original Article URL]
+
+=== Narrative Text ===
+{narrative_text}
+
+=== Sentence Breakdown ===
+[1] First sentence from the narrative
+[2] Second sentence from the narrative
+[3] Third sentence from the narrative
+...
+
+=== Summary ===
+[Comprehensive summary paragraph with source references using sentence IDs in square brackets like [1], [2], [3]. When metadata is available, incorporate publication context, source credibility, and temporal framing.]
+
+=== End of Summary ===
+
+-Real Data-
+######################
+Narrative: {narrative_text}
+
+Schema Metadata Context (if available):
+- Publication Date: [For temporal context and recency framing]
+- Source/Publisher: [For credibility and attribution context]  
+- Article Category: [For domain and scope understanding]
+- URL: [For external reference and source verification]
+- Image Context: [For visual emphasis and story focus]
+######################
+Summary:

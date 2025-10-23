@@ -1,0 +1,60 @@
+-Goal-
+Given a text document with accompanying metadata schema that is potentially relevant to this activity and a list of entity types, identify all entities of those types from the text and all relationships among the identified entities using the Actor-Factor-Mechanism (AFM) framework.
+
+-Entity Type Definitions-
+Based on the Actor-Factor-Mechanism (AFM) framework for narrative analysis:
+
+- **Actor**: Main participants in the narrative who perform functions or are impacted by other entities. Actors can range from individuals, groups, organizations, institutions, to any entity that takes action or is acted upon within the context. Examples: people, companies, governments, teams, departments, systems, animals, characters.
+
+- **Factor**: Contributing elements, circumstances, or variables that influence the narrative. These encompass conditions, attributes, resources, constraints, motivations, or any element that shapes the context or outcome. Examples: policies, technologies, market conditions, cultural norms, resources, skills, weather, emotions, rules.
+
+- **Event**: Specific occurrences, actions, strategies, and processes taken by actors or that happen within the narrative context. These are temporal happenings that represent mechanisms or effects within the framework. Examples: meetings, decisions, launches, failures, discoveries, accidents, celebrations, conflicts, transactions.
+
+- **Location**: Geographical places, spaces, or territories where actors operate, events occur, or factors manifest. These can be physical, virtual, or conceptual spaces that provide spatial or contextual framework. Examples: cities, buildings, websites, markets, ecosystems, departments, platforms, venues, regions.
+
+-Steps-
+1. Identify all entities. For each identified entity, extract the following information:
+- entity_name: Name of the entity, capitalized
+- entity_type: One of the following types: [actor, factor, event, location] - use the AFM definitions above
+- entity_description: Comprehensive description of the entity's attributes and activities, explaining why it fits the chosen type. When available, incorporate schema metadata such as publication date, source credibility, and temporal context to enrich the description.
+Format each entity as ("entity"{{tuple_delimiter}}<entity_name>{{tuple_delimiter}}<entity_type>{{tuple_delimiter}}<entity_description>)
+
+2. From the entities identified in step 1, identify all pairs of (source_entity, target_entity) that are *clearly related* to each other using the AFM framework understanding.
+Focus on relationships where all entity types can connect to each other:
+- Actors can connect to other actors (collaboration, competition, hierarchy, partnerships, dependencies)
+- Actors use mechanisms (events) to interact with factors
+- Actors are influenced by or influence factors
+- Actors operate in, originate from, or are associated with locations
+- Events connect actors to factors, other actors, or locations
+- Factors can influence other factors or be influenced by events
+- Locations provide context for where actors operate, events occur, or factors manifest
+- The relationships represent actions taken by actors, influences between entities, spatial associations, temporal connections, causal relationships, or functional dependencies
+
+For each pair of related entities, extract the following information:
+- source_entity: name of the source entity, as identified in step 1
+- target_entity: name of the target entity, as identified in step 1
+- mechanism: any word or phrase that summarizes how the source entity and target entity are connected (examples might include "collaborates with", "influences", "occurs in", "creates", etc. - but use whatever term best captures the specific relationship). Consider temporal context from schema metadata when determining relationships.
+- relationship_description: explanation as to why you think the source entity and the target entity are related to each other, based on AFM framework. Include temporal context and source attribution when available from schema metadata.
+- relationship_strength: an integer score between 1 to 10, indicating strength of the relationship between the source entity and target entity
+Format each relationship as ("relationship"{{tuple_delimiter}}<source_entity>{{tuple_delimiter}}<target_entity>{{tuple_delimiter}}<mechanism>{{tuple_delimiter}}<relationship_description>{{tuple_delimiter}}<relationship_strength>)
+
+3. Return output in the primary language of the provided text as a single list of all the entities and relationships identified in steps 1 and 2. Use **{{record_delimiter}}** as the list delimiter.
+
+4. If you have to translate into the primary language of the provided text, just translate the descriptions, nothing else!
+
+5. When finished, output {{completion_delimiter}}.
+
+-Real Data-
+######################
+entity_types: [actor, factor, event, location]
+text: {input_text}
+
+Schema Metadata (if available):
+- Publication Date: Use for temporal context and relationship dating
+- Source/Publisher: Consider for entity credibility and context
+- Article Section: Understand scope and domain context
+- URL: External reference context
+- Image URL: Visual emphasis and focus indicators
+######################
+output:
+"""
