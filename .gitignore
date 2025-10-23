@@ -1,2 +1,21 @@
 # Ignore .env file
 .env
+
+entities-extraction.py
+viz-kg.py
+
+prompt-entity-template.txt
+prompt-entity.txt
+prompt-entity-V1.txt
+
+entities_article_0.json
+entities_article_0.txt
+entities_article_0-v*.txt
+
+entities_article_0_visualization.html
+*.html
+
+gdelt_characterization.json
+
+.DS_Store
+Thumbs.db
