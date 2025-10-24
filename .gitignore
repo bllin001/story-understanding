@@ -1,21 +1,42 @@
-# Ignore .env file
+# Environment variables
 .env
 
-entities-extraction.py
-viz-kg.py
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
 
-prompt-entity-template.txt
-prompt-entity.txt
-prompt-entity-V1.txt
+# Virtual environments
+venv/
+env/
+ENV/
 
-entities_article_0.json
-entities_article_0.txt
-entities_article_0-v*.txt
+# IDE
+.vscode/
+.idea/
 
+# Python scripts in code/ directory
+code/entities-extraction.py
+code/viz-kg.py
+
+# Prompt files in prompt/ directory
+prompt/prompt-entity-template.txt
+prompt/prompt-entity.txt
+prompt/prompt-entity-V1.txt
+
+# Entity files in data/ directory
+data/entities_article_0-v*.txt
+
+# Entity files in output/ directory
+output/entities_article_0.json
+output/entities_article_0.txt
+
+# Visualization files in root
 entities_article_0_visualization.html
-*.html
 
-gdelt_characterization.json
+# Data files
+data/gdelt_characterization.json
 
+# OS files
 .DS_Store
 Thumbs.db
