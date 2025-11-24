@@ -1,0 +1,311 @@
+Cost and timing report for mozambique
+Generated at (first append): 2025-11-24T20:35:55.016558Z
+
+Article 1: Mozambique rocked by killing of two prominent opposition figures
+  PublicationDate: 2024-10-20
+  Start: 2025-11-24T20:34:28.353570Z  End: 2025-11-24T20:34:46.713875Z
+  Time(s): 18.36  tokens(in/out/total): 397/831/1228
+  Cost: input=$6e-05 output=$0.000499 total=$0.000558  model=gpt-4o-mini
+
+Article 2: Mozambique faces social media restrictions amid election disputes and tensions
+  PublicationDate: 2024-10-31
+  Start: 2025-11-24T20:34:46.896291Z  End: 2025-11-24T20:35:10.430607Z
+  Time(s): 23.534  tokens(in/out/total): 692/914/1606
+  Cost: input=$0.000104 output=$0.000548 total=$0.000652  model=gpt-4o-mini
+
+Article 3: Mozambique ruling party calls for dialogue as opposition rejects vote result
+  PublicationDate: 2024-10-26
+  Start: 2025-11-24T20:35:10.434956Z  End: 2025-11-24T20:35:27.218618Z
+  Time(s): 16.784  tokens(in/out/total): 298/712/1010
+  Cost: input=$4.5e-05 output=$0.000427 total=$0.000472  model=gpt-4o-mini
+
+Article 4: Post-election protests in Mozambique leave 10 dead, dozens injured
+  PublicationDate: 2024-10-31
+  Start: 2025-11-24T20:35:27.224703Z  End: 2025-11-24T20:35:45.018898Z
+  Time(s): 17.794  tokens(in/out/total): 383/935/1318
+  Cost: input=$5.7e-05 output=$0.000561 total=$0.000618  model=gpt-4o-mini
+
+Article 5: EU observers flag irregularities and &#039;alteration of results&#039; in Mozambique election
+  PublicationDate: 2024-10-23
+  Start: 2025-11-24T20:35:45.023219Z  End: 2025-11-24T20:35:55.007924Z
+  Time(s): 9.985  tokens(in/out/total): 694/565/1259
+  Cost: input=$0.000104 output=$0.000339 total=$0.000443  model=gpt-4o-mini
+
+BATCH APPEND: articles=5  batch_time_s=86.457  batch_total_cost_usd=$0.002743
+
+Article 6: Mozambique: “Let us engage in dialogue,” says President-elect after days of opposition protest
+  PublicationDate: 2024-10-25
+  Start: 2025-11-24T20:35:55.017297Z  End: 2025-11-24T20:36:13.132037Z
+  Time(s): 18.115  tokens(in/out/total): 807/944/1751
+  Cost: input=$0.000121 output=$0.000566 total=$0.000687  model=gpt-4o-mini
+
+Article 7: UN: Southern Africa faces worst hunger crisis in decades due to El Niño
+  PublicationDate: 2024-10-15
+  Start: 2025-11-24T20:36:13.147861Z  End: 2025-11-24T20:36:34.415249Z
+  Time(s): 21.267  tokens(in/out/total): 839/853/1692
+  Cost: input=$0.000126 output=$0.000512 total=$0.000638  model=gpt-4o-mini
+
+Article 8: Mozambique&#039;s President urges an end to deadly protests against recent election results
+  PublicationDate: 2024-11-05
+  Start: 2025-11-24T20:36:34.423449Z  End: 2025-11-24T20:36:47.178982Z
+  Time(s): 12.756  tokens(in/out/total): 356/695/1051
+  Cost: input=$5.3e-05 output=$0.000417 total=$0.00047  model=gpt-4o-mini
+
+Article 9: Post-election violence intensifies in Mozambique ahead of SADC meeting
+  PublicationDate: 2024-11-07
+  Start: 2025-11-24T20:36:47.182691Z  End: 2025-11-24T20:37:03.929897Z
+  Time(s): 16.747  tokens(in/out/total): 442/934/1376
+  Cost: input=$6.6e-05 output=$0.00056 total=$0.000627  model=gpt-4o-mini
+
+Article 10: Why Mozambique&#039;s election has sparked weeks of protests and a violent crackdown by police
+  PublicationDate: 2024-11-07
+  Start: 2025-11-24T20:37:03.934399Z  End: 2025-11-24T20:37:19.291306Z
+  Time(s): 15.357  tokens(in/out/total): 1032/853/1885
+  Cost: input=$0.000155 output=$0.000512 total=$0.000667  model=gpt-4o-mini
+
+BATCH APPEND: articles=5  batch_time_s=84.242  batch_total_cost_usd=$0.003089
+
+Article 11: Mozambique President Wants Talks to End Weeks of Post-Election Unrest
+  PublicationDate: Unknown Date
+  Start: 2025-11-24T20:37:19.306060Z  End: 2025-11-24T20:37:36.698145Z
+  Time(s): 17.392  tokens(in/out/total): 746/983/1729
+  Cost: input=$0.000112 output=$0.00059 total=$0.000702  model=gpt-4o-mini
+
+Article 12: Mozambique: Three More Protesters Shot Dead, Opposition Leader Declares Period of Mourning
+  PublicationDate: Unknown Date
+  Start: 2025-11-24T20:37:36.710614Z  End: 2025-11-24T20:37:59.310596Z
+  Time(s): 22.6  tokens(in/out/total): 2295/1196/3491
+  Cost: input=$0.000344 output=$0.000718 total=$0.001062  model=gpt-4o-mini
+
+Article 13: Mozambique: The Roots of Unprecedented Protest in Mozambique
+  PublicationDate: Unknown Date
+  Start: 2025-11-24T20:37:59.318418Z  End: 2025-11-24T20:38:21.359345Z
+  Time(s): 22.041  tokens(in/out/total): 1081/1268/2349
+  Cost: input=$0.000162 output=$0.000761 total=$0.000923  model=gpt-4o-mini
+
+Article 14: No Title
+  PublicationDate: Unknown Date
+  Start: 2025-11-24T20:38:21.365773Z  End: 2025-11-24T20:38:38.720972Z
+  Time(s): 17.355  tokens(in/out/total): 1523/931/2454
+  Cost: input=$0.000228 output=$0.000559 total=$0.000787  model=gpt-4o-mini
+
+Article 15: 10 children killed in Mozambique election protests: HRW
+  PublicationDate: 2024-11-25
+  Start: 2025-11-24T20:38:38.726904Z  End: 2025-11-24T20:38:53.502780Z
+  Time(s): 14.776  tokens(in/out/total): 627/842/1469
+  Cost: input=$9.4e-05 output=$0.000505 total=$0.000599  model=gpt-4o-mini
+
+BATCH APPEND: articles=5  batch_time_s=94.164  batch_total_cost_usd=$0.004073
+
+Article 16: Following deadly Mozambique protests NGO reports higher death toll
+  PublicationDate: 2024-12-07
+  Start: 2025-11-24T20:38:53.522509Z  End: 2025-11-24T20:39:06.857656Z
+  Time(s): 13.335  tokens(in/out/total): 395/593/988
+  Cost: input=$5.9e-05 output=$0.000356 total=$0.000415  model=gpt-4o-mini
+
+Article 17: Mozambique's Deadly Protests - How the Country Got Here
+  PublicationDate: Unknown Date
+  Start: 2025-11-24T20:39:06.860862Z  End: 2025-11-24T20:39:36.526329Z
+  Time(s): 29.665  tokens(in/out/total): 1720/1716/3436
+  Cost: input=$0.000258 output=$0.00103 total=$0.001288  model=gpt-4o-mini
+
+Article 18: Damage and rebuilding after Cyclone Chido hits Mozambique
+  PublicationDate: 2024-12-17
+  Start: 2025-11-24T20:39:36.543483Z  End: 2025-11-24T20:39:51.239652Z
+  Time(s): 14.696  tokens(in/out/total): 543/831/1374
+  Cost: input=$8.1e-05 output=$0.000499 total=$0.00058  model=gpt-4o-mini
+
+Article 19: Mozambique: Cyclone Chido Kills At Least 34 in Mozambique
+  PublicationDate: Unknown Date
+  Start: 2025-11-24T20:39:51.247123Z  End: 2025-11-24T20:40:09.115467Z
+  Time(s): 17.868  tokens(in/out/total): 486/875/1361
+  Cost: input=$7.3e-05 output=$0.000525 total=$0.000598  model=gpt-4o-mini
+
+Article 20: Cyclone Chido kills at least 45 people in Mozambique and leaves hundreds injured
+  PublicationDate: 2024-12-18
+  Start: 2025-11-24T20:40:09.124232Z  End: 2025-11-24T20:40:23.940409Z
+  Time(s): 14.816  tokens(in/out/total): 326/456/782
+  Cost: input=$4.9e-05 output=$0.000274 total=$0.000322  model=gpt-4o-mini
+
+BATCH APPEND: articles=5  batch_time_s=90.38  batch_total_cost_usd=$0.003203
+
+Article 21: More climate challenges ahead for Mozambique and Malawi
+  PublicationDate: 2024-12-19
+  Start: 2025-11-24T20:40:23.960952Z  End: 2025-11-24T20:40:44.193330Z
+  Time(s): 20.232  tokens(in/out/total): 1356/865/2221
+  Cost: input=$0.000203 output=$0.000519 total=$0.000722  model=gpt-4o-mini
+
+Article 23: Cyclone Chido leaves 94 dead in Mozambique
+  PublicationDate: 2024-12-23
+  Start: 2025-11-24T20:40:44.201829Z  End: 2025-11-24T20:40:54.919818Z
+  Time(s): 10.718  tokens(in/out/total): 361/458/819
+  Cost: input=$5.4e-05 output=$0.000275 total=$0.000329  model=gpt-4o-mini
+
+Article 24: Mozambique: Mondlane Threatens More Unrest
+  PublicationDate: Unknown Date
+  Start: 2025-11-24T20:40:54.924235Z  End: 2025-11-24T20:41:14.816891Z
+  Time(s): 19.893  tokens(in/out/total): 1178/916/2094
+  Cost: input=$0.000177 output=$0.00055 total=$0.000726  model=gpt-4o-mini
+
+Article 25: Mozambique: Chaos on Monday? Big Money at Stake, But Youth Can Bring Change
+  PublicationDate: Unknown Date
+  Start: 2025-11-24T20:41:14.826627Z  End: 2025-11-24T20:41:47.421604Z
+  Time(s): 32.595  tokens(in/out/total): 3187/1694/4881
+  Cost: input=$0.000478 output=$0.001016 total=$0.001494  model=gpt-4o-mini
+
+Article 26: Mozambique: President Assures the Country He Will Leave Office in January
+  PublicationDate: Unknown Date
+  Start: 2025-11-24T20:41:47.433944Z  End: 2025-11-24T20:41:56.499534Z
+  Time(s): 9.066  tokens(in/out/total): 788/576/1364
+  Cost: input=$0.000118 output=$0.000346 total=$0.000464  model=gpt-4o-mini
+
+BATCH APPEND: articles=5  batch_time_s=92.504  batch_total_cost_usd=$0.003735
+
+Article 27: Mozambique: Top Court confirms disputed Frelimo election win
+  PublicationDate: 2024-12-23
+  Start: 2025-11-24T20:41:56.523673Z  End: 2025-11-24T20:42:10.719750Z
+  Time(s): 14.196  tokens(in/out/total): 428/771/1199
+  Cost: input=$6.4e-05 output=$0.000463 total=$0.000527  model=gpt-4o-mini
+
+Article 29: Mozambique's Highest Court Upholds Victory for the Ruling Frelimo Party
+  PublicationDate: Unknown Date
+  Start: 2025-11-24T20:42:10.722999Z  End: 2025-11-24T20:42:24.884911Z
+  Time(s): 14.162  tokens(in/out/total): 896/886/1782
+  Cost: input=$0.000134 output=$0.000532 total=$0.000666  model=gpt-4o-mini
+
+Article 31: Mozambique unrest: Hundreds flee Maputo jail amid poll protests
+  PublicationDate: 2024-12-25
+  Start: 2025-11-24T20:42:24.904892Z  End: 2025-11-24T20:42:44.617357Z
+  Time(s): 19.712  tokens(in/out/total): 556/1132/1688
+  Cost: input=$8.3e-05 output=$0.000679 total=$0.000763  model=gpt-4o-mini
+
+Article 32: Mozambique: Over 1,500 inmates escape Maputo jail after riot
+  PublicationDate: 2024-12-25
+  Start: 2025-11-24T20:42:44.623178Z  End: 2025-11-24T20:42:57.723711Z
+  Time(s): 13.101  tokens(in/out/total): 307/756/1063
+  Cost: input=$4.6e-05 output=$0.000454 total=$0.0005  model=gpt-4o-mini
+
+Article 33: 21 dead as Mozambique erupts in violence after election court ruling
+  PublicationDate: 2024-12-25
+  Start: 2025-11-24T20:42:57.727173Z  End: 2025-11-24T20:43:10.037532Z
+  Time(s): 12.31  tokens(in/out/total): 553/758/1311
+  Cost: input=$8.3e-05 output=$0.000455 total=$0.000538  model=gpt-4o-mini
+
+BATCH APPEND: articles=5  batch_time_s=73.481  batch_total_cost_usd=$0.002994
+
+Article 34: 1,500 escape Mozambique prison; 33 dead in post-election chaos
+  PublicationDate: 2024-12-26
+  Start: 2025-11-24T20:43:10.062913Z  End: 2025-11-24T20:43:18.930528Z
+  Time(s): 8.868  tokens(in/out/total): 419/412/831
+  Cost: input=$6.3e-05 output=$0.000247 total=$0.00031  model=gpt-4o-mini
+
+Article 35: Mozambique's major cities paralyzed by post-election unrest
+  PublicationDate: 2024-12-27
+  Start: 2025-11-24T20:43:18.934643Z  End: 2025-11-24T20:43:36.281166Z
+  Time(s): 17.347  tokens(in/out/total): 1097/946/2043
+  Cost: input=$0.000165 output=$0.000568 total=$0.000732  model=gpt-4o-mini
+
+Article 36: Mozambique: Thousands flee to Malawi amid election unrest
+  PublicationDate: 2024-12-28
+  Start: 2025-11-24T20:43:36.288554Z  End: 2025-11-24T20:43:52.210623Z
+  Time(s): 15.922  tokens(in/out/total): 556/949/1505
+  Cost: input=$8.3e-05 output=$0.000569 total=$0.000653  model=gpt-4o-mini
+
+Article 37: Mozambique: Mondlane announces break in election protests
+  PublicationDate: 2024-12-30
+  Start: 2025-11-24T20:43:52.218855Z  End: 2025-11-24T20:44:12.883543Z
+  Time(s): 20.665  tokens(in/out/total): 406/1115/1521
+  Cost: input=$6.1e-05 output=$0.000669 total=$0.00073  model=gpt-4o-mini
+
+Article 38: Mozambique: Over 13,000 Mozambicans Flee to Malawi Amid Post-Election Violence
+  PublicationDate: Unknown Date
+  Start: 2025-11-24T20:44:12.887090Z  End: 2025-11-24T20:44:27.136450Z
+  Time(s): 14.249  tokens(in/out/total): 583/819/1402
+  Cost: input=$8.7e-05 output=$0.000491 total=$0.000579  model=gpt-4o-mini
+
+BATCH APPEND: articles=5  batch_time_s=77.051  batch_total_cost_usd=$0.003004
+
+Article 39: Mozambique: State-Orchestrated Jailbreak - 134 Dead in 4 Days
+  PublicationDate: Unknown Date
+  Start: 2025-11-24T20:44:27.164437Z  End: 2025-11-24T20:44:38.997091Z
+  Time(s): 11.833  tokens(in/out/total): 916/604/1520
+  Cost: input=$0.000137 output=$0.000362 total=$0.0005  model=gpt-4o-mini
+
+Article 40: Mozambique: South Africa sends special envoy to help quell unrest
+  PublicationDate: 2024-12-31
+  Start: 2025-11-24T20:44:39.004335Z  End: 2025-11-24T20:44:53.406189Z
+  Time(s): 14.402  tokens(in/out/total): 353/661/1014
+  Cost: input=$5.3e-05 output=$0.000397 total=$0.00045  model=gpt-4o-mini
+
+Article 41: Exiled Mozambique opposition leader to return on January 9th
+  PublicationDate: 2025-01-06
+  Start: 2025-11-24T20:44:53.410500Z  End: 2025-11-24T20:45:04.620744Z
+  Time(s): 11.21  tokens(in/out/total): 288/696/984
+  Cost: input=$4.3e-05 output=$0.000418 total=$0.000461  model=gpt-4o-mini
+
+Article 42: Mozambique: Post-Election Chaos in Mozambique Sparks Mass Exodus to Malawi
+  PublicationDate: Unknown Date
+  Start: 2025-11-24T20:45:04.625014Z  End: 2025-11-24T20:45:16.051738Z
+  Time(s): 11.427  tokens(in/out/total): 1009/625/1634
+  Cost: input=$0.000151 output=$0.000375 total=$0.000526  model=gpt-4o-mini
+
+Article 43: Mozambique: Tensions rise as main opposition leader returns
+  PublicationDate: 2025-01-09
+  Start: 2025-11-24T20:45:16.056530Z  End: 2025-11-24T20:45:36.283236Z
+  Time(s): 20.227  tokens(in/out/total): 560/935/1495
+  Cost: input=$8.4e-05 output=$0.000561 total=$0.000645  model=gpt-4o-mini
+
+BATCH APPEND: articles=5  batch_time_s=69.099  batch_total_cost_usd=$0.002582
+
+Article 44: Daniel Chapo: Mozambique to get new president amid swirl of protest
+  PublicationDate: 2025-01-15
+  Start: 2025-11-24T20:45:36.308224Z  End: 2025-11-24T20:45:50.581311Z
+  Time(s): 14.273  tokens(in/out/total): 1553/742/2295
+  Cost: input=$0.000233 output=$0.000445 total=$0.000678  model=gpt-4o-mini
+
+Article 45: Mozambique: Is Cabo Delgado the latest Islamic State outpost?
+  PublicationDate: 2020-05-04
+  Start: 2025-11-24T20:45:50.590128Z  End: 2025-11-24T20:46:07.615480Z
+  Time(s): 17.025  tokens(in/out/total): 1373/753/2126
+  Cost: input=$0.000206 output=$0.000452 total=$0.000658  model=gpt-4o-mini
+
+Article 46: Mozambique: Chapo sworn into office amid social unrest
+  PublicationDate: Unknown Date
+  Start: 2025-11-24T20:46:07.628017Z  End: 2025-11-24T20:46:18.017426Z
+  Time(s): 10.389  tokens(in/out/total): 146/546/692
+  Cost: input=$2.2e-05 output=$0.000328 total=$0.000349  model=gpt-4o-mini
+
+Article 47: Mozambique: Daniel Chapo sworn in as president
+  PublicationDate: 2025-01-15
+  Start: 2025-11-24T20:46:18.020090Z  End: 2025-11-24T20:46:40.639687Z
+  Time(s): 22.62  tokens(in/out/total): 383/997/1380
+  Cost: input=$5.7e-05 output=$0.000598 total=$0.000656  model=gpt-4o-mini
+
+Article 48: SADC must act now to save Mozambique from becoming a failed state
+  PublicationDate: 2025-02-04
+  Start: 2025-11-24T20:46:40.652530Z  End: 2025-11-24T20:47:02.977717Z
+  Time(s): 22.325  tokens(in/out/total): 2185/1225/3410
+  Cost: input=$0.000328 output=$0.000735 total=$0.001063  model=gpt-4o-mini
+
+BATCH APPEND: articles=5  batch_time_s=86.632  batch_total_cost_usd=$0.003404
+
+Article 49: Mozambique cholera: Why outbreaks have sparked unrest
+  PublicationDate: 2023-05-28
+  Start: 2025-11-24T20:47:03.007070Z  End: 2025-11-24T20:47:21.447374Z
+  Time(s): 18.44  tokens(in/out/total): 654/987/1641
+  Cost: input=$9.8e-05 output=$0.000592 total=$0.00069  model=gpt-4o-mini
+
+Article 50: Bernadino Rafael: Mozambique's President Daniel Chapo sacks police chief accused of abuses
+  PublicationDate: 2025-01-24
+  Start: 2025-11-24T20:47:21.465884Z  End: 2025-11-24T20:47:42.640132Z
+  Time(s): 21.174  tokens(in/out/total): 638/883/1521
+  Cost: input=$9.6e-05 output=$0.00053 total=$0.000625  model=gpt-4o-mini
+
+Article 51: Mozambique election crisis: Police accused of killing pot-banging protesters
+  PublicationDate: 2024-11-23
+  Start: 2025-11-24T20:47:42.647020Z  End: 2025-11-24T20:47:58.511921Z
+  Time(s): 15.865  tokens(in/out/total): 1271/965/2236
+  Cost: input=$0.000191 output=$0.000579 total=$0.00077  model=gpt-4o-mini
+
+FINAL APPEND: articles=3  batch_time_s=55.479  batch_total_cost_usd=$0.002085
+

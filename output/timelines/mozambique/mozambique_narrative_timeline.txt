@@ -1,0 +1,4035 @@
+
+=== Article 1: Mozambique rocked by killing of two prominent opposition figures ===
+
+
+```json
+{
+  "PublicationDate": "2024-10-20",
+  "Events": [
+    {
+      "Date": "2024-10-18",
+      "Title": "Murder of Opposition Figures",
+      "EventOrigin": true,
+      "EventType": "killing",
+      "Text": "Elvino Dias and Paulo Guambe were gunned down late on Friday night by attackers chasing their car.",
+      "SourceSentence": "They were gunned down late on Friday night by attackers chasing the car they were travelling in.",
+      "Aspects": {
+        "Who": ["Elvino Dias", "Paulo Guambe", "Podemos"],
+        "Where": ["Mozambique"],
+        "Cause": "Political tensions ahead of election results",
+        "Result": "Increased tensions and calls for protests"
+      },
+      "Context": "Publication [2024-10-20] - 2 days → [2024-10-18] for {late on Friday night}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-09",
+      "Title": "Contested Election Held",
+      "EventOrigin": false,
+      "EventType": "election",
+      "Text": "The contested election took place on 9 October.",
+      "SourceSentence": "Their deaths come as country waits for the results of the contested 9 October election.",
+      "Aspects": {
+        "Who": ["Mozambique"],
+        "Where": ["Mozambique"],
+        "Cause": "Election process",
+        "Result": "Awaiting election results"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-24",
+      "Title": "Election Results Expected",
+      "EventOrigin": false,
+      "EventType": "announcement",
+      "Text": "The results of the election are due on 24 October.",
+      "SourceSentence": "They are due on the 24 October, with provisional results showing a probable win for Frelimo.",
+      "Aspects": {
+        "Who": ["Frelimo"],
+        "Where": ["Mozambique"],
+        "Cause": "Election process",
+        "Result": "Provisional results indicating a probable win"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-21",
+      "Title": "Nationwide Strike Called",
+      "EventOrigin": false,
+      "EventType": "protest",
+      "Text": "Podemos has called for a nationwide strike on Monday.",
+      "SourceSentence": "Podemos has called for a nationwide strike on Monday.",
+      "Aspects": {
+        "Who": ["Podemos"],
+        "Where": ["Mozambique"],
+        "Cause": "Response to political tensions",
+        "Result": "Potential for protests"
+      },
+      "Context": "Publication [2024-10-20] + 1 day → [2024-10-21] for {on Monday}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "1975-06-25",
+      "Title": "Frelimo's Governance Began",
+      "EventOrigin": false,
+      "EventType": "historical",
+      "Text": "Frelimo has governed Mozambique since its independence from Portugal in 1975.",
+      "SourceSentence": "Frelimo, which has governed Mozambique since its independence from Portugal in 1975.",
+      "Aspects": {
+        "Who": ["Frelimo"],
+        "Where": ["Mozambique"],
+        "Cause": "Independence from Portugal",
+        "Result": "Long-term governance"
+      },
+      "Context": "Historical reference to independence year.",
+      "Confidence": 1.0
+    }
+  ]
+}
+```
+=== Article 2: Mozambique faces social media restrictions amid election disputes and tensions ===
+
+
+```json
+{
+    "PublicationDate": "2024-10-31",
+    "Events": [
+        {
+            "Date": "2024-10-09",
+            "Title": "Election Won by Frelimo",
+            "EventOrigin": true,
+            "EventType": "election",
+            "Text": "The ruling Frelimo party won the presidential election, a result that opposition parties claim was flawed.",
+            "SourceSentence": "Tensions have escalated in Mozambique after the ruling Frelimo party, which has been in power for 49 years, won the October 9 election—a result that opposition parties and election observers claim was flawed.",
+            "Aspects": {
+                "Who": ["Frelimo party", "opposition parties"],
+                "Where": ["Mozambique"],
+                "Cause": "Contentious presidential election",
+                "Result": "Escalation of tensions and protests"
+            },
+            "Context": "Explicit date mentioned in text.",
+            "Confidence": 1.0
+        },
+        {
+            "Date": "2024-10-24",
+            "Title": "Election Results Announced",
+            "EventOrigin": false,
+            "EventType": "announcement",
+            "Text": "Daniel Chapo of Frelimo was declared the winner of the presidential election with nearly 71% of the vote.",
+            "SourceSentence": "Daniel Chapo of Frelimo was declared the winner of the presidential election on October 24, with nearly 71% of the vote.",
+            "Aspects": {
+                "Who": ["Daniel Chapo", "Frelimo party"],
+                "Where": ["Mozambique"],
+                "Cause": "Presidential election results",
+                "Result": "Protests sparked by opposition supporters"
+            },
+            "Context": "Explicit date mentioned in text.",
+            "Confidence": 1.0
+        },
+        {
+            "Date": "2024-10-25",
+            "Title": "Internet Blackout",
+            "EventOrigin": false,
+            "EventType": "disruption",
+            "Text": "An internet blackout occurred, described as a near-total disruption to mobile internet connectivity.",
+            "SourceSentence": "NetBlocks described last Friday’s blackout as a 'near-total disruption to mobile internet connectivity,' affecting many Mozambicans’ ability to access information.",
+            "Aspects": {
+                "Who": ["NetBlocks"],
+                "Where": ["Mozambique"],
+                "Cause": "Announcement of election results",
+                "Result": "Disruption of information access"
+            },
+            "Context": "Calculated as the day after the election results were announced (2024-10-24).",
+            "Confidence": 1.0
+        },
+        {
+            "Date": "2024-10-31",
+            "Title": "Nationwide Strike Called",
+            "EventOrigin": false,
+            "EventType": "strike",
+            "Text": "Mondlane has called for a nationwide strike from October 31 to November 7 to protest the election results.",
+            "SourceSentence": "Mondlane has used social media to rally supporters... he has called for a nationwide strike from October 31 to November 7 to protest what he says are unjust election results.",
+            "Aspects": {
+                "Who": ["Venancio Mondlane", "Podemos party"],
+                "Where": ["Mozambique"],
+                "Cause": "Protest against election results",
+                "Result": "Residents observing the strike"
+            },
+            "Context": "Explicit date mentioned in text.",
+            "Confidence": 1.0
+        },
+        {
+            "Date": "2024-11-07",
+            "Title": "End of Nationwide Strike",
+            "EventOrigin": false,
+            "EventType": "strike",
+            "Text": "The nationwide strike called by Mondlane is set to end.",
+            "SourceSentence": "Mondlane has called for a nationwide strike from October 31 to November 7 to protest what he says are unjust election results.",
+            "Aspects": {
+                "Who": ["Venancio Mondlane", "Podemos party"],
+                "Where": ["Mozambique"],
+                "Cause": "Protest against election results",
+                "Result": "Potential continuation of protests"
+            },
+            "Context": "Explicit date mentioned in text.",
+            "Confidence": 1.0
+        }
+    ]
+}
+```
+=== Article 3: Mozambique ruling party calls for dialogue as opposition rejects vote result ===
+
+
+```json
+{
+  "PublicationDate": "2024-10-26",
+  "Events": [
+    {
+      "Date": "2024-10-26",
+      "Title": "Election Results Announced",
+      "EventOrigin": true,
+      "EventType": "announcement",
+      "Text": "The National Election Commission declared Daniel Chapo the winner of the presidential election.",
+      "SourceSentence": "Demonstrations began immediately after the National Election Commission declared Chapo winner of the vote.",
+      "Aspects": {
+        "Who": ["Daniel Chapo", "National Election Commission"],
+        "Where": ["Mozambique"],
+        "Cause": "Announcement of election results",
+        "Result": "Protests and unrest in response to the election results"
+      },
+      "Context": "Event occurred on the same day as the publication date.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-25",
+      "Title": "Tension Before Election Results",
+      "EventOrigin": false,
+      "EventType": "tension",
+      "Text": "The country was already tense following the killing of two opposition figures close to Mondlane.",
+      "SourceSentence": "Even before the election commission's announcement, the southern African country was already tense following the killing of two opposition figures close to Mondlane.",
+      "Aspects": {
+        "Who": ["Venancio Mondlane", "opposition figures"],
+        "Where": ["Mozambique"],
+        "Cause": "Killings of opposition figures",
+        "Result": "Increased tension leading up to the election results"
+      },
+      "Context": "Publication date [2024-10-26] - 1 day → [2024-10-25] for {before the election commission's announcement}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-26",
+      "Title": "Protests Erupt",
+      "EventOrigin": false,
+      "EventType": "protest",
+      "Text": "Supporters of opposition candidate Venancio Mondlane staged rallies denouncing the election results.",
+      "SourceSentence": "Supporters of opposition candidate Venancio Mondlane have been staging rallies denouncing the results of the presidential election.",
+      "Aspects": {
+        "Who": ["Venancio Mondlane", "supporters"],
+        "Where": ["Mozambique"],
+        "Cause": "Rejection of election results",
+        "Result": "Protests and road blockages"
+      },
+      "Context": "Event occurred on the same day as the publication date.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-26",
+      "Title": "Police Response to Protests",
+      "EventOrigin": false,
+      "EventType": "police action",
+      "Text": "Police responded to the protests by firing tear gas.",
+      "SourceSentence": "Police responded by firing tear gas.",
+      "Aspects": {
+        "Who": ["police"],
+        "Where": ["Mozambique"],
+        "Cause": "Protests against election results",
+        "Result": "Escalation of conflict between police and protestors"
+      },
+      "Context": "Event occurred on the same day as the publication date.",
+      "Confidence": 1.0
+    }
+  ]
+}
+```
+=== Article 4: Post-election protests in Mozambique leave 10 dead, dozens injured ===
+
+
+```json
+{
+  "PublicationDate": "2024-10-31",
+  "Events": [
+    {
+      "Date": "2024-10-09",
+      "Title": "Election Results Announced",
+      "EventOrigin": true,
+      "EventType": "election",
+      "Text": "Mozambique's electoral commission declared the ruling party Frelimo the winner of the Oct. 9 election, extending its 49-year rule.",
+      "SourceSentence": "Demonstrations erupted after Mozambique's electoral commission declared the ruling party Frelimo the winner of the Oct. 9 election, extending its 49-year rule.",
+      "Aspects": {
+        "Who": ["Frelimo", "Mozambique's electoral commission"],
+        "Where": ["Mozambique"],
+        "Cause": "Disputed election results",
+        "Result": "Protests erupted"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-18",
+      "Title": "Shooting Incidents Recorded",
+      "EventOrigin": false,
+      "EventType": "violence",
+      "Text": "Between Oct. 18 and 26, 73 shooting incidents were recorded, resulting in 10 deaths.",
+      "SourceSentence": "Between Oct. 18 and 26, 73 shooting incidents were recorded, resulting in 10 deaths.",
+      "Aspects": {
+        "Who": ["Medical Association of Mozambique", "Order of Doctors of Mozambique"],
+        "Where": ["Mozambique"],
+        "Cause": "Protests following election results",
+        "Result": "10 deaths reported"
+      },
+      "Context": "Publication date [2024-10-31] - 13 days → [2024-10-18] for {between Oct. 18 and 26}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-26",
+      "Title": "End of Recorded Shooting Incidents",
+      "EventOrigin": false,
+      "EventType": "violence",
+      "Text": "The shooting incidents recorded ended on Oct. 26.",
+      "SourceSentence": "Between Oct. 18 and 26, 73 shooting incidents were recorded, resulting in 10 deaths.",
+      "Aspects": {
+        "Who": ["Medical Association of Mozambique", "Order of Doctors of Mozambique"],
+        "Where": ["Mozambique"],
+        "Cause": "Protests following election results",
+        "Result": "10 deaths reported"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-30",
+      "Title": "Renewed Protests Called",
+      "EventOrigin": false,
+      "EventType": "protest",
+      "Text": "Opposition candidate Venancio Mondlane has called for renewed protests starting Thursday.",
+      "SourceSentence": "Opposition candidate Venancio Mondlane, who came in second but claims victory, has called for renewed protests starting Thursday.",
+      "Aspects": {
+        "Who": ["Venancio Mondlane"],
+        "Where": ["Maputo, Mozambique"],
+        "Cause": "Disputed election results",
+        "Result": "Anticipation of unrest"
+      },
+      "Context": "Publication date [2024-10-31] - 1 day → [2024-10-30] for {starting Thursday}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-30",
+      "Title": "Residents Stocking Up",
+      "EventOrigin": false,
+      "EventType": "preparation",
+      "Text": "Residents in Maputo were seen stocking up on essentials on Wednesday.",
+      "SourceSentence": "Residents in Maputo, anticipating more unrest, were seen stocking up on essentials on Wednesday.",
+      "Aspects": {
+        "Who": ["Residents of Maputo"],
+        "Where": ["Maputo, Mozambique"],
+        "Cause": "Anticipation of unrest",
+        "Result": "Stocking up on essentials"
+      },
+      "Context": "Publication date [2024-10-31] - 1 day → [2024-10-30] for {on Wednesday}.",
+      "Confidence": 1.0
+    }
+  ]
+}
+```
+=== Article 5: EU observers flag irregularities and &#039;alteration of results&#039; in Mozambique election ===
+
+
+```json
+{
+  "PublicationDate": "2024-10-23",
+  "Events": [
+    {
+      "Date": "2024-10-18",
+      "Title": "Killing of Opposition Figures",
+      "EventOrigin": true,
+      "EventType": "killing",
+      "Text": "Two prominent opposition figures were killed in Maputo, escalating tensions around the election.",
+      "SourceSentence": "Tensions around the country's election escalated after the killing of two prominent opposition figures last Friday.",
+      "Aspects": {
+        "Who": ["Elvino Dias", "Paulo Guambe"],
+        "Where": ["Maputo, Mozambique"],
+        "Cause": "Escalation of election tensions",
+        "Result": "Increased protests and calls for investigation"
+      },
+      "Context": "Publication [2024-10-23] - 5 days → [2024-10-18] for {last Friday}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-21",
+      "Title": "Protests by Opposition Supporters",
+      "EventOrigin": false,
+      "EventType": "protest",
+      "Text": "Protests by opposition supporters occurred following the killings, which were quelled by police.",
+      "SourceSentence": "followed by protests by opposition supporters on Monday, which were quelled by police firing tear gas at protesters.",
+      "Aspects": {
+        "Who": ["opposition supporters", "police"],
+        "Where": ["Mozambique"],
+        "Cause": "Response to the killings",
+        "Result": "Police intervention with tear gas"
+      },
+      "Context": "Publication [2024-10-23] - 2 days → [2024-10-21] for {on Monday}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-23",
+      "Title": "EU Observers Report Irregularities",
+      "EventOrigin": false,
+      "EventType": "report",
+      "Text": "EU observers flagged irregularities in the election process as they awaited official results.",
+      "SourceSentence": "European Union election observers have flagged irregularities in Mozambique's election as the country awaits the announcement of official results this week.",
+      "Aspects": {
+        "Who": ["EU observers"],
+        "Where": ["Mozambique"],
+        "Cause": "Irregularities in election process",
+        "Result": "Concerns over election integrity"
+      },
+      "Context": "Date is explicitly stated in the publication date.",
+      "Confidence": 1.0
+    }
+  ]
+}
+```
+=== Article 6: Mozambique: “Let us engage in dialogue,” says President-elect after days of opposition protest ===
+
+
+```json
+{
+  "PublicationDate": "2024-10-25",
+  "Events": [
+    {
+      "Date": "2024-10-24",
+      "Title": "President-elect's Speech",
+      "EventOrigin": true,
+      "EventType": "announcement",
+      "Text": "Mozambique's President-elect struck a conciliatory tone shortly after the results of disputed polls were announced.",
+      "SourceSentence": "Mozambique's President-elect struck a conciliatory tone Thursday (Oct. 24) as he spoke shortly after the results of disputed polls were announced.",
+      "Aspects": {
+        "Who": ["Daniel Chapo"],
+        "Where": ["Mozambique"],
+        "Cause": "Announcement of election results",
+        "Result": "Call for dialogue and unity among Mozambicans"
+      },
+      "Context": "Publication [2024-10-25] - 1 day → [2024-10-24] for {Thursday}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-18",
+      "Title": "Murders of Opposition Figures",
+      "EventOrigin": false,
+      "EventType": "killing",
+      "Text": "Elvino Dias and Paulo Guambe were killed when gunmen riddled their car with bullets in Maputo.",
+      "SourceSentence": "Dias, a lawyer and advisor to opposition presidential candidate Mondlane, was killed when gunmen riddled his car with bullets in the port capital of Maputo on October 18.",
+      "Aspects": {
+        "Who": ["Elvino Dias", "Paulo Guambe"],
+        "Where": ["Maputo, Mozambique"],
+        "Cause": "Political violence",
+        "Result": "Increased tensions during the electoral cycle"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-09",
+      "Title": "Election Day",
+      "EventOrigin": false,
+      "EventType": "election",
+      "Text": "The results of the Oct. 9 election mean the governing Front for the Liberation of Mozambique party, or Frelimo, has extended its 49 years in power.",
+      "SourceSentence": "The results of the Oct. 9 election mean the governing Front for the Liberation of Mozambique party, or Frelimo, has extended its 49 years in power since the southern African country gained independence from Portugal in 1975.",
+      "Aspects": {
+        "Who": ["Frelimo"],
+        "Where": ["Mozambique"],
+        "Cause": "National elections",
+        "Result": "Frelimo maintains power"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "1975-06-25",
+      "Title": "Independence from Portugal",
+      "EventOrigin": false,
+      "EventType": "historical event",
+      "Text": "Mozambique gained independence from Portugal.",
+      "SourceSentence": "It has extended its 49 years in power since the southern African country gained independence from Portugal in 1975.",
+      "Aspects": {
+        "Who": ["Mozambique"],
+        "Where": ["Mozambique"],
+        "Cause": "Colonial liberation",
+        "Result": "Establishment of Mozambique as an independent nation"
+      },
+      "Context": "Historical reference to independence year.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2017-01-01",
+      "Title": "Terror Group Attacks",
+      "EventOrigin": false,
+      "EventType": "terrorism",
+      "Text": "A terror group affiliated to the Islamic State group has launched attacks on communities in Cabo Delgado since 2017.",
+      "SourceSentence": "Chapo will face immediate challenges including a terror group affiliated to the Islamic State group that has launched attacks on communities in the hydrocarbon-rich province of Cabo Delgado since 2017.",
+      "Aspects": {
+        "Who": ["Islamic State affiliated group"],
+        "Where": ["Cabo Delgado, Mozambique"],
+        "Cause": "Terrorism",
+        "Result": "Ongoing violence and instability in the region"
+      },
+      "Context": "Historical reference to the start of attacks in 2017.",
+      "Confidence": 1.0
+    }
+  ]
+}
+```
+=== Article 7: UN: Southern Africa faces worst hunger crisis in decades due to El Niño ===
+
+
+```json
+{
+  "PublicationDate": "2024-10-15",
+  "Events": [
+    {
+      "Date": "2024-10-15",
+      "Title": "UN Declares Hunger Crisis",
+      "EventOrigin": true,
+      "EventType": "disaster",
+      "Text": "The United Nations' food agency announced that southern Africa is facing its worst hunger crisis in decades due to months of drought triggered by El Niño, impacting over 27 million people.",
+      "SourceSentence": "Months of drought in southern Africa triggered by the El Niño weather phenomenon have had a devastating impact on more than 27 million people and caused the region's worst hunger crisis in decades, the United Nations' food agency said Tuesday.",
+      "Aspects": {
+        "Who": ["United Nations", "World Food Program"],
+        "Where": ["southern Africa"],
+        "Cause": "Months of drought due to El Niño",
+        "Result": "Worst hunger crisis in decades"
+      },
+      "Context": "Publication date [2024-10-15] used as the event date.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-01",
+      "Title": "Start of Lean Season",
+      "EventOrigin": false,
+      "EventType": "seasonal change",
+      "Text": "October marks the start of the lean season in southern Africa, with expectations that conditions will worsen each month until the harvests in March and April.",
+      "SourceSentence": "October in southern Africa marks the start of the lean season, and each month is expected to be worse than the previous one until harvests next year in March and April.",
+      "Aspects": {
+        "Who": ["World Food Program"],
+        "Where": ["southern Africa"],
+        "Cause": "Seasonal agricultural cycle",
+        "Result": "Worsening food crisis"
+      },
+      "Context": "Publication date [2024-10-15] - 14 days → [2024-10-01] for {October marks the start of the lean season}.",
+      "Confidence": 0.9
+    },
+    {
+      "Date": "2024-06-30",
+      "Title": "End of El Niño",
+      "EventOrigin": false,
+      "EventType": "climate event",
+      "Text": "The latest El Niño weather phenomenon ended in June, contributing to the drought conditions in southern Africa.",
+      "SourceSentence": "The latest El Niño formed in the middle of last year and ended in June.",
+      "Aspects": {
+        "Who": ["El Niño"],
+        "Where": ["southern Africa"],
+        "Cause": "Weather phenomenon",
+        "Result": "Contributed to drought"
+      },
+      "Context": "Publication date [2024-10-15] - 3 months → [2024-06-30] for {ended in June}.",
+      "Confidence": 0.9
+    },
+    {
+      "Date": "2024-01-01",
+      "Title": "Severe Drought Reported",
+      "EventOrigin": false,
+      "EventType": "disaster",
+      "Text": "USAID reported in June that the drought was the most severe in 100 years during the January to March agricultural season.",
+      "SourceSentence": "Other aid agencies have said the drought in southern Africa is especially harsh, with the United States aid agency, USAID, saying in June it was the most severe drought in 100 years during the January to March agricultural season.",
+      "Aspects": {
+        "Who": ["USAID"],
+        "Where": ["southern Africa"],
+        "Cause": "Severe drought",
+        "Result": "Wiped out crops and food for millions"
+      },
+      "Context": "Publication date [2024-10-15] - 9 months → [2024-01-01] for {during the January to March agricultural season}.",
+      "Confidence": 0.8
+    }
+  ]
+}
+```
+=== Article 8: Mozambique&#039;s President urges an end to deadly protests against recent election results ===
+
+
+```json
+{
+  "PublicationDate": "2024-11-05",
+  "Events": [
+    {
+      "Date": "2024-11-05",
+      "Title": "President Urges End to Protests",
+      "EventOrigin": true,
+      "EventType": "announcement",
+      "Text": "The president of Mozambique urged for an end to protests against recent election results.",
+      "SourceSentence": "The president of Mozambique on Tuesday urged for an end to protests against recent election results.",
+      "Aspects": {
+        "Who": ["Filipe Nyusi"],
+        "Where": ["Mozambique"],
+        "Cause": "Protests against election results",
+        "Result": "Call for cessation of protests"
+      },
+      "Context": "Publication date [2024-11-05] - event occurred on the same day.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-11-05",
+      "Title": "Protests in Maputo",
+      "EventOrigin": false,
+      "EventType": "protest",
+      "Text": "Crowds took to the streets of Maputo denouncing police violence.",
+      "SourceSentence": "Crowds took to the streets of Maputo on Tuesday denouncing police violence.",
+      "Aspects": {
+        "Who": ["protesters"],
+        "Where": ["Maputo, Mozambique"],
+        "Cause": "Police violence during protests",
+        "Result": "Public demonstrations against police actions"
+      },
+      "Context": "Event occurred on the same day as the president's announcement.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-09",
+      "Title": "Election Results Announced",
+      "EventOrigin": false,
+      "EventType": "announcement",
+      "Text": "The electoral commission announced that the ruling party Frelimo had come out on top in the election.",
+      "SourceSentence": "Earlier in October, the country’s electoral commission announced that the ruling party Frelimo had come out on top in the October 9th election.",
+      "Aspects": {
+        "Who": ["Frelimo", "electoral commission"],
+        "Where": ["Mozambique"],
+        "Cause": "Completion of elections",
+        "Result": "Frelimo's continued rule"
+      },
+      "Context": "Explicit date mentioned in the text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-11-03",
+      "Title": "Clashes Result in Casualties",
+      "EventOrigin": false,
+      "EventType": "killing",
+      "Text": "More than a dozen people have been killed and dozens more injured in clashes in recent days.",
+      "SourceSentence": "According to medical associations, more than a dozen people have been killed and dozens more injured in clashes in recent days.",
+      "Aspects": {
+        "Who": ["medical associations"],
+        "Where": ["Mozambique"],
+        "Cause": "Clashes during protests",
+        "Result": "Casualties reported"
+      },
+      "Context": "Inferred date based on 'recent days' leading up to publication date.",
+      "Confidence": 0.8
+    }
+  ]
+}
+```
+=== Article 9: Post-election violence intensifies in Mozambique ahead of SADC meeting ===
+
+
+```json
+{
+  "PublicationDate": "2024-11-07",
+  "Events": [
+    {
+      "Date": "2024-11-07",
+      "Title": "Protests in Mozambique",
+      "EventOrigin": true,
+      "EventType": "protest",
+      "Text": "Thousands protested once again in Mozambique's capital over the outcome of the Oct. 9 presidential poll which extended the rule of the Frelimo party.",
+      "SourceSentence": "Thousands protested once again Thursday (Nov. 07) in Mozambique's capital over the outcome of the Oct. 9 presidential poll which extended the rule of the Frelimo party.",
+      "Aspects": {
+        "Who": ["protesters", "Frelimo party"],
+        "Where": ["Mozambique's capital"],
+        "Cause": "Outcome of the Oct. 9 presidential poll",
+        "Result": "Continued unrest and police response"
+      },
+      "Context": "Publication [2024-11-07] for {Thursday}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-09",
+      "Title": "Presidential Election",
+      "EventOrigin": false,
+      "EventType": "election",
+      "Text": "The presidential election was held, resulting in the extension of Frelimo's rule.",
+      "SourceSentence": "over the outcome of the Oct. 9 presidential poll which extended the rule of the Frelimo party.",
+      "Aspects": {
+        "Who": ["Frelimo party", "Daniel Chapo"],
+        "Where": ["Mozambique"],
+        "Cause": "Presidential election",
+        "Result": "Frelimo party continued in power"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-11-06",
+      "Title": "Amnesty Report on Violence",
+      "EventOrigin": false,
+      "EventType": "report",
+      "Text": "Amnesty International reported that at least 20 people have died and hundreds more have been injured and arrested since the beginning of the protests in late October.",
+      "SourceSentence": "Amnesty International said on Wednesday (Nov. 06) that at least 20 people have died and hundreds more have been injured and arrested since the beginning of the protests in late October.",
+      "Aspects": {
+        "Who": ["Amnesty International"],
+        "Where": ["Mozambique"],
+        "Cause": "Protests following the election",
+        "Result": "Deaths and injuries reported"
+      },
+      "Context": "Publication [2024-11-07] - 1 day → [2024-11-06] for {Wednesday}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-01",
+      "Title": "Protests Begin",
+      "EventOrigin": false,
+      "EventType": "protest",
+      "Text": "Protests began in late October following the presidential election.",
+      "SourceSentence": "at least 20 people have died and hundreds more have been injured and arrested since the beginning of the protests in late October.",
+      "Aspects": {
+        "Who": ["protesters"],
+        "Where": ["Mozambique"],
+        "Cause": "Election results",
+        "Result": "Escalation of violence"
+      },
+      "Context": "Inferred from 'late October' relative to publication date.",
+      "Confidence": 0.8
+    },
+    {
+      "Date": "2024-11-14",
+      "Title": "SADC Meeting Scheduled",
+      "EventOrigin": false,
+      "EventType": "meeting",
+      "Text": "SADC is set to discuss the situation during a meeting next week in Zimbabwe.",
+      "SourceSentence": "SADC is set to discuss the situation during a meeting next week in Zimbabwe.",
+      "Aspects": {
+        "Who": ["SADC"],
+        "Where": ["Zimbabwe"],
+        "Cause": "Ongoing unrest in Mozambique",
+        "Result": "Discussion of the situation"
+      },
+      "Context": "Publication [2024-11-07] + 7 days → [2024-11-14] for {next week}.",
+      "Confidence": 1.0
+    }
+  ]
+}
+```
+=== Article 10: Why Mozambique&#039;s election has sparked weeks of protests and a violent crackdown by police ===
+
+
+```json
+{
+  "PublicationDate": "2024-11-07",
+  "Events": [
+    {
+      "Date": "2024-10-09",
+      "Title": "Presidential Election Held",
+      "EventOrigin": false,
+      "EventType": "election",
+      "Text": "The presidential election was held, which many citizens and opposition parties later rejected as fraudulent.",
+      "SourceSentence": "Opposition parties and many citizens have rejected the results of the Oct. 9 presidential election as fraudulent.",
+      "Aspects": {
+        "Who": ["opposition parties", "citizens"],
+        "Where": ["Mozambique"],
+        "Cause": "Allegations of rigging",
+        "Result": "Protests and unrest followed"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-18",
+      "Title": "Senior Opposition Figures Killed",
+      "EventOrigin": false,
+      "EventType": "killing",
+      "Text": "Two senior opposition figures were killed in a late-night shooting by unidentified gunmen.",
+      "SourceSentence": "But the mood changed when two senior opposition figures were killed in their car in a late-night shooting by unidentified gunmen on Oct. 18.",
+      "Aspects": {
+        "Who": ["Venancio Mondlane", "opposition figures"],
+        "Where": ["Mozambique"],
+        "Cause": "Political tensions",
+        "Result": "Increased protests and unrest"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-24",
+      "Title": "Election Results Announced",
+      "EventOrigin": false,
+      "EventType": "announcement",
+      "Text": "Daniel Chapo was declared the winner of the presidential election.",
+      "SourceSentence": "The candidate for the ruling Front for the Liberation of Mozambique, Daniel Chapo, was declared the winner of the presidential election on Oct. 24.",
+      "Aspects": {
+        "Who": ["Daniel Chapo"],
+        "Where": ["Mozambique"],
+        "Cause": "Election process",
+        "Result": "Continued unrest and protests"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-31",
+      "Title": "Protests Intensify",
+      "EventOrigin": false,
+      "EventType": "protest",
+      "Text": "Protests continued to grow in intensity across the country.",
+      "SourceSentence": "Since then, there have been waves of protests across the country.",
+      "Aspects": {
+        "Who": ["protesters"],
+        "Where": ["Mozambique"],
+        "Cause": "Response to election results and killings",
+        "Result": "Increased violence and police response"
+      },
+      "Context": "Calculated as 2024-10-31, approximately two weeks after the election results.",
+      "Confidence": 0.8
+    },
+    {
+      "Date": "2024-11-07",
+      "Title": "Ongoing Protests and Crackdown",
+      "EventOrigin": true,
+      "EventType": "protest",
+      "Text": "Thousands protested in Mozambique's capital, with security forces responding violently.",
+      "SourceSentence": "Thousands protested in Mozambique's capital on Thursday and security forces responded by firing tear gas and rubber bullets, as weeks of post-election unrest continued in the southern African country.",
+      "Aspects": {
+        "Who": ["thousands of protesters", "security forces"],
+        "Where": ["Maputo, Mozambique"],
+        "Cause": "Post-election unrest",
+        "Result": "Violent crackdown by police"
+      },
+      "Context": "Publication date is used as the date of the event.",
+      "Confidence": 1.0
+    }
+  ]
+}
+```
+=== Article 11: Mozambique President Wants Talks to End Weeks of Post-Election Unrest ===
+
+
+```json
+{
+  "PublicationDate": "2024-10-20",
+  "Events": [
+    {
+      "Date": "2024-10-15",
+      "Title": "State of the Nation Address",
+      "EventOrigin": true,
+      "EventType": "announcement",
+      "Text": "Outgoing President Filipe Nyusi invited four presidential candidates for dialogue to address post-election unrest.",
+      "SourceSentence": "In a state of the nation address late Tuesday, outgoing Mozambican President Filipe Nyusi invited the four presidential candidates for a dialogue as part of a bid to end post-election unrest.",
+      "Aspects": {
+        "Who": ["Filipe Nyusi", "Daniel Chapo", "Venancio Mondlane"],
+        "Where": ["Maputo, Mozambique"],
+        "Cause": "Post-election unrest following the October 9 election.",
+        "Result": "Invitation for dialogue to resolve unrest."
+      },
+      "Context": "Publication [2024-10-20] - 5 days → [2024-10-15] for {late Tuesday}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-09",
+      "Title": "Election Day",
+      "EventOrigin": false,
+      "EventType": "election",
+      "Text": "The presidential election was held, with Daniel Chapo declared the winner.",
+      "SourceSentence": "Protesters say the October 9 election won by ruling party candidate Daniel Chapo was rigged.",
+      "Aspects": {
+        "Who": ["Daniel Chapo", "Venancio Mondlane"],
+        "Where": ["Mozambique"],
+        "Cause": "Conduct of the presidential election.",
+        "Result": "Claims of election rigging and subsequent protests."
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-14",
+      "Title": "Post-Election Violence",
+      "EventOrigin": false,
+      "EventType": "violence",
+      "Text": "At least 30 people died during the post-election violence following the election results announcement.",
+      "SourceSentence": "At least 30 people are reported to have died during the post-election violence that flared after electoral officials said Chapo, of the ruling Frelimo party, won the presidential election with more than 60% of the vote.",
+      "Aspects": {
+        "Who": ["Protesters", "Daniel Chapo"],
+        "Where": ["Mozambique"],
+        "Cause": "Announcement of election results.",
+        "Result": "Deaths and unrest."
+      },
+      "Context": "Publication [2024-10-20] - 6 days → [2024-10-14] for {a few days after the election}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-17",
+      "Title": "Attorney General's Office Actions",
+      "EventOrigin": false,
+      "EventType": "legal action",
+      "Text": "The Attorney General's Office filed cases against Venancio Mondlane and his party for property damage caused during protests.",
+      "SourceSentence": "Nyusi's invitation to the dialogue comes a few days after the Attorney General's Office filed cases against Venancio Mondlane and his PODEMOS party to compensate the state for property damage caused during protests.",
+      "Aspects": {
+        "Who": ["Attorney General's Office", "Venancio Mondlane"],
+        "Where": ["Mozambique"],
+        "Cause": "Property damage during protests.",
+        "Result": "Legal actions initiated."
+      },
+      "Context": "Publication [2024-10-20] - 3 days → [2024-10-17] for {a few days after the invitation}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2025-01-01",
+      "Title": "Chapo's Inauguration",
+      "EventOrigin": false,
+      "EventType": "inauguration",
+      "Text": "Daniel Chapo is scheduled to be inaugurated as president.",
+      "SourceSentence": "Chapo is scheduled to be inaugurated in January.",
+      "Aspects": {
+        "Who": ["Daniel Chapo"],
+        "Where": ["Mozambique"],
+        "Cause": "Election victory.",
+        "Result": "New president taking office."
+      },
+      "Context": "Explicit date inferred as January 1, 2025 from the mention of January.",
+      "Confidence": 0.8
+    }
+  ]
+}
+```
+=== Article 12: Mozambique: Three More Protesters Shot Dead, Opposition Leader Declares Period of Mourning ===
+
+
+```json
+{
+  "PublicationDate": "2024-10-20",
+  "Events": [
+    {
+      "Date": "2024-10-18",
+      "Title": "Police Ordered to Establish Hit Squads",
+      "EventOrigin": false,
+      "EventType": "order",
+      "Text": "Plainclothes hit squads to kill demonstrators were ordered to be established last week by the General Commander of the Police, Bernardino Rafael.",
+      "SourceSentence": "Plainclothes hit squads to kill demonstrators were ordered to be established last week by the General Commander of the Police, Bernardino Rafael.",
+      "Aspects": {
+        "Who": ["Bernardino Rafael", "General Commander of the Police"],
+        "Where": ["Nampula city"],
+        "Cause": "To carry out selective shootings",
+        "Result": "Increased violence against demonstrators"
+      },
+      "Context": "Publication [2024-10-20] - 2 days → [2024-10-18] for {last week}.",
+      "Confidence": 0.9
+    },
+    {
+      "Date": "2024-10-18",
+      "Title": "Seven Demonstrators Murdered",
+      "EventOrigin": false,
+      "EventType": "killing",
+      "Text": "Local police murdered seven demonstrators and wounded more than a dozen in Namicopo, Nampula city.",
+      "SourceSentence": "as happened last week in Namicopo, in Nampula city, when the local police murdered seven demonstrators and wounded more than a dozen.",
+      "Aspects": {
+        "Who": ["local police"],
+        "Where": ["Namicopo, Nampula city"],
+        "Cause": "Police orders to suppress protests",
+        "Result": "Increased public outrage and protests"
+      },
+      "Context": "Publication [2024-10-20] - 2 days → [2024-10-18] for {last week}.",
+      "Confidence": 0.9
+    },
+    {
+      "Date": "2024-11-18",
+      "Title": "EU Approves Funding for Rwandan Troops",
+      "EventOrigin": false,
+      "EventType": "political decision",
+      "Text": "The European Council of Ministers approved another €20mn to support Rwandan troops in Mozambique.",
+      "SourceSentence": "Yesterday, 18 November, the European Council of Ministers approved another €20mn ($21mn) to support Rwandan troops in Mozambique.",
+      "Aspects": {
+        "Who": ["European Council of Ministers"],
+        "Where": ["Europe", "Mozambique"],
+        "Cause": "Support for Frelimo policy on the Cabo Delgado war",
+        "Result": "Strengthened position of Frelimo leadership"
+      },
+      "Context": "Publication [2024-10-20] + 29 days → [2024-11-18] for {yesterday}.",
+      "Confidence": 0.9
+    },
+    {
+      "Date": "2024-11-20",
+      "Title": "Three Days of Mourning Declared",
+      "EventOrigin": true,
+      "EventType": "mourning",
+      "Text": "Venancio Mondlane declared three days of mourning for the victims of killing and kidnapping.",
+      "SourceSentence": "Instead there will be three days of mourning - Wednesday-Friday - 20-22 November - for the victims of killing and kidnapping.",
+      "Aspects": {
+        "Who": ["Venancio Mondlane"],
+        "Where": ["Mozambique"],
+        "Cause": "Victims of recent violence",
+        "Result": "Public mourning and protests"
+      },
+      "Context": "Publication [2024-10-20] + 31 days → [2024-11-20] for {Wednesday}.",
+      "Confidence": 0.9
+    },
+    {
+      "Date": "2024-11-21",
+      "Title": "First Day of Mourning",
+      "EventOrigin": false,
+      "EventType": "mourning",
+      "Text": "The first day of mourning for the victims of killing and kidnapping.",
+      "SourceSentence": "Instead there will be three days of mourning - Wednesday-Friday - 20-22 November - for the victims of killing and kidnapping.",
+      "Aspects": {
+        "Who": ["public"],
+        "Where": ["Mozambique"],
+        "Cause": "Victims of recent violence",
+        "Result": "Public displays of mourning"
+      },
+      "Context": "Publication [2024-10-20] + 31 days + 1 day → [2024-11-21] for {Thursday}.",
+      "Confidence": 0.9
+    },
+    {
+      "Date": "2024-11-22",
+      "Title": "Second Day of Mourning",
+      "EventOrigin": false,
+      "EventType": "mourning",
+      "Text": "The second day of mourning for the victims of killing and kidnapping.",
+      "SourceSentence": "Instead there will be three days of mourning - Wednesday-Friday - 20-22 November - for the victims of killing and kidnapping.",
+      "Aspects": {
+        "Who": ["public"],
+        "Where": ["Mozambique"],
+        "Cause": "Victims of recent violence",
+        "Result": "Public displays of mourning"
+      },
+      "Context": "Publication [2024-10-20] + 31 days + 2 days → [2024-11-22] for {Friday}.",
+      "Confidence": 0.9
+    }
+  ]
+}
+```
+=== Article 13: Mozambique: The Roots of Unprecedented Protest in Mozambique ===
+
+
+```json
+{
+  "PublicationDate": "2024-10-20",
+  "Events": [
+    {
+      "Date": "2024-10-09",
+      "Title": "Mozambique Elections",
+      "EventOrigin": true,
+      "EventType": "election",
+      "Text": "Mozambique held elections that sparked widespread protests and unrest.",
+      "SourceSentence": "Continuing general strike after Mozambique 9 October elections, by Joseph Hanlon.",
+      "Aspects": {
+        "Who": ["Frelimo", "demonstrators"],
+        "Where": ["Mozambique"],
+        "Cause": "Contested election results and growing poverty",
+        "Result": "Unprecedented general strike and protests"
+      },
+      "Context": "Publication [2024-10-20] - 11 days → [2024-10-09] for {9 October elections}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-20",
+      "Title": "General Strike Continues",
+      "EventOrigin": false,
+      "EventType": "strike",
+      "Text": "The general strike continues into its third week, with significant unrest and police violence.",
+      "SourceSentence": "An unprecedented general strike is now in its 3rd week.",
+      "Aspects": {
+        "Who": ["young people", "police"],
+        "Where": ["Mozambique"],
+        "Cause": "Massive electoral fraud and poverty",
+        "Result": "At least 50 demonstrators killed by police"
+      },
+      "Context": "Publication [2024-10-20] - 0 days → [2024-10-20] for {continues after 3 weeks}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-11-08",
+      "Title": "Tear Gas Used Against Protesters",
+      "EventOrigin": false,
+      "EventType": "violence",
+      "Text": "Police used tear gas against demonstrators, raising health concerns.",
+      "SourceSentence": "Tear gas used against demonstrators is a risk to public health and to biodiversity.",
+      "Aspects": {
+        "Who": ["police", "demonstrators"],
+        "Where": ["Mozambique"],
+        "Cause": "Protests against government actions",
+        "Result": "Health risks and increased tensions"
+      },
+      "Context": "Publication [2024-10-20] + 19 days → [2024-11-08] for {8 Nov 2024}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-11-11",
+      "Title": "Insurgents Attack in Cabo Delgado",
+      "EventOrigin": false,
+      "EventType": "attack",
+      "Text": "Insurgents intensified attacks in Cabo Delgado amid post-election violence.",
+      "SourceSentence": "Insurgents step up attacks in Cabo Delgado during the post-election violence in Maputo, 11 Nov 2024.",
+      "Aspects": {
+        "Who": ["insurgents"],
+        "Where": ["Cabo Delgado", "Maputo"],
+        "Cause": "Post-election unrest",
+        "Result": "Increased violence and instability"
+      },
+      "Context": "Publication [2024-10-20] + 22 days → [2024-11-11] for {11 Nov 2024}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-11-12",
+      "Title": "Seminar on Mozambique's Crisis",
+      "EventOrigin": false,
+      "EventType": "seminar",
+      "Text": "A seminar was held discussing the ongoing crisis in Mozambique post-elections.",
+      "SourceSentence": "Power Point of 12 November 2024 seminar with notes and changes.",
+      "Aspects": {
+        "Who": ["Joseph Hanlon"],
+        "Where": ["London School of Economics"],
+        "Cause": "Ongoing unrest and electoral issues",
+        "Result": "Discussion on potential solutions"
+      },
+      "Context": "Publication [2024-10-20] + 23 days → [2024-11-12] for {12 Nov 2024 seminar}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-11-13",
+      "Title": "Post-Election Turmoil Analysis",
+      "EventOrigin": false,
+      "EventType": "analysis",
+      "Text": "An analysis was published discussing the economic policies affecting Mozambique's post-election situation.",
+      "SourceSentence": "Published on The Conversation, 13 Nov 2024.",
+      "Aspects": {
+        "Who": ["Sam Jones"],
+        "Where": ["Mozambique"],
+        "Cause": "Economic policies and election results",
+        "Result": "Insights into the ongoing crisis"
+      },
+      "Context": "Publication [2024-10-20] + 24 days → [2024-11-13] for {13 Nov 2024}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-11-14",
+      "Title": "Expectations of Continued Unrest",
+      "EventOrigin": false,
+      "EventType": "forecast",
+      "Text": "Experts predict that post-election unrest in Mozambique will persist.",
+      "SourceSentence": "Post-election unrest expected to persist.",
+      "Aspects": {
+        "Who": ["Executive Research Associates"],
+        "Where": ["Mozambique"],
+        "Cause": "Ongoing protests and dissatisfaction",
+        "Result": "Forecast of continued instability"
+      },
+      "Context": "Publication [2024-10-20] + 25 days → [2024-11-14] for {14 Nov 2024}.",
+      "Confidence": 1.0
+    }
+  ]
+}
+```
+=== Article 14: No Title ===
+
+
+```json
+{
+  "PublicationDate": "2022-09-08",
+  "Events": [
+    {
+      "Date": "2017-12-31",
+      "Title": "Insurgency Erupts in Cabo Delgado",
+      "EventOrigin": true,
+      "EventType": "insurgency",
+      "Text": "The insurgency in Cabo Delgado province broke out at the end of 2017, leading to significant violence and displacement.",
+      "SourceSentence": "Over 4 000 people have been killed and 800 000 displaced due to the insurgency that broke out at the end of 2017.",
+      "Aspects": {
+        "Who": ["Ahlu-Sunnah wal Jama’a", "Islamic State"],
+        "Where": ["Cabo Delgado, Mozambique"],
+        "Cause": "Discovery of gas reserves and bad governance",
+        "Result": "Over 4,000 deaths and 800,000 displaced"
+      },
+      "Context": "End of 2017 is explicitly mentioned in the text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2019-01-01",
+      "Title": "Protests Over Ruby Mining",
+      "EventOrigin": false,
+      "EventType": "protest",
+      "Text": "Protests occurred in 2019 when multinationals took over ruby mines, displacing informal miners.",
+      "SourceSentence": "They were chased away when multinationals took over the mine, leading to protests in 2019.",
+      "Aspects": {
+        "Who": ["informal miners", "multinationals"],
+        "Where": ["Cabo Delgado, Mozambique"],
+        "Cause": "Takeover of ruby mines by multinationals",
+        "Result": "Protests by displaced miners"
+      },
+      "Context": "2019 is explicitly mentioned in the text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2021-03-01",
+      "Title": "Palma Attack",
+      "EventOrigin": false,
+      "EventType": "attack",
+      "Text": "In the March 2021 Palma attack, US$1 million was robbed from banks and businesses.",
+      "SourceSentence": "In the March 2021 Palma attack, US$1 million was robbed from banks and businesses.",
+      "Aspects": {
+        "Who": ["insurgents"],
+        "Where": ["Palma, Mozambique"],
+        "Cause": "Insurgency activities",
+        "Result": "US$1 million stolen"
+      },
+      "Context": "March 2021 is explicitly mentioned in the text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2021-01-01",
+      "Title": "Heroin Seizure Linked to Insurgents",
+      "EventOrigin": false,
+      "EventType": "drug seizure",
+      "Text": "The strongest evidence linking insurgents to drug smuggling dates back to the 2021 seizure of 250 kg of heroin.",
+      "SourceSentence": "The strongest evidence linking insurgents to drug smuggling dates back to the 2021 seizure of 250 kg of heroin in a building formerly occupied by ASJW militants.",
+      "Aspects": {
+        "Who": ["ASJW militants"],
+        "Where": ["Cabo Delgado, Mozambique"],
+        "Cause": "Drug smuggling activities",
+        "Result": "Seizure of heroin"
+      },
+      "Context": "2021 is explicitly mentioned in the text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2000-01-01",
+      "Title": "Emergence of Radical Groups",
+      "EventOrigin": false,
+      "EventType": "radicalization",
+      "Text": "In the early 2000s, more radical anti-Sufi groups emerged in Mozambique.",
+      "SourceSentence": "However, in the early 2000s, more radical anti-Sufi groups emerged.",
+      "Aspects": {
+        "Who": ["anti-Sufi groups"],
+        "Where": ["Mozambique"],
+        "Cause": "Religious radicalization",
+        "Result": "Emergence of radical groups"
+      },
+      "Context": "Early 2000s is explicitly mentioned in the text.",
+      "Confidence": 1.0
+    }
+  ]
+}
+```
+=== Article 15: 10 children killed in Mozambique election protests: HRW ===
+
+
+```json
+{
+  "PublicationDate": "2024-11-25",
+  "Events": [
+    {
+      "Date": "2024-10-09",
+      "Title": "Election Results Announced",
+      "EventOrigin": true,
+      "EventType": "election",
+      "Text": "The ruling party's candidate was declared the winner of the election despite claims of fraud.",
+      "SourceSentence": "the ruling party's candidate was declared the winner of the Oct. 9 election despite the opposition's claims of fraud",
+      "Aspects": {
+        "Who": ["Daniel Chapo", "Frelimo"],
+        "Where": ["Mozambique"],
+        "Cause": "Disputed presidential election results",
+        "Result": "Protests and unrest in the country"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-18",
+      "Title": "Political Assassination",
+      "EventOrigin": false,
+      "EventType": "killing",
+      "Text": "Two senior opposition figures were killed by unknown gunmen in a late-night shooting.",
+      "SourceSentence": "after two senior opposition figures were killed by unknown gunmen in a late-night shooting on Oct. 18",
+      "Aspects": {
+        "Who": ["opposition figures"],
+        "Where": ["Maputo"],
+        "Cause": "Political assassination",
+        "Result": "Escalation of protests"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-24",
+      "Title": "Election Winner Announced",
+      "EventOrigin": false,
+      "EventType": "announcement",
+      "Text": "Daniel Chapo was announced the election winner, extending Frelimo's rule.",
+      "SourceSentence": "Daniel Chapo was announced the election winner on Oct. 24, extending the Front for the Liberation of Mozambique party's unbroken half-century rule",
+      "Aspects": {
+        "Who": ["Daniel Chapo", "Frelimo"],
+        "Where": ["Mozambique"],
+        "Cause": "Election results",
+        "Result": "Continuation of Frelimo's governance"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-25",
+      "Title": "Protests Begin",
+      "EventOrigin": false,
+      "EventType": "protest",
+      "Text": "Protests began in response to the election results and political assassinations.",
+      "SourceSentence": "The protests have forced schools and businesses to close and led many Mozambicans to stay home.",
+      "Aspects": {
+        "Who": ["protesters"],
+        "Where": ["Maputo", "Mozambique"],
+        "Cause": "Disputed election results and political violence",
+        "Result": "Closure of schools and businesses"
+      },
+      "Context": "Calculated as the day after the election winner announcement.",
+      "Confidence": 0.9
+    },
+    {
+      "Date": "2024-11-25",
+      "Title": "Children Killed in Protests",
+      "EventOrigin": false,
+      "EventType": "killing",
+      "Text": "Mozambique security forces killed at least 10 children while suppressing protests.",
+      "SourceSentence": "Mozambique security forces killed at least 10 children and injured dozens of others while trying to suppress weeks of protests",
+      "Aspects": {
+        "Who": ["Mozambique security forces", "children"],
+        "Where": ["Mozambique"],
+        "Cause": "Suppression of protests",
+        "Result": "Increased violence and casualties"
+      },
+      "Context": "Date matches publication date.",
+      "Confidence": 1.0
+    }
+  ]
+}
+```
+=== Article 16: Following deadly Mozambique protests NGO reports higher death toll ===
+
+
+```json
+{
+    "PublicationDate": "2024-12-07",
+    "Events": [
+        {
+            "Date": "2024-12-06",
+            "Title": "Protests in Maputo",
+            "EventOrigin": true,
+            "EventType": "protest",
+            "Text": "Supporters of presidential candidate Venâncio Mondlane protested in Maputo, setting tyres ablaze and blocking roads, fueled by anger over the disputed October elections.",
+            "SourceSentence": "Smoke filled the streets of Maputo on Friday evening as supporters of presidential candidate Venâncio Mondlane set tyres ablaze and blocked roads.",
+            "Aspects": {
+                "Who": ["Venâncio Mondlane", "supporters", "local police", "Plataforma Eleitoral Decide"],
+                "Where": ["Maputo", "Nampula", "Zambezia"],
+                "Cause": "Anger over the disputed October elections",
+                "Result": "Violent clashes with security forces and reported deaths"
+            },
+            "Context": "Publication [2024-12-07] - 1 day → [2024-12-06] for {on Friday evening}.",
+            "Confidence": 1.0
+        },
+        {
+            "Date": "2024-10-01",
+            "Title": "October Elections",
+            "EventOrigin": false,
+            "EventType": "election",
+            "Text": "The protests were fueled by anger over the disputed October elections.",
+            "SourceSentence": "The protests, fuelled by anger over the disputed October elections, quickly escalated, leading to violent clashes with security forces.",
+            "Aspects": {
+                "Who": ["Mozambican government", "voters"],
+                "Where": ["Mozambique"],
+                "Cause": "Disputed election results",
+                "Result": "Protests and unrest"
+            },
+            "Context": "Explicit reference to October elections.",
+            "Confidence": 1.0
+        },
+        {
+            "Date": null,
+            "Title": "Higher Death Toll Reported",
+            "EventOrigin": false,
+            "EventType": "report",
+            "Text": "Local NGO Plataforma Eleitoral Decide claimed that the true death toll is significantly higher, with at least 88 fatalities reported from the demonstrations.",
+            "SourceSentence": "However, local NGO Plataforma Eleitoral Decide claimed that the true death toll is significantly higher, with at least 88 fatalities reported from the demonstrations.",
+            "Aspects": {
+                "Who": ["Plataforma Eleitoral Decide"],
+                "Where": ["Mozambique"],
+                "Cause": "Protests",
+                "Result": "Reported fatalities"
+            },
+            "Context": "Date is unknown as it is not explicitly stated.",
+            "Confidence": 0.8
+        }
+    ]
+}
+```
+=== Article 17: Mozambique's Deadly Protests - How the Country Got Here ===
+
+
+```json
+{
+  "PublicationDate": "2024-10-20",
+  "Events": [
+    {
+      "Date": "2024-10-01",
+      "Title": "Contested October Elections",
+      "EventOrigin": true,
+      "EventType": "election",
+      "Text": "The protests that followed Mozambique's contested October elections have been the most protracted and deadliest since multiparty democracy in 1990.",
+      "SourceSentence": "The protests that followed Mozambique's contested October elections have been the most protracted and deadliest since multiparty democracy in 1990.",
+      "Aspects": {
+        "Who": ["Frelimo", "Optimistic Party for the Development of Mozambique", "Venâncio Mondlane"],
+        "Where": ["Mozambique"],
+        "Cause": "Contested election results",
+        "Result": "Protests and police violence"
+      },
+      "Context": "Publication [2024-10-20] - 19 days → [2024-10-01] for {October elections}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-20",
+      "Title": "Police Killings During Protests",
+      "EventOrigin": false,
+      "EventType": "killing",
+      "Text": "Police have reportedly killed at least 50 since Daniel Chapo, from the ruling Frelimo, was declared winner by a fanciful 70%.",
+      "SourceSentence": "Police have reportedly killed at least 50 since Daniel Chapo, from the ruling Frelimo, was declared winner by a fanciful 70%.",
+      "Aspects": {
+        "Who": ["Frelimo", "Daniel Chapo"],
+        "Where": ["Mozambique"],
+        "Cause": "Response to protests",
+        "Result": "Deaths of protesters"
+      },
+      "Context": "Date is the publication date [2024-10-20] as it references ongoing events.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "1975-06-25",
+      "Title": "Mozambique Independence",
+      "EventOrigin": false,
+      "EventType": "independence",
+      "Text": "At independence from Portugal in 1975, the country became a one-party Marxist-Leninist state.",
+      "SourceSentence": "At independence from Portugal in 1975, the country became a one-party Marxist-Leninist state.",
+      "Aspects": {
+        "Who": ["Frelimo"],
+        "Where": ["Mozambique"],
+        "Cause": "End of colonial rule",
+        "Result": "Establishment of a one-party state"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "1990-11-01",
+      "Title": "New Constitution Adopted",
+      "EventOrigin": false,
+      "EventType": "constitutional change",
+      "Text": "In 1990, the country adopted a new constitution, marking the beginning of a democratic climate that led the country to its first multiparty elections (in 1994).",
+      "SourceSentence": "In 1990, the country adopted a new constitution, marking the beginning of a democratic climate that led the country to its first multiparty elections (in 1994).",
+      "Aspects": {
+        "Who": ["Frelimo"],
+        "Where": ["Mozambique"],
+        "Cause": "Transition to democracy",
+        "Result": "First multiparty elections in 1994"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "1994-10-01",
+      "Title": "First Multiparty Elections",
+      "EventOrigin": false,
+      "EventType": "election",
+      "Text": "The first multi-party elections were held in 1994 and won by Frelimo.",
+      "SourceSentence": "The first multi-party elections were held in 1994 and won by Frelimo.",
+      "Aspects": {
+        "Who": ["Frelimo"],
+        "Where": ["Mozambique"],
+        "Cause": "Implementation of new constitution",
+        "Result": "Frelimo victory"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "1999-10-01",
+      "Title": "Second Multiparty Elections",
+      "EventOrigin": false,
+      "EventType": "election",
+      "Text": "The first challenge to this status quo came in the second multi-party elections of 1999, which the opposition candidate, Alfonso Dhlakama, is widely considered to have won.",
+      "SourceSentence": "The first challenge to this status quo came in the second multi-party elections of 1999, which the opposition candidate, Alfonso Dhlakama, is widely considered to have won.",
+      "Aspects": {
+        "Who": ["Alfonso Dhlakama", "Frelimo"],
+        "Where": ["Mozambique"],
+        "Cause": "Political challenge to Frelimo",
+        "Result": "Controversial election results"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2014-10-01",
+      "Title": "2014 Elections",
+      "EventOrigin": false,
+      "EventType": "election",
+      "Text": "The 2014 elections, which were held in the midst of the second Frelimo-Renamo war, and elected Filipe Nyusi to power, were similarly stolen.",
+      "SourceSentence": "The 2014 elections, which were held in the midst of the second Frelimo-Renamo war, and elected Filipe Nyusi to power, were similarly stolen.",
+      "Aspects": {
+        "Who": ["Filipe Nyusi", "Frelimo", "Renamo"],
+        "Where": ["Mozambique"],
+        "Cause": "Ongoing conflict",
+        "Result": "Controversial election results"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2018-05-01",
+      "Title": "Death of Dhlakama",
+      "EventOrigin": false,
+      "EventType": "death",
+      "Text": "After the 2018 death of Dhlakama, Renamo's long term leader, Renamo elected an uncharismatic general, Ossufo Momade, as its president.",
+      "SourceSentence": "After the 2018 death of Dhlakama, Renamo's long term leader, Renamo elected an uncharismatic general, Ossufo Momade, as its president.",
+      "Aspects": {
+        "Who": ["Dhlakama", "Ossufo Momade"],
+        "Where": ["Mozambique"],
+        "Cause": "Natural causes",
+        "Result": "Leadership change in Renamo"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-01-15",
+      "Title": "Nyusi's Successor Mandate Begins",
+      "EventOrigin": false,
+      "EventType": "political transition",
+      "Text": "According to Mozambican law, Nyusi is still the president until his successor begins his mandate on 15 January.",
+      "SourceSentence": "According to Mozambican law, Nyusi is still the president until his successor begins his mandate on 15 January.",
+      "Aspects": {
+        "Who": ["Nyusi"],
+        "Where": ["Mozambique"],
+        "Cause": "Completion of election cycle",
+        "Result": "Transition of power"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    }
+  ]
+}
+```
+=== Article 18: Damage and rebuilding after Cyclone Chido hits Mozambique ===
+
+
+```json
+{
+  "PublicationDate": "2024-12-17",
+  "Events": [
+    {
+      "Date": "2024-12-16",
+      "Title": "Rebuilding Efforts Begin",
+      "EventOrigin": true,
+      "EventType": "rebuilding",
+      "Text": "Pemba, Mozambique, began a rebuilding and cleanup effort following the devastation caused by Cyclone Chido.",
+      "SourceSentence": "On Monday, Pemba, Mozambique, began a rebuilding and cleanup effort following the devastation caused by Cyclone Chido, which struck the southwestern Indian Ocean on Friday and Saturday.",
+      "Aspects": {
+        "Who": ["Pemba residents", "local authorities"],
+        "Where": ["Pemba, Mozambique"],
+        "Cause": "Devastation caused by Cyclone Chido",
+        "Result": "Initiation of rebuilding and cleanup efforts"
+      },
+      "Context": "Publication [2024-12-17] - 1 day → [2024-12-16] for {On Monday}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-12-15",
+      "Title": "Cyclone Chido Strikes",
+      "EventOrigin": false,
+      "EventType": "disaster",
+      "Text": "Cyclone Chido struck the southwestern Indian Ocean, classified as a category 4 storm.",
+      "SourceSentence": "Cyclone Chido, classified as a category 4 storm by the French weather service, produced winds exceeding 220 kph (136 mph).",
+      "Aspects": {
+        "Who": ["Cyclone Chido"],
+        "Where": ["southwestern Indian Ocean"],
+        "Cause": "Severe weather conditions",
+        "Result": "Destruction in affected areas"
+      },
+      "Context": "Publication [2024-12-17] - 2 days → [2024-12-15] for {struck on Friday and Saturday}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-12-14",
+      "Title": "Cyclone Chido Hits",
+      "EventOrigin": false,
+      "EventType": "disaster",
+      "Text": "Cyclone Chido began impacting the region, leading to widespread damage.",
+      "SourceSentence": "Cyclone Chido inflicted widespread damage on Mayotte, a French territory in the Indian Ocean, resulting in numerous fatalities as it headed toward Africa's eastern coastline.",
+      "Aspects": {
+        "Who": ["Cyclone Chido"],
+        "Where": ["Mayotte", "Africa's eastern coastline"],
+        "Cause": "Cyclone Chido's path",
+        "Result": "Widespread damage and fatalities"
+      },
+      "Context": "Publication [2024-12-17] - 3 days → [2024-12-14] for {struck on Friday and Saturday}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-12-14",
+      "Title": "Preparations in Malawi and Zimbabwe",
+      "EventOrigin": false,
+      "EventType": "preparation",
+      "Text": "Inland Malawi and Zimbabwe were preparing for the cyclone's impact.",
+      "SourceSentence": "Inland Malawi and Zimbabwe were preparing for the cyclone's impact.",
+      "Aspects": {
+        "Who": ["Malawi's Department of Disaster Management Affairs", "Zimbabwe authorities"],
+        "Where": ["Malawi", "Zimbabwe"],
+        "Cause": "Anticipation of Cyclone Chido's impact",
+        "Result": "Warnings and preparations for flooding and evacuations"
+      },
+      "Context": "Publication [2024-12-17] - 3 days → [2024-12-14] for {ahead of the cyclone's impact}.",
+      "Confidence": 1.0
+    }
+  ]
+}
+```
+=== Article 19: Mozambique: Cyclone Chido Kills At Least 34 in Mozambique ===
+
+
+```json
+{
+    "PublicationDate": "2024-10-20",
+    "Events": [
+        {
+            "Date": "2024-10-20",
+            "Title": "Cyclone Chido Makes Landfall",
+            "EventOrigin": true,
+            "EventType": "disaster",
+            "Text": "Cyclone Chido made landfall in Mecufi, Cabo Delgado province, causing significant destruction.",
+            "SourceSentence": "The cyclone made landfall Sunday in Mecufi, a district in the province of Cabo Delgado, and destruction in the area was near total, with 100% of homes damaged and very few structures still standing.",
+            "Aspects": {
+                "Who": ["Cyclone Chido", "Luisa Meque", "Canjar Amade"],
+                "Where": ["Mecufi", "Cabo Delgado", "Mozambique"],
+                "Cause": "Tropical cyclone",
+                "Result": "Significant destruction and casualties"
+            },
+            "Context": "Publication [2024-10-20] - 0 days → [2024-10-20] for {on Sunday}.",
+            "Confidence": 1.0
+        },
+        {
+            "Date": "2024-10-21",
+            "Title": "Casualties and Damage Reported",
+            "EventOrigin": false,
+            "EventType": "disaster",
+            "Text": "At least 34 people were killed and 43 injured as rescue teams searched through rubble.",
+            "SourceSentence": "At least 34 people were killed and 43 injured when Cyclone Chido smashed into three northern provinces of Mozambique on Sunday and Monday.",
+            "Aspects": {
+                "Who": ["rescue teams", "disaster management agency"],
+                "Where": ["northern provinces of Mozambique"],
+                "Cause": "Tropical cyclone",
+                "Result": "Casualties and injuries reported"
+            },
+            "Context": "Publication [2024-10-20] - 1 day → [2024-10-21] for {on Monday}.",
+            "Confidence": 1.0
+        },
+        {
+            "Date": "2024-10-21",
+            "Title": "Damage Assessment by Officials",
+            "EventOrigin": false,
+            "EventType": "assessment",
+            "Text": "Luisa Meque reported that around 2.5 million people were affected by the cyclone.",
+            "SourceSentence": "After visiting the affected areas late Monday, the chair of Mozambique's National Institute for Disaster Risk Management and Reduction, Luisa Meque, said around 2.5 million people were affected by the cyclone.",
+            "Aspects": {
+                "Who": ["Luisa Meque"],
+                "Where": ["affected areas in Mozambique"],
+                "Cause": "Tropical cyclone",
+                "Result": "Assessment of affected population"
+            },
+            "Context": "Publication [2024-10-20] - 1 day → [2024-10-21] for {late Monday}.",
+            "Confidence": 1.0
+        },
+        {
+            "Date": "2024-10-22",
+            "Title": "Continued Impact of Cyclone",
+            "EventOrigin": false,
+            "EventType": "disaster",
+            "Text": "Remnants of the storm continued to affect Niassa and Cabo Delgado provinces with rains and strong winds.",
+            "SourceSentence": "Meteorologist Acacio Tembe from the national weather agency said the provinces of Niassa and Cabo Delgado, as well as other parts of Mozambique, are still getting hit by remnants of the storm, including rains and strong winds.",
+            "Aspects": {
+                "Who": ["Acacio Tembe"],
+                "Where": ["Niassa", "Cabo Delgado", "Mozambique"],
+                "Cause": "Remnants of Cyclone Chido",
+                "Result": "Continued adverse weather conditions"
+            },
+            "Context": "Publication [2024-10-20] - 2 days → [2024-10-22] for {by late Tuesday}.",
+            "Confidence": 1.0
+        }
+    ]
+}
+```
+=== Article 20: Cyclone Chido kills at least 45 people in Mozambique and leaves hundreds injured ===
+
+
+```json
+{
+  "PublicationDate": "2024-12-18",
+  "Events": [
+    {
+      "Date": "2024-12-15",
+      "Title": "Cyclone Chido Hits Mozambique",
+      "EventOrigin": true,
+      "EventType": "disaster",
+      "Text": "Tropical Cyclone Chido caused significant destruction in Mozambique, resulting in at least 45 deaths and hundreds of injuries.",
+      "SourceSentence": "The United Nations says the death toll in Mozambique has risen to at least 45 with hundreds others injured following the passage on Sunday of Tropical Cyclone Chido.",
+      "Aspects": {
+        "Who": ["United Nations", "emergency teams", "aid workers"],
+        "Where": ["Mozambique", "Cabo Delgado", "Nampula"],
+        "Cause": "Tropical Cyclone Chido",
+        "Result": "At least 45 deaths, hundreds injured, and extensive property damage."
+      },
+      "Context": "Publication [2024-12-18] - 3 days → [2024-12-15] for {following the passage on Sunday}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-12-18",
+      "Title": "Emergency Aid Disbursed",
+      "EventOrigin": false,
+      "EventType": "aid distribution",
+      "Text": "The UN Office for the Coordination of Humanitarian Affairs disbursed four million dollars in emergency aid for the affected population.",
+      "SourceSentence": "The UN Office for the Coordination of Humanitarian Affairs says it has disbursed four million dollars in emergency aid for the estimated 181,000 people affected.",
+      "Aspects": {
+        "Who": ["UN Office for the Coordination of Humanitarian Affairs"],
+        "Where": ["Mozambique"],
+        "Cause": "Impact of Cyclone Chido",
+        "Result": "Emergency aid provided to 181,000 affected individuals."
+      },
+      "Context": "Date is explicitly stated as the publication date [2024-12-18].",
+      "Confidence": 1.0
+    }
+  ]
+}
+```
+=== Article 21: More climate challenges ahead for Mozambique and Malawi ===
+
+
+```json
+{
+  "PublicationDate": "2024-12-19",
+  "Events": [
+    {
+      "Date": "2024-12-15",
+      "Title": "Cyclone Chido Hits Mayotte",
+      "EventOrigin": true,
+      "EventType": "disaster",
+      "Text": "Cyclone Chido swept from the east coast of Africa to Mozambique and Malawi after hitting the French Indian Ocean island of Mayotte.",
+      "SourceSentence": "Cyclone Chido has brought widespread devastation to northern Mozambique. It swept from the east coast of Africa to Mozambique and Malawi after hitting the French Indian Ocean island of Mayotte in the Comoros archipelago on December 15.",
+      "Aspects": {
+        "Who": ["Cyclone Chido"],
+        "Where": ["Mayotte", "Mozambique", "Malawi"],
+        "Cause": "Natural disaster",
+        "Result": "Widespread devastation and displacement"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-12-16",
+      "Title": "Cyclone Chido Devastates Mozambique",
+      "EventOrigin": false,
+      "EventType": "disaster",
+      "Text": "Cyclone Chido destroyed buildings and uprooted trees in the Cabo Delgado province of Mozambique.",
+      "SourceSentence": "Cyclone Chido destroyed buildings and uprooted trees in the Cabo Delgado province of Mozambique on December 16.",
+      "Aspects": {
+        "Who": ["Cyclone Chido"],
+        "Where": ["Cabo Delgado, Mozambique"],
+        "Cause": "Natural disaster",
+        "Result": "Destruction of infrastructure"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2023-12-19",
+      "Title": "Publication Date",
+      "EventOrigin": false,
+      "EventType": "publication",
+      "Text": "The article was published on this date.",
+      "SourceSentence": "Publication Date: 2024-12-19T17:03:45.688Z",
+      "Aspects": {
+        "Who": ["Deutsche Welle"],
+        "Where": ["Online"],
+        "Cause": "Article publication",
+        "Result": "Information dissemination"
+      },
+      "Context": "Publication date of the article.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2023-12-19",
+      "Title": "Emergency Shelters Established",
+      "EventOrigin": false,
+      "EventType": "humanitarian response",
+      "Text": "Emergency shelters have been set up for some 2,800 people in Pemba.",
+      "SourceSentence": "Emergency shelters have been set up for some 2,800 people in Pemba.",
+      "Aspects": {
+        "Who": ["Humanitarian organizations"],
+        "Where": ["Pemba, Mozambique"],
+        "Cause": "Response to Cyclone Chido",
+        "Result": "Provision of temporary housing"
+      },
+      "Context": "Date aligns with publication date.",
+      "Confidence": 0.9
+    },
+    {
+      "Date": "2023-12-19",
+      "Title": "Concerns Over Long-term Impact",
+      "EventOrigin": false,
+      "EventType": "concern",
+      "Text": "Concerns over the long-term impacts of Cyclone Chido on education and healthcare.",
+      "SourceSentence": "But we're also worried about the longer-term impacts: children potentially being cut off from learning for weeks, people unable to access healthcare, and the spread of waterborne diseases like cholera and malaria.",
+      "Aspects": {
+        "Who": ["UNICEF"],
+        "Where": ["Mozambique"],
+        "Cause": "Impact of Cyclone Chido",
+        "Result": "Potential long-term humanitarian crisis"
+      },
+      "Context": "Date aligns with publication date.",
+      "Confidence": 0.9
+    }
+  ]
+}
+```
+=== Article 23: Cyclone Chido leaves 94 dead in Mozambique ===
+
+
+```json
+{
+  "PublicationDate": "2024-12-23",
+  "Events": [
+    {
+      "Date": "2024-12-15",
+      "Title": "Cyclone Chido Makes Landfall",
+      "EventOrigin": true,
+      "EventType": "disaster",
+      "Text": "Cyclone Chido hit Mozambique with winds reaching 260 km/h and 250 mm of rainfall within the first 24 hours.",
+      "SourceSentence": "Chido hit Mozambique on December 15 with winds reaching 260 km/h (160 mph) and 250 mm of rainfall within the first 24 hours.",
+      "Aspects": {
+        "Who": ["Cyclone Chido", "National Institute of Risk and Disaster Management (INGD)"],
+        "Where": ["Mozambique", "Cabo Delgado province", "Niassa", "Nampula"],
+        "Cause": "Severe weather conditions",
+        "Result": "94 lives lost, 768 injured, and over 622,000 affected"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-12-23",
+      "Title": "Cyclone Impact Reported",
+      "EventOrigin": false,
+      "EventType": "report",
+      "Text": "Cyclone Chido has claimed 94 lives in Mozambique since making landfall last week.",
+      "SourceSentence": "Cyclone Chido has claimed 94 lives in Mozambique since making landfall last week, according to the country’s National Institute of Risk and Disaster Management (INGD).",
+      "Aspects": {
+        "Who": ["National Institute of Risk and Disaster Management (INGD)"],
+        "Where": ["Mozambique"],
+        "Cause": "Cyclone Chido",
+        "Result": "94 lives lost, 768 injured, and over 622,000 affected"
+      },
+      "Context": "Publication date [2024-12-23] - 7 days → [2024-12-15] for {last week}.",
+      "Confidence": 1.0
+    }
+  ]
+}
+```
+=== Article 24: Mozambique: Mondlane Threatens More Unrest ===
+
+
+```json
+{
+  "PublicationDate": "2024-10-20",
+  "Events": [
+    {
+      "Date": "2024-10-09",
+      "Title": "General Elections Held",
+      "EventOrigin": true,
+      "EventType": "election",
+      "Text": "The general elections were held in Mozambique.",
+      "SourceSentence": "The Constitutional Council, the country's highest body in matters of constitutional and electoral law, is due to proclaim the final results from the 9 October general elections on Monday.",
+      "Aspects": {
+        "Who": ["Constitutional Council"],
+        "Where": ["Mozambique"],
+        "Cause": "Conducting general elections",
+        "Result": "Awaiting final results"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-21",
+      "Title": "General Strike Ordered",
+      "EventOrigin": false,
+      "EventType": "strike",
+      "Text": "Mondlane ordered a one day general strike for Monday, so that the entire county could listen to the chairperson of the Constitutional Council deliver the election results.",
+      "SourceSentence": "In his latest live broadcast, transmitted from an undisclosed location via his Facebook page, Mondlane ordered a one day general strike for Monday.",
+      "Aspects": {
+        "Who": ["Venancio Mondlane"],
+        "Where": ["Mozambique"],
+        "Cause": "To listen to election results",
+        "Result": "Closure of formal sectors"
+      },
+      "Context": "Publication date [2024-10-20] - 1 day → [2024-10-21] for {Monday}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-12-24",
+      "Title": "Informal Public Holiday Declared",
+      "EventOrigin": false,
+      "EventType": "holiday",
+      "Text": "The government decreed an informal public holiday on Christmas Eve.",
+      "SourceSentence": "This will not be as damaging as previous stoppages, since the government has already decreed an informal public holiday ('tolerancia de ponto') on Christmas Eve, 24 December.",
+      "Aspects": {
+        "Who": ["Mozambican government"],
+        "Where": ["Mozambique"],
+        "Cause": "To mitigate economic losses",
+        "Result": "Closure of businesses until after Christmas"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2025-01-15",
+      "Title": "Inauguration of President",
+      "EventOrigin": false,
+      "EventType": "inauguration",
+      "Text": "Mondlane insisted that he will be inaugurated as President on 15 January in Maputo.",
+      "SourceSentence": "Mondlane once again insisted that he will be inaugurated as President on 15 January in Maputo.",
+      "Aspects": {
+        "Who": ["Venancio Mondlane"],
+        "Where": ["Maputo, Mozambique"],
+        "Cause": "Presidential election results",
+        "Result": "Inauguration ceremony"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-12-12",
+      "Title": "US Intelligence Meeting",
+      "EventOrigin": false,
+      "EventType": "meeting",
+      "Text": "US intelligence officials met with South African representatives to discuss possible instability in Mozambique.",
+      "SourceSentence": "According to the anti-corruption NGO, the Centre for Public Integrity (CIP), US intelligence officials flew into Kruger Mpumalanga International Airport on board a C-17 Globemaster aircraft on 12 December.",
+      "Aspects": {
+        "Who": ["US intelligence officials", "South African National Intelligence Coordinating Committee"],
+        "Where": ["Kruger Mpumalanga International Airport", "Krueger Park, South Africa"],
+        "Cause": "Prepare for possible instability in Mozambique",
+        "Result": "Plans for evacuation discussed"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    }
+  ]
+}
+```
+=== Article 25: Mozambique: Chaos on Monday? Big Money at Stake, But Youth Can Bring Change ===
+
+
+```json
+{
+  "PublicationDate": "2024-10-20",
+  "Events": [
+    {
+      "Date": "2024-09-15",
+      "Title": "Chissano Calls for Renegotiation",
+      "EventOrigin": true,
+      "EventType": "announcement",
+      "Text": "Former president Joaquim Chissano called for the renegotiation of natural resource contracts during the election campaign.",
+      "SourceSentence": "During the election campaign, on 15 September, former president Joaquim Chissano called for the renegotiation of natural recourse contacts.",
+      "Aspects": {
+        "Who": ["Joaquim Chissano"],
+        "Where": ["Mozambique"],
+        "Cause": "Call for renegotiation of contracts",
+        "Result": "Initiation of discussions on resource contracts"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-12-11",
+      "Title": "TotalEnergies Settles Protests",
+      "EventOrigin": false,
+      "EventType": "settlement",
+      "Text": "TotalEnergies offered land and settled protests involving 2000 protesters demanding land.",
+      "SourceSentence": "On 11 December TotalEnergies offered land and settled the protests.",
+      "Aspects": {
+        "Who": ["TotalEnergies"],
+        "Where": ["Afungi peninsula, Mozambique"],
+        "Cause": "Protests over land compensation",
+        "Result": "Settlement of protests"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-12-12",
+      "Title": "US Intelligence Arrives in South Africa",
+      "EventOrigin": false,
+      "EventType": "meeting",
+      "Text": "US intelligence officials flew into South Africa to prepare for possible instability in Mozambique.",
+      "SourceSentence": "US intelligence officials flew into at Kruger Mpumalanga International Airport on board a C-17 Globemaster aircraft on 12 December.",
+      "Aspects": {
+        "Who": ["US intelligence officials"],
+        "Where": ["Kruger Mpumalanga International Airport, South Africa"],
+        "Cause": "Preparation for potential unrest in Mozambique",
+        "Result": "Meetings with South African intelligence"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-12-13",
+      "Title": "Emergency Flight to Botswana",
+      "EventOrigin": false,
+      "EventType": "flight",
+      "Text": "A British Air Force Airbus A400M was detected landing in Botswana as part of emergency planning.",
+      "SourceSentence": "A British Air Force Airbus A400M was detected landing into Gaborone, Botswana, on Friday 13 December with a call sign of an emergency flight.",
+      "Aspects": {
+        "Who": ["British Air Force"],
+        "Where": ["Gaborone, Botswana"],
+        "Cause": "Emergency planning for unrest",
+        "Result": "Preparation for potential evacuations"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-12-16",
+      "Title": "Mondlane's Facebook Broadcast",
+      "EventOrigin": false,
+      "EventType": "broadcast",
+      "Text": "Venancio Mondlane urged supporters to wait for the Constitutional Council's decision on electoral truth.",
+      "SourceSentence": "In his Monday 16 December Facebook broadcast, Venancio Mondlane told supporters to wait until the CC decision is read out or published.",
+      "Aspects": {
+        "Who": ["Venancio Mondlane"],
+        "Where": ["Mozambique"],
+        "Cause": "Awaiting election results",
+        "Result": "Mobilization of supporters"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-12-18",
+      "Title": "Meeting of South African and Mozambican Ministers",
+      "EventOrigin": false,
+      "EventType": "meeting",
+      "Text": "South African foreign minister met with Mozambican foreign minister to discuss border disruptions.",
+      "SourceSentence": "South African foreign minister Ronald Lamola met with Mozambican Mozambican Foreign Minister Verónica Macamo in Malelane, South Africa, Wednesday 18 December.",
+      "Aspects": {
+        "Who": ["Ronald Lamola", "Verónica Macamo"],
+        "Where": ["Malelane, South Africa"],
+        "Cause": "Discussion on border disruptions",
+        "Result": "Diplomatic engagement"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-12-19",
+      "Title": "Chapo Announces Election Results Date",
+      "EventOrigin": false,
+      "EventType": "announcement",
+      "Text": "Frelimo Secretary General Daniel Chapo announced that the Constitutional Council will declare results on Monday.",
+      "SourceSentence": "Frelimo Secretary General Daniel Chapo announced on Thursday 19 December that the CC will declare results on Monday 23 December.",
+      "Aspects": {
+        "Who": ["Daniel Chapo"],
+        "Where": ["Mozambique"],
+        "Cause": "Announcement of election results",
+        "Result": "Setting the stage for potential unrest"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-12-20",
+      "Title": "Minister Announces Holiday",
+      "EventOrigin": false,
+      "EventType": "announcement",
+      "Text": "The Minister of Labour announced that Christmas Eve will be a special holiday.",
+      "SourceSentence": "But on Friday (20 December) the Minister of Labour announced that Christmas eve, 24 December, will be a special holiday (Tolerância de Ponte).",
+      "Aspects": {
+        "Who": ["Minister of Labour"],
+        "Where": ["Mozambique"],
+        "Cause": "Announcement of holiday",
+        "Result": "Reduced workforce during potential unrest"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-12-23",
+      "Title": "Expected Election Results Announcement",
+      "EventOrigin": false,
+      "EventType": "announcement",
+      "Text": "Results of the elections are expected to be announced, raising fears of unrest.",
+      "SourceSentence": "The international community fears major demonstrations and even a possible uprising on Monday 23 December when results are expected to be announced.",
+      "Aspects": {
+        "Who": ["International community"],
+        "Where": ["Mozambique"],
+        "Cause": "Announcement of election results",
+        "Result": "Potential for unrest"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2025-01-15",
+      "Title": "Chapo's Inauguration Expected",
+      "EventOrigin": false,
+      "EventType": "inauguration",
+      "Text": "Frelimo assumes Daniel Chapo will be inaugurated as president.",
+      "SourceSentence": "Frelimo assumes Daniel Chapo will be inaugurated on 15 January.",
+      "Aspects": {
+        "Who": ["Daniel Chapo"],
+        "Where": ["Mozambique"],
+        "Cause": "Inauguration of new president",
+        "Result": "Continuation of Frelimo's control"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    }
+  ]
+}
+```
+=== Article 26: Mozambique: President Assures the Country He Will Leave Office in January ===
+
+
+```json
+{
+  "PublicationDate": "2024-10-20",
+  "Events": [
+    {
+      "Date": "2025-01-15",
+      "Title": "President Nyusi to Leave Office",
+      "EventOrigin": true,
+      "EventType": "announcement",
+      "Text": "President Filipe Nyusi assured the nation he will leave office at the end of his current term in mid-January 2025.",
+      "SourceSentence": "What is certain', said Nyusi, 'is that in January I shall leave power'.",
+      "Aspects": {
+        "Who": ["Filipe Nyusi"],
+        "Where": ["Mozambique"],
+        "Cause": "End of current presidential term",
+        "Result": "Assurance to the nation regarding his departure from office"
+      },
+      "Context": "Explicit date mentioned in text for January 2025.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2023-12-15",
+      "Title": "Cyclone Chido Hits Northern Provinces",
+      "EventOrigin": false,
+      "EventType": "disaster",
+      "Text": "Tropical cyclone Chido hit the northern provinces of Cabo Delgado and Nampula.",
+      "SourceSentence": "The President also announced two days of national mourning for the victims of tropical cyclone Chido which hit the northern provinces of Cabo Delgado and Nampula on 15 December.",
+      "Aspects": {
+        "Who": ["tropical cyclone Chido"],
+        "Where": ["Cabo Delgado", "Nampula"],
+        "Cause": "Natural disaster",
+        "Result": "National mourning announced for victims"
+      },
+      "Context": "Explicit date mentioned in text for December 15.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-20",
+      "Title": "Televised Address by President Nyusi",
+      "EventOrigin": false,
+      "EventType": "announcement",
+      "Text": "Nyusi delivered a televised address to the nation during the Christmas and New Year holidays.",
+      "SourceSentence": "In a televised address to the nation on the occasion of the Christmas and New Year holidays, he also denied that he was about to declare a state of emergency or a state of siege.",
+      "Aspects": {
+        "Who": ["Filipe Nyusi"],
+        "Where": ["Mozambique"],
+        "Cause": "Response to political speculation",
+        "Result": "Denial of intentions to declare a state of emergency"
+      },
+      "Context": "Publication date used as the date for the televised address.",
+      "Confidence": 0.8
+    }
+  ]
+}
+```
+=== Article 27: Mozambique: Top Court confirms disputed Frelimo election win ===
+
+
+```json
+{
+  "PublicationDate": "2024-12-23",
+  "Events": [
+    {
+      "Date": "2024-12-18",
+      "Title": "Court Confirms Election Results",
+      "EventOrigin": true,
+      "EventType": "announcement",
+      "Text": "The Constitutional Council confirmed the results of the disputed presidential election, extending Frelimo's power.",
+      "SourceSentence": "The Constitutional Council, the highest court in Mozambique, on Monday confirmed the results of the country's disputed presidential election, extending the ruling Frelimo party's grip on power into a 50th year.",
+      "Aspects": {
+        "Who": ["Constitutional Council", "Frelimo party"],
+        "Where": ["Mozambique"],
+        "Cause": "Disputed presidential election results",
+        "Result": "Frelimo party continues to govern"
+      },
+      "Context": "Publication [2024-12-23] - 5 days → [2024-12-18] for {on Monday}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-01",
+      "Title": "October Election Claims",
+      "EventOrigin": false,
+      "EventType": "protest",
+      "Text": "Opposition groups have been claiming since the October election that the results were rigged.",
+      "SourceSentence": "Opposition groups have been claiming since the October election that the results were rigged, sparking massive protests across the country.",
+      "Aspects": {
+        "Who": ["opposition groups"],
+        "Where": ["Mozambique"],
+        "Cause": "Allegations of rigged election results",
+        "Result": "Massive protests across the country"
+      },
+      "Context": "Publication [2024-12-23] - 2 months → [2024-10-01] for {since the October election}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-12-23",
+      "Title": "Protests Result in Deaths",
+      "EventOrigin": false,
+      "EventType": "killing",
+      "Text": "At least 130 people were killed in clashes with police during protests.",
+      "SourceSentence": "At least 130 people were killed in clashes with police, according to the civil society monitoring group Plataforma Decide.",
+      "Aspects": {
+        "Who": ["civil society monitoring group", "police"],
+        "Where": ["Mozambique"],
+        "Cause": "Protests against election results",
+        "Result": "Deaths during clashes"
+      },
+      "Context": "Date is explicitly stated in the narrative.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": null,
+      "Title": "Opposition Leader's Threat",
+      "EventOrigin": false,
+      "EventType": "threat",
+      "Text": "Opposition leader Venancio Mondlane vowed to call for a popular uprising if the court approved Chapo's victory.",
+      "SourceSentence": "Opposition leader Venancio Mondlane claimed that the election was stolen from him and, before the court's verdict, had vowed to call 'a popular uprising' if the Constitutional Council approved Chapo's victory.",
+      "Aspects": {
+        "Who": ["Venancio Mondlane"],
+        "Where": ["Maputo"],
+        "Cause": "Disputed election results",
+        "Result": "Threat of popular uprising"
+      },
+      "Context": "Date is unknown as it is not explicitly stated.",
+      "Confidence": 0.8
+    }
+  ]
+}
+```
+=== Article 29: Mozambique's Highest Court Upholds Victory for the Ruling Frelimo Party ===
+
+
+```json
+{
+  "PublicationDate": "2024-10-20",
+  "Events": [
+    {
+      "Date": "2024-10-09",
+      "Title": "Elections Held",
+      "EventOrigin": true,
+      "EventType": "election",
+      "Text": "Mozambique held several elections including presidential, legislative, and provincial.",
+      "SourceSentence": "Mozambique held several elections on October 9: presidential, legislative and provincial.",
+      "Aspects": {
+        "Who": ["Frelimo Party", "Daniel Chapo", "Venâncio Mondlane"],
+        "Where": ["Mozambique"],
+        "Cause": "Conducting regular elections",
+        "Result": "Daniel Chapo declared winner"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-14",
+      "Title": "Results Announced",
+      "EventOrigin": false,
+      "EventType": "announcement",
+      "Text": "The results were initially announced by the National Election Commission.",
+      "SourceSentence": "The results were initially announced by the National Election Commission in late October.",
+      "Aspects": {
+        "Who": ["National Election Commission"],
+        "Where": ["Mozambique"],
+        "Cause": "Completion of election process",
+        "Result": "Protests triggered"
+      },
+      "Context": "Publication date [2024-10-20] - 6 days → [2024-10-14] for {Monday}.",
+      "Confidence": 0.9
+    },
+    {
+      "Date": "2024-10-16",
+      "Title": "Protests Begin",
+      "EventOrigin": false,
+      "EventType": "protest",
+      "Text": "Protests began after Mondlane rejected the election results.",
+      "SourceSentence": "The results were initially announced by the National Election Commission in late October and triggered protests for more than eight weeks after Mondlane rejected the result.",
+      "Aspects": {
+        "Who": ["Venâncio Mondlane", "protesters"],
+        "Where": ["Maputo, Mozambique"],
+        "Cause": "Rejection of election results",
+        "Result": "Violent protests and clashes with police"
+      },
+      "Context": "Publication date [2024-10-20] - 4 days → [2024-10-16] for {Monday}.",
+      "Confidence": 0.8
+    },
+    {
+      "Date": "2024-10-18",
+      "Title": "National Shutdown Called",
+      "EventOrigin": false,
+      "EventType": "protest",
+      "Text": "Mondlane called for a national shutdown starting this Friday.",
+      "SourceSentence": "Mondlane accused Frelimo of rigging the vote and called for a national shutdown starting this Friday.",
+      "Aspects": {
+        "Who": ["Venâncio Mondlane"],
+        "Where": ["Mozambique"],
+        "Cause": "Accusations of election rigging",
+        "Result": "Increased tensions and protests"
+      },
+      "Context": "Publication date [2024-10-20] - 2 days → [2024-10-18] for {this Friday}.",
+      "Confidence": 0.9
+    },
+    {
+      "Date": "2024-10-21",
+      "Title": "Chapo's Acceptance Speech",
+      "EventOrigin": false,
+      "EventType": "announcement",
+      "Text": "Chapo delivered an acceptance speech promising reforms.",
+      "SourceSentence": "In his acceptance speech on Monday, Chapo said he is ready to serve the interests of all Mozambicans.",
+      "Aspects": {
+        "Who": ["Daniel Chapo"],
+        "Where": ["Mozambique"],
+        "Cause": "Election victory",
+        "Result": "Promise of reforms"
+      },
+      "Context": "Publication date [2024-10-20] + 1 day → [2024-10-21] for {Monday}.",
+      "Confidence": 0.9
+    }
+  ]
+}
+```
+=== Article 31: Mozambique unrest: Hundreds flee Maputo jail amid poll protests ===
+
+
+```json
+{
+  "PublicationDate": "2024-12-25",
+  "Events": [
+    {
+      "Date": "2024-12-23",
+      "Title": "Protests Erupt",
+      "EventOrigin": true,
+      "EventType": "protest",
+      "Text": "Protests erupted in response to the court confirming the ruling party's election victory.",
+      "SourceSentence": "Protests erupted on Monday in response to Mozambique's highest court confirming that the ruling Frelimo party, in power since 1975, had won October's presidential elections.",
+      "Aspects": {
+        "Who": ["Frelimo party", "protesters"],
+        "Where": ["Maputo, Mozambique"],
+        "Cause": "Confirmation of election results by the highest court",
+        "Result": "Eruption of protests and unrest"
+      },
+      "Context": "Publication [2024-12-25] - 2 days → [2024-12-23] for {on Monday}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-12-24",
+      "Title": "Christmas Eve Unrest",
+      "EventOrigin": false,
+      "EventType": "unrest",
+      "Text": "Maputo was like a ghost town on Christmas Eve, with businesses shut due to unrest.",
+      "SourceSentence": "A BBC reporter found Maputo was like a ghost town on Christmas Eve, with almost all businesses shut and people staying at home to avoid being caught up in the worst unrest in the city since Frelimo first rose to power in 1975.",
+      "Aspects": {
+        "Who": ["businesses", "residents"],
+        "Where": ["Maputo, Mozambique"],
+        "Cause": "Ongoing unrest and fear of violence",
+        "Result": "Businesses closed and residents stayed home"
+      },
+      "Context": "Publication [2024-12-25] - 1 day → [2024-12-24] for {on Christmas Eve}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-12-24",
+      "Title": "Prison Break",
+      "EventOrigin": false,
+      "EventType": "escape",
+      "Text": "More than 1,500 prisoners escaped from a prison amid political unrest.",
+      "SourceSentence": "More than 1,500 prisoners have escaped from a prison in Mozambique, taking advantage of ongoing political unrest triggered by disputed election results, police say.",
+      "Aspects": {
+        "Who": ["prisoners", "police"],
+        "Where": ["Maputo, Mozambique"],
+        "Cause": "Political unrest and protests",
+        "Result": "Mass escape from prison"
+      },
+      "Context": "Date is inferred from the context of ongoing unrest and the timing of the protests.",
+      "Confidence": 0.8
+    },
+    {
+      "Date": "2024-12-24",
+      "Title": "Casualties Reported",
+      "EventOrigin": false,
+      "EventType": "casualty",
+      "Text": "At least 21 people have been killed in the unrest since Monday.",
+      "SourceSentence": "Since Monday, at least 21 people have been killed in the unrest, the interior minister said late on Tuesday.",
+      "Aspects": {
+        "Who": ["interior minister", "victims"],
+        "Where": ["Mozambique"],
+        "Cause": "Clashes during protests",
+        "Result": "Reported casualties"
+      },
+      "Context": "Date is inferred from the timeline of events since the protests began on Monday.",
+      "Confidence": 0.9
+    },
+    {
+      "Date": "2024-10-01",
+      "Title": "Election Results Announced",
+      "EventOrigin": false,
+      "EventType": "election",
+      "Text": "Initial results showed Frelimo's candidate winning the presidential elections.",
+      "SourceSentence": "Initial results in October said Daniel Chapo gained a 71% share of the vote to his main rival Venâncio Mondlane's 20%.",
+      "Aspects": {
+        "Who": ["Daniel Chapo", "Venâncio Mondlane"],
+        "Where": ["Mozambique"],
+        "Cause": "Presidential elections",
+        "Result": "Initial election results announced"
+      },
+      "Context": "Exact date inferred as the first day of October, aligning with the election timeline.",
+      "Confidence": 0.8
+    },
+    {
+      "Date": "2024-12-24",
+      "Title": "Fugitives Recaptured",
+      "EventOrigin": false,
+      "EventType": "recapture",
+      "Text": "About 150 more fugitives have since been recaptured.",
+      "SourceSentence": "About 150 more fugitives have since been recaptured, he added.",
+      "Aspects": {
+        "Who": ["police", "fugitives"],
+        "Where": ["Mozambique"],
+        "Cause": "Ongoing police operations",
+        "Result": "Recapture of escaped prisoners"
+      },
+      "Context": "Date is inferred from the ongoing events and the context of the unrest.",
+      "Confidence": 0.7
+    }
+  ]
+}
+```
+=== Article 32: Mozambique: Over 1,500 inmates escape Maputo jail after riot ===
+
+
+```json
+{
+  "PublicationDate": "2024-12-25",
+  "Events": [
+    {
+      "Date": "2024-12-25",
+      "Title": "Inmates Escape from Maputo Jail",
+      "EventOrigin": true,
+      "EventType": "escape",
+      "Text": "More than 1,500 inmates escaped from a high-security prison in Maputo following a violent riot.",
+      "SourceSentence": "The prisoners broke out of jail in Maputo following a riot which killed dozens, according to local police.",
+      "Aspects": {
+        "Who": ["inmates", "local police"],
+        "Where": ["Maputo, Mozambique"],
+        "Cause": "Riot in high-security prison",
+        "Result": "Over 1,500 inmates escaped"
+      },
+      "Context": "Publication [2024-12-25] - used as the date for the main event.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-12-25",
+      "Title": "Riot Results in Casualties",
+      "EventOrigin": false,
+      "EventType": "killing",
+      "Text": "33 people died and 15 were injured during the riots in the prison.",
+      "SourceSentence": "Police in Mozambique said 33 people died and 15 injured as riots broke in high-security prison in the capital, Maputo.",
+      "Aspects": {
+        "Who": ["police", "victims"],
+        "Where": ["Maputo, Mozambique"],
+        "Cause": "Riots in high-security prison",
+        "Result": "33 deaths and 15 injuries"
+      },
+      "Context": "Date is the same as the root event, indicating the same day of the riot.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-12-25",
+      "Title": "Protests Escalate in Mozambique",
+      "EventOrigin": false,
+      "EventType": "protest",
+      "Text": "Mozambique has been facing an escalation of protests after the election results were announced.",
+      "SourceSentence": "In the past several days, Mozambique has been facing an escalation of protests after the election result had been announced.",
+      "Aspects": {
+        "Who": ["protesters", "opposition leader Venancio Mondlane"],
+        "Where": ["Mozambique"],
+        "Cause": "Announcement of election results",
+        "Result": "Escalation of protests"
+      },
+      "Context": "Date is the same as the root event, indicating ongoing protests on the same day.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-12-25",
+      "Title": "Deaths in Protests",
+      "EventOrigin": false,
+      "EventType": "killing",
+      "Text": "At least 56 people died in the protests, with 380 more injured.",
+      "SourceSentence": "The capital Maputo is among the cities most affected by the protests, in which at least 56 people died, with 380 more being injured.",
+      "Aspects": {
+        "Who": ["protesters", "victims"],
+        "Where": ["Maputo, Mozambique"],
+        "Cause": "Protests following election results",
+        "Result": "56 deaths and 380 injuries"
+      },
+      "Context": "Date is the same as the root event, indicating the same day of the protests.",
+      "Confidence": 1.0
+    }
+  ]
+}
+```
+=== Article 33: 21 dead as Mozambique erupts in violence after election court ruling ===
+
+
+```json
+{
+  "PublicationDate": "2024-12-25",
+  "Events": [
+    {
+      "Date": "2024-12-24",
+      "Title": "Court Ruling Confirmed",
+      "EventOrigin": true,
+      "EventType": "announcement",
+      "Text": "The Constitutional Council upheld the victory of the Frelimo party in the October presidential election, confirming Daniel Chapo as the winner.",
+      "SourceSentence": "The court ruling on Monday confirmed Frelimo's candidate, Daniel Chapo, as the winner with 65.17% of the vote, dismissing allegations of widespread fraud.",
+      "Aspects": {
+        "Who": ["Constitutional Council", "Frelimo party", "Daniel Chapo"],
+        "Where": ["Mozambique"],
+        "Cause": "To confirm the election results amidst allegations of fraud.",
+        "Result": "Sparked protests and unrest across the country."
+      },
+      "Context": "Publication [2024-12-25] - 1 day → [2024-12-24] for {on Monday}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-12-24",
+      "Title": "Violent Protests Erupt",
+      "EventOrigin": false,
+      "EventType": "protest",
+      "Text": "Protests erupted nationwide following the court ruling, with demonstrators blocking roads and clashing with security forces.",
+      "SourceSentence": "Protests have erupted nationwide, with demonstrators blocking roads, burning tires, and clashing with security forces.",
+      "Aspects": {
+        "Who": ["opposition supporters", "security forces"],
+        "Where": ["Mozambique"],
+        "Cause": "Opposition to the court ruling and claims of election rigging.",
+        "Result": "At least 21 people killed and 78 arrested."
+      },
+      "Context": "Date inferred from the court ruling on December 24, 2024.",
+      "Confidence": 0.9
+    },
+    {
+      "Date": "2024-12-25",
+      "Title": "Government Response to Protests",
+      "EventOrigin": false,
+      "EventType": "announcement",
+      "Text": "The government announced increased security measures in response to ongoing protests.",
+      "SourceSentence": "The armed and defense forces will increase their presence in critical and key points.",
+      "Aspects": {
+        "Who": ["Interior Minister Pascoal Ronda", "armed and defense forces"],
+        "Where": ["Mozambique"],
+        "Cause": "To restore order amid escalating violence.",
+        "Result": "Increased military presence in protest areas."
+      },
+      "Context": "Event occurred on the same day as the publication date.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "1975-06-25",
+      "Title": "Frelimo's Rule Began",
+      "EventOrigin": false,
+      "EventType": "historical",
+      "Text": "Frelimo has governed Mozambique since its independence.",
+      "SourceSentence": "The ruling party has governed Mozambique since independence in 1975.",
+      "Aspects": {
+        "Who": ["Frelimo party"],
+        "Where": ["Mozambique"],
+        "Cause": "Independence from colonial rule.",
+        "Result": "Establishment of Frelimo as the ruling party."
+      },
+      "Context": "Historical reference to the year of independence.",
+      "Confidence": 1.0
+    }
+  ]
+}
+```
+=== Article 34: 1,500 escape Mozambique prison; 33 dead in post-election chaos ===
+
+
+```json
+{
+  "PublicationDate": "2024-12-26",
+  "Events": [
+    {
+      "Date": "2024-12-25",
+      "Title": "Massive Prison Break",
+      "EventOrigin": true,
+      "EventType": "prison break",
+      "Text": "Over 1,500 inmates escaped from the high-security Machava prison near Maputo amidst post-election violence.",
+      "SourceSentence": "The Mozambican government confirmed a massive prison break on December 25, involving over 1,500 inmates escaping from the high-security Machava prison near the capital, Maputo.",
+      "Aspects": {
+        "Who": ["Mozambican government", "inmates", "police"],
+        "Where": ["Machava prison", "Maputo"],
+        "Cause": "Post-election violence following the election victory of Daniel Chapo.",
+        "Result": "33 deaths and 15 injuries due to violent clashes."
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-12-26",
+      "Title": "Election Violence Report",
+      "EventOrigin": false,
+      "EventType": "violence report",
+      "Text": "The violence surrounding the election has claimed 248 lives in the last two months.",
+      "SourceSentence": "The violence surrounding the election has claimed 248 lives in the last two months, according to the NGO Plataforma Decide.",
+      "Aspects": {
+        "Who": ["NGO Plataforma Decide"],
+        "Where": ["Mozambique"],
+        "Cause": "Ongoing post-election violence.",
+        "Result": "248 lives lost."
+      },
+      "Context": "Publication date 2024-12-26 - 2 months prior = 2024-10-26 for {last two months}.",
+      "Confidence": 0.9
+    }
+  ]
+}
+```
+=== Article 35: Mozambique's major cities paralyzed by post-election unrest ===
+
+
+```json
+{
+  "PublicationDate": "2024-12-27",
+  "Events": [
+    {
+      "Date": "2024-12-27",
+      "Title": "Post-election violence spreads",
+      "EventOrigin": true,
+      "EventType": "unrest",
+      "Text": "Post-election violence has spread across Mozambique, paralyzing cities and disrupting daily life.",
+      "SourceSentence": "Post-election violence has spread across Mozambique, paralyzing cities and disrupting daily life.",
+      "Aspects": {
+        "Who": ["United Nations", "Frelimo party", "opposition leaders"],
+        "Where": ["Mozambique", "Maputo", "Matola"],
+        "Cause": "Disputed election results",
+        "Result": "Cities paralyzed, businesses closed"
+      },
+      "Context": "Publication [2024-12-27] - 0 days → [2024-12-27] for {Post-election violence spreads}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-12-25",
+      "Title": "Prison break during unrest",
+      "EventOrigin": false,
+      "EventType": "prison break",
+      "Text": "At least 1,500 inmates took advantage of the chaos on December 25 to escape from a high-security prison in Maputo.",
+      "SourceSentence": "At least 1,500 inmates took advantage of the chaos on December 25 to escape from a high-security prison in Maputo.",
+      "Aspects": {
+        "Who": ["inmates", "security forces"],
+        "Where": ["Maputo"],
+        "Cause": "Ongoing unrest",
+        "Result": "Mass escape from prison"
+      },
+      "Context": "Explicit date mentioned in text: [2024-12-25].",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-09",
+      "Title": "Disputed presidential election",
+      "EventOrigin": false,
+      "EventType": "election",
+      "Text": "Venancio Mondlane, Mozambique's main opposition leader, has claimed the October 9 election was rigged.",
+      "SourceSentence": "Venancio Mondlane, Mozambique's main opposition leader, has claimed the October 9 election was rigged.",
+      "Aspects": {
+        "Who": ["Venancio Mondlane", "Frelimo party"],
+        "Where": ["Mozambique"],
+        "Cause": "Allegations of vote rigging",
+        "Result": "Protests and unrest"
+      },
+      "Context": "Explicit date mentioned in text: [2024-10-09].",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-12-20",
+      "Title": "Police chief comments on unrest",
+      "EventOrigin": false,
+      "EventType": "statement",
+      "Text": "Police chief Bernardino Rafael described the people who broke into warehouses and stores as criminals.",
+      "SourceSentence": "Police chief Bernardino Rafael described the people who broke into warehouses and stores as criminals.",
+      "Aspects": {
+        "Who": ["Bernardino Rafael"],
+        "Where": ["Mozambique"],
+        "Cause": "Response to unrest",
+        "Result": "Increased police presence"
+      },
+      "Context": "Publication [2024-12-27] - 7 days → [2024-12-20] for {on Thursday}.",
+      "Confidence": 0.9
+    },
+    {
+      "Date": "2024-12-28",
+      "Title": "Opposition leader calls for protests",
+      "EventOrigin": false,
+      "EventType": "protest",
+      "Text": "Venancio Mondlane called for more protests from his supporters but cautioned them against looting and damaging infrastructure.",
+      "SourceSentence": "Venancio Mondlane called for more protests from his supporters but cautioned them against looting and damaging infrastructure.",
+      "Aspects": {
+        "Who": ["Venancio Mondlane"],
+        "Where": ["Mozambique"],
+        "Cause": "Response to election results",
+        "Result": "Calls for continued unrest"
+      },
+      "Context": "Publication [2024-12-27] + 1 day → [2024-12-28] for {on Thursday}.",
+      "Confidence": 0.8
+    }
+  ]
+}
+```
+=== Article 36: Mozambique: Thousands flee to Malawi amid election unrest ===
+
+
+```json
+{
+  "PublicationDate": "2024-12-28",
+  "Events": [
+    {
+      "Date": "2024-12-21",
+      "Title": "Mass Exodus to Malawi",
+      "EventOrigin": true,
+      "EventType": "displacement",
+      "Text": "Thousands of families have fled Mozambique to neighboring Malawi over the past week due to political violence.",
+      "SourceSentence": "Thousands have fled Mozambique to neighboring Malawi over the past week, officials said.",
+      "Aspects": {
+        "Who": ["thousands of families", "officials"],
+        "Where": ["Malawi", "Mozambique"],
+        "Cause": "Political violence and unrest following election results",
+        "Result": "Humanitarian assistance required for asylum seekers"
+      },
+      "Context": "Publication [2024-12-28] - 7 days → [2024-12-21] for {over the past week}.",
+      "Confidence": 0.9
+    },
+    {
+      "Date": "2024-12-25",
+      "Title": "Post-Election Violence Escalates",
+      "EventOrigin": false,
+      "EventType": "violence",
+      "Text": "Major cities in Mozambique were paralyzed on Friday as post-election violence spread.",
+      "SourceSentence": "Major cities in Mozambique were paralyzed on Friday as post-election violence spread in the southern African country.",
+      "Aspects": {
+        "Who": ["protesters", "police"],
+        "Where": ["Mozambique"],
+        "Cause": "Disputed election results",
+        "Result": "Transportation halted, businesses shut, widespread looting"
+      },
+      "Context": "Publication [2024-12-28] - 1 day → [2024-12-25] for {on Friday}.",
+      "Confidence": 0.8
+    },
+    {
+      "Date": "2024-12-24",
+      "Title": "Jail Riot and Inmate Escape",
+      "EventOrigin": false,
+      "EventType": "riot",
+      "Text": "Over 1,500 inmates escaped a jail in the capital, Maputo, following a riot that killed dozens.",
+      "SourceSentence": "On Wednesday, over 1,500 inmates escaped a jail in the capital, Maputo, following a riot that killed dozens.",
+      "Aspects": {
+        "Who": ["inmates", "police"],
+        "Where": ["Maputo, Mozambique"],
+        "Cause": "Riot in jail",
+        "Result": "Inmates escaped, several deaths reported"
+      },
+      "Context": "Publication [2024-12-28] - 4 days → [2024-12-24] for {on Wednesday}.",
+      "Confidence": 0.85
+    },
+    {
+      "Date": "2024-12-23",
+      "Title": "Election Results Announced",
+      "EventOrigin": false,
+      "EventType": "announcement",
+      "Text": "Mozambique's Constitutional Council proclaimed Frelimo's candidate, Daniel Chapo, the winner of the October 9 presidential election.",
+      "SourceSentence": "On Monday, Mozambique's Constitutional Council proclaimed Frelimo's candidate, Daniel Chapo, the winner of the October 9 presidential election with around 65% of the vote.",
+      "Aspects": {
+        "Who": ["Mozambique's Constitutional Council", "Daniel Chapo"],
+        "Where": ["Mozambique"],
+        "Cause": "Election results",
+        "Result": "Protests and clashes with police"
+      },
+      "Context": "Publication [2024-12-28] - 5 days → [2024-12-23] for {on Monday}.",
+      "Confidence": 0.9
+    },
+    {
+      "Date": "2024-10-09",
+      "Title": "Presidential Election Held",
+      "EventOrigin": false,
+      "EventType": "election",
+      "Text": "The presidential election was held in Mozambique.",
+      "SourceSentence": "Opposition claims election rigged.",
+      "Aspects": {
+        "Who": ["Frelimo party", "opposition parties"],
+        "Where": ["Mozambique"],
+        "Cause": "Scheduled election",
+        "Result": "Disputed results leading to unrest"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    }
+  ]
+}
+```
+=== Article 37: Mozambique: Mondlane announces break in election protests ===
+
+
+```json
+{
+  "PublicationDate": "2024-12-30",
+  "Events": [
+    {
+      "Date": "2024-12-30",
+      "Title": "Suspension of Protests Announced",
+      "EventOrigin": true,
+      "EventType": "announcement",
+      "Text": "Opposition leader Venancio Mondlane announced the suspension of demonstrations against the October 8 presidential election outcome to allow humanitarian assessments.",
+      "SourceSentence": "Mozambique's opposition leader said Sunday demonstrations against the outcome of the October 8 presidential election would be suspended this week to allow humanitarians and international bodies a chance to assess the state of human rights in the country.",
+      "Aspects": {
+        "Who": ["Venancio Mondlane"],
+        "Where": ["Mozambique"],
+        "Cause": "To allow humanitarian assessments",
+        "Result": "Suspension of protests"
+      },
+      "Context": "Publication date [2024-12-30] used as the date for the announcement.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-12-29",
+      "Title": "Five-Day Reprieve Announced",
+      "EventOrigin": false,
+      "EventType": "announcement",
+      "Text": "Mondlane announced a five-day reprieve to facilitate the entry of regional actors into Mozambique.",
+      "SourceSentence": "Speaking in a Facebook broadcast on Sunday, Venancio Mondlane said he was announcing a five-day reprieve to facilitate the entry of regional actors into Mozambique.",
+      "Aspects": {
+        "Who": ["Venancio Mondlane"],
+        "Where": ["Mozambique"],
+        "Cause": "Facilitate entry of regional actors",
+        "Result": "Five-day reprieve"
+      },
+      "Context": "Publication date [2024-12-30] minus 1 day = [2024-12-29] for {on Sunday}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-08",
+      "Title": "Presidential Election Held",
+      "EventOrigin": false,
+      "EventType": "election",
+      "Text": "The presidential election took place, which later led to protests over its outcome.",
+      "SourceSentence": "demonstrations against the outcome of the October 8 presidential election",
+      "Aspects": {
+        "Who": ["Mozambique citizens"],
+        "Where": ["Mozambique"],
+        "Cause": "Election outcome",
+        "Result": "Protests initiated"
+      },
+      "Context": "Explicit date mentioned in the text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-11-01",
+      "Title": "Lubombo Border Crossing Closed",
+      "EventOrigin": false,
+      "EventType": "border closure",
+      "Text": "South African authorities temporarily closed the Lubombo border crossing with Mozambique after protests escalated.",
+      "SourceSentence": "In November, South African authorities temporarily closed the country's Lubombo border crossing with Mozambique after protestors torched vehicles on Mozambique's side of the frontier.",
+      "Aspects": {
+        "Who": ["South African authorities"],
+        "Where": ["Lubombo border crossing"],
+        "Cause": "Escalation of protests",
+        "Result": "Border closure"
+      },
+      "Context": "Relative to the publication date, November is inferred as approximately 2024-11-01.",
+      "Confidence": 0.8
+    },
+    {
+      "Date": "2024-12-23",
+      "Title": "Court Upholds Election Victory",
+      "EventOrigin": false,
+      "EventType": "court ruling",
+      "Text": "Mozambique's top court upheld the victory of Daniel Chapo of the ruling Frelimo party.",
+      "SourceSentence": "Last week, Mozambique's top court upheld the victory of Daniel Chapo of the ruling Frelimo party albeit with a reduced margin.",
+      "Aspects": {
+        "Who": ["Mozambique's top court", "Daniel Chapo"],
+        "Where": ["Mozambique"],
+        "Cause": "Election results challenge",
+        "Result": "Victory upheld"
+      },
+      "Context": "Publication date [2024-12-30] minus 7 days = [2024-12-23] for {last week}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-01",
+      "Title": "Clashes Begin",
+      "EventOrigin": false,
+      "EventType": "clashes",
+      "Text": "Clashes began following the protests against the election outcome, resulting in over 250 deaths.",
+      "SourceSentence": "More than 250 people have been killed in clashes since rallies against the election outcome began in October.",
+      "Aspects": {
+        "Who": ["Mozambique citizens", "security forces"],
+        "Where": ["Mozambique"],
+        "Cause": "Protests against election outcome",
+        "Result": "Over 250 deaths"
+      },
+      "Context": "Relative to the publication date, October is inferred as approximately 2024-10-01.",
+      "Confidence": 0.8
+    }
+  ]
+}
+```
+=== Article 38: Mozambique: Over 13,000 Mozambicans Flee to Malawi Amid Post-Election Violence ===
+
+
+```json
+{
+  "PublicationDate": "2024-10-20",
+  "Events": [
+    {
+      "Date": "2024-10-09",
+      "Title": "Presidential Election Results Announced",
+      "EventOrigin": true,
+      "EventType": "election",
+      "Text": "The Constitutional Council confirmed Daniel Chapo, presidential candidate for the ruling Frelimo Party, as the winner of the Oct. 9 election.",
+      "SourceSentence": "The political tension in Mozambique escalated after the Constitutional Council confirmed Daniel Chapo, presidential candidate for the ruling Frelimo Party, as the winner of the Oct. 9 election.",
+      "Aspects": {
+        "Who": ["Daniel Chapo", "Frelimo Party"],
+        "Where": ["Mozambique"],
+        "Cause": "Disputed election results",
+        "Result": "Escalation of political tension"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-01",
+      "Title": "Refugee Influx Begins",
+      "EventOrigin": false,
+      "EventType": "displacement",
+      "Text": "Malawi has received about 13,000 refugees from Mozambique in recent weeks.",
+      "SourceSentence": "The latest statistics show that Malawi has received about 13,000 refugees from Mozambique in recent weeks, many of them women and children.",
+      "Aspects": {
+        "Who": ["refugees", "women", "children"],
+        "Where": ["Malawi"],
+        "Cause": "Violence triggered by the disputed election",
+        "Result": "Increase in refugee population"
+      },
+      "Context": "Publication date [2024-10-20] - 3 weeks → [2024-10-01] for {in recent weeks}.",
+      "Confidence": 0.9
+    },
+    {
+      "Date": "2024-10-21",
+      "Title": "Food Aid Distributed",
+      "EventOrigin": false,
+      "EventType": "aid distribution",
+      "Text": "Sofia Jimu was given 150 bags of maize flour and four bags of beans to distribute to people at the center.",
+      "SourceSentence": "However, she said, the following day she was given 150 bags of maize flour and four bags of beans to distribute to people at the center.",
+      "Aspects": {
+        "Who": ["Sofia Jimu"],
+        "Where": ["evacuation center"],
+        "Cause": "Lack of food at the center",
+        "Result": "Provision of food aid"
+      },
+      "Context": "Publication date [2024-10-20] + 1 day → [2024-10-21] for {the following day}.",
+      "Confidence": 0.8
+    },
+    {
+      "Date": "2024-10-20",
+      "Title": "Assessment of Asylum-Seeker Needs",
+      "EventOrigin": false,
+      "EventType": "assessment",
+      "Text": "Malawi's Department for Refugees and the United Nations High Commissioner for Refugees in Malawi are conducting a joint assessment to identify the needs of asylum-seekers.",
+      "SourceSentence": "In the meantime, Malawi's Department for Refugees and the United Nations High Commissioner for Refugees in Malawi are conducting a joint assessment to identify the needs of asylum-seekers.",
+      "Aspects": {
+        "Who": ["Malawi's Department for Refugees", "UNHCR"],
+        "Where": ["Malawi"],
+        "Cause": "Need to identify asylum-seeker needs",
+        "Result": "Ongoing assessment"
+      },
+      "Context": "Explicit date mentioned as publication date.",
+      "Confidence": 1.0
+    }
+  ]
+}
+```
+=== Article 39: Mozambique: State-Orchestrated Jailbreak - 134 Dead in 4 Days ===
+
+
+```json
+{
+  "PublicationDate": "2024-10-20",
+  "Events": [
+    {
+      "Date": "2024-12-23",
+      "Title": "Start of Deadly Incidents",
+      "EventOrigin": false,
+      "EventType": "killing",
+      "Text": "In the four days 23-26 December, 134 people have been killed by police or in demonstration related incidents.",
+      "SourceSentence": "In the four days 23-26 December, 134 people have been killed by police or in demonstration related incidents.",
+      "Aspects": {
+        "Who": ["police", "demonstrators"],
+        "Where": ["Mozambique"],
+        "Cause": "Demonstrations and police response",
+        "Result": "134 deaths reported"
+      },
+      "Context": "Publication [2024-10-20] - 2 months → [2024-12-23] for {in the four days 23-26 December}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-12-25",
+      "Title": "Major Jailbreak",
+      "EventOrigin": true,
+      "EventType": "jailbreak",
+      "Text": "In a major jailbreak on Christmas day, 1534 prisoners were allowed to escape.",
+      "SourceSentence": "In a major jailbreak on Christmas day, 1534 prisoners were allowed to escape.",
+      "Aspects": {
+        "Who": ["prisoners", "Justice Minister Helena Kida"],
+        "Where": ["Maputo Penitentiary", "Machava prison"],
+        "Cause": "Orchestrated jailbreak",
+        "Result": "1534 prisoners escaped, 150 recaptured"
+      },
+      "Context": "Publication [2024-10-20] - 2 months → [2024-12-25] for {on Christmas day}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-12-26",
+      "Title": "Continuation of Violence",
+      "EventOrigin": false,
+      "EventType": "killing",
+      "Text": "This brings the death toll for the 66 days of demonstration to 261.",
+      "SourceSentence": "This brings the death toll for the 66 days of demonstration to 261.",
+      "Aspects": {
+        "Who": ["demonstrators", "police"],
+        "Where": ["Mozambique"],
+        "Cause": "Ongoing demonstrations",
+        "Result": "Total death toll rises to 261"
+      },
+      "Context": "Publication [2024-10-20] - 2 months → [2024-12-26] for {the day after the jailbreak}.",
+      "Confidence": 1.0
+    }
+  ]
+}
+```
+=== Article 40: Mozambique: South Africa sends special envoy to help quell unrest ===
+
+
+```json
+{
+  "PublicationDate": "2024-12-31",
+  "Events": [
+    {
+      "Date": "2024-10-01",
+      "Title": "Mozambique Election",
+      "EventOrigin": true,
+      "EventType": "election",
+      "Text": "Mozambique held a disputed election in October, leading to protests.",
+      "SourceSentence": "protests sparked by Mozambique's disputed election in October.",
+      "Aspects": {
+        "Who": ["Mozambique", "Frelimo party"],
+        "Where": ["Mozambique"],
+        "Cause": "Disputed election results",
+        "Result": "Protests and unrest"
+      },
+      "Context": "Explicit date mentioned in text for the election.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-12-24",
+      "Title": "Detainees Escape Prison",
+      "EventOrigin": false,
+      "EventType": "escape",
+      "Text": "Hundreds of detainees escaped from a high security prison in Mozambique’s capital.",
+      "SourceSentence": "hundreds of detainees escaped from a high security prison in Mozambique’s capital last week.",
+      "Aspects": {
+        "Who": ["detainees"],
+        "Where": ["Mozambique’s capital"],
+        "Cause": "Instability from protests",
+        "Result": "Increased security measures"
+      },
+      "Context": "Publication date [2024-12-31] - 7 days → [2024-12-24] for {last week}.",
+      "Confidence": 0.9
+    },
+    {
+      "Date": "2024-12-31",
+      "Title": "South Africa Sends Envoy",
+      "EventOrigin": false,
+      "EventType": "diplomatic action",
+      "Text": "South Africa sent a special envoy to meet with Mozambique’s outgoing president.",
+      "SourceSentence": "South Africa has sent a special envoy to meet with Mozambique’s outgoing president.",
+      "Aspects": {
+        "Who": ["South Africa", "Cyril Ramaphosa", "Sydney Mufamadi"],
+        "Where": ["Mozambique"],
+        "Cause": "To quell deadly protests",
+        "Result": "Diplomatic engagement"
+      },
+      "Context": "Event occurred on publication date.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-12-31",
+      "Title": "Protests Continue",
+      "EventOrigin": false,
+      "EventType": "protest",
+      "Text": "Dozens of people have been killed in the protests since the elections.",
+      "SourceSentence": "Dozens of people have been killed in the protests since the elections.",
+      "Aspects": {
+        "Who": ["protesters"],
+        "Where": ["Mozambique"],
+        "Cause": "Disputed election results",
+        "Result": "Casualties in protests"
+      },
+      "Context": "Event occurred on publication date.",
+      "Confidence": 1.0
+    }
+  ]
+}
+```
+=== Article 41: Exiled Mozambique opposition leader to return on January 9th ===
+
+
+```json
+{
+  "PublicationDate": "2025-01-06",
+  "Events": [
+    {
+      "Date": "2025-01-09",
+      "Title": "Opposition Leader's Return Announcement",
+      "EventOrigin": true,
+      "EventType": "announcement",
+      "Text": "Venancio Mondlane announced he would return to Mozambique on January 9th ahead of the inauguration of the new president.",
+      "SourceSentence": "In a Facebook Live, Venancio Mondlane announced that he would be coming back on the 9th of January.",
+      "Aspects": {
+        "Who": ["Venancio Mondlane"],
+        "Where": ["Mozambique"],
+        "Cause": "To return ahead of the inauguration of the new president.",
+        "Result": "His return is expected amidst ongoing protests."
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2025-01-15",
+      "Title": "Inauguration of New President",
+      "EventOrigin": false,
+      "EventType": "inauguration",
+      "Text": "President-elect Daniel Chapo is due to be sworn in.",
+      "SourceSentence": "President-elect Daniel Chapo is due to be sworn in on January 15.",
+      "Aspects": {
+        "Who": ["Daniel Chapo"],
+        "Where": ["Mozambique"],
+        "Cause": "Following the presidential election.",
+        "Result": "New leadership in Mozambique."
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-21",
+      "Title": "Opposition Leader Leaves Mozambique",
+      "EventOrigin": false,
+      "EventType": "displacement",
+      "Text": "Mondlane left Mozambique around October 21, fearing for his life.",
+      "SourceSentence": "Mondlane left Mozambique around October 21, saying he feared for his life as he challenged the results of the October 9 presidential election.",
+      "Aspects": {
+        "Who": ["Venancio Mondlane"],
+        "Where": ["Mozambique"],
+        "Cause": "Fear for his life due to election results.",
+        "Result": "Exile from Mozambique."
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-09",
+      "Title": "Presidential Election Results",
+      "EventOrigin": false,
+      "EventType": "election",
+      "Text": "The presidential election took place, resulting in Mondlane being the runner-up.",
+      "SourceSentence": "saying he feared for his life as he challenged the results of the October 9 presidential election which placed him as runner-up to the candidate of the ruling Frelimo party.",
+      "Aspects": {
+        "Who": ["Venancio Mondlane", "Frelimo party"],
+        "Where": ["Mozambique"],
+        "Cause": "Presidential election.",
+        "Result": "Disputed election results leading to protests."
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    }
+  ]
+}
+```
+=== Article 42: Mozambique: Post-Election Chaos in Mozambique Sparks Mass Exodus to Malawi ===
+
+
+```json
+[
+    {
+        "PublicationDate": "2025-01-06",
+        "Events": [
+            {
+                "Date": "2023-10-11",
+                "Title": "Mozambique Elections",
+                "EventOrigin": true,
+                "EventType": "election",
+                "Text": "The disputed election in Mozambique took place, leading to significant unrest and violence.",
+                "SourceSentence": "This follows the tension that escalated into violent protests and clashes after the 11 October elections.",
+                "Aspects": {
+                    "Who": ["Daniel Chapo", "Venâncio Mondlane"],
+                    "Where": ["Mozambique"],
+                    "Cause": "Disputed election results",
+                    "Result": "Escalation of violence and protests"
+                },
+                "Context": "Publication date [2025-01-06] - 2 months → [2023-10-11] for {after the 11 October elections}.",
+                "Confidence": 1.0
+            },
+            {
+                "Date": "2023-12-26",
+                "Title": "Refugee Camps Established",
+                "EventOrigin": false,
+                "EventType": "displacement",
+                "Text": "Approximately 13,000 people, including children, are being housed in various camps in the Nsanje district of southern Malawi.",
+                "SourceSentence": "Esther is one of the 2,500 families - approximately 13,000 people, including children - who are being housed in various camps in the Nsanje district of southern Malawi as of 26 December.",
+                "Aspects": {
+                    "Who": ["Esther", "Malawian government", "UNHCR"],
+                    "Where": ["Nsanje district, Malawi"],
+                    "Cause": "Post-election violence in Mozambique",
+                    "Result": "Establishment of refugee camps"
+                },
+                "Context": "Publication date [2025-01-06] - 11 days → [2023-12-26] for {as of 26 December}.",
+                "Confidence": 1.0
+            },
+            {
+                "Date": "2023-12-25",
+                "Title": "Violence Escalates",
+                "EventOrigin": false,
+                "EventType": "violence",
+                "Text": "Post-election violence in Mozambique leads to the deaths of 125 people in three days.",
+                "SourceSentence": "Mozambique post-election violence kills 125 in three days, NGO says.",
+                "Aspects": {
+                    "Who": ["NGO", "Mozambican citizens"],
+                    "Where": ["Mozambique"],
+                    "Cause": "Post-election unrest",
+                    "Result": "High casualties and chaos"
+                },
+                "Context": "Publication date [2025-01-06] - 12 days → [2023-12-25] for {in three days}.",
+                "Confidence": 1.0
+            }
+        ]
+    }
+]
+```
+=== Article 43: Mozambique: Tensions rise as main opposition leader returns ===
+
+
+```json
+{
+  "PublicationDate": "2025-01-09",
+  "Events": [
+    {
+      "Date": "2025-01-08",
+      "Title": "Mondlane Returns from Exile",
+      "EventOrigin": true,
+      "EventType": "return",
+      "Text": "Mozambique opposition leader Venancio Mondlane returned from self-imposed exile, greeted by thousands at Maputo's airport.",
+      "SourceSentence": "Mozambique opposition leader Venancio Mondlane returned from self-imposed exile on Thursday, with thousands gathering to greet him at Maputo's airport.",
+      "Aspects": {
+        "Who": ["Venancio Mondlane"],
+        "Where": ["Maputo, Mozambique"],
+        "Cause": "Return from self-imposed exile after claiming election rigging.",
+        "Result": "Large public gathering and potential for political unrest."
+      },
+      "Context": "Publication [2025-01-09] - 1 day → [2025-01-08] for {Thursday}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-09",
+      "Title": "October Presidential Poll",
+      "EventOrigin": false,
+      "EventType": "election",
+      "Text": "The presidential poll, which Mondlane claims was rigged, took place.",
+      "SourceSentence": "Mondlande has said he will now push his claim that he was the true winner of an October 9 presidential poll, which he says was rigged in favor of the victor, Daniel Chapo, from the ruling Frelimo party.",
+      "Aspects": {
+        "Who": ["Venancio Mondlane", "Daniel Chapo"],
+        "Where": ["Mozambique"],
+        "Cause": "Presidential election.",
+        "Result": "Claims of rigging and subsequent political unrest."
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-19",
+      "Title": "Assassination of Mondlane's Lawyer",
+      "EventOrigin": false,
+      "EventType": "assassination",
+      "Text": "Mondlane went into exile after his lawyer was assassinated.",
+      "SourceSentence": "Mondlane went into exile after his lawyer was assassinated on October 19 but continued to hold live online rallies on social media that were watched by thousands of people.",
+      "Aspects": {
+        "Who": ["Mondlane's lawyer"],
+        "Where": ["Mozambique"],
+        "Cause": "Political violence.",
+        "Result": "Mondlane's exile."
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-20",
+      "Title": "Post-Election Violence Begins",
+      "EventOrigin": false,
+      "EventType": "violence",
+      "Text": "The October election triggered months of demonstrations resulting in violence.",
+      "SourceSentence": "The October election already triggered months of demonstrations in which almost 300 people are believed to have been killed.",
+      "Aspects": {
+        "Who": ["protesters", "security forces"],
+        "Where": ["Mozambique"],
+        "Cause": "Disputed election results.",
+        "Result": "Widespread violence and casualties."
+      },
+      "Context": "Calculated as the day after the election on October 9.",
+      "Confidence": 0.9
+    },
+    {
+      "Date": "1975-06-25",
+      "Title": "Frelimo's Rule Begins",
+      "EventOrigin": false,
+      "EventType": "historical event",
+      "Text": "Frelimo has ruled Mozambique since the end of the war against Portuguese colonial rule.",
+      "SourceSentence": "Many young Mozambicans ardently desire political change after 50 years under Frelimo, which has ruled Mozambique since the end of the war against Portuguese colonial rule in 1975.",
+      "Aspects": {
+        "Who": ["Frelimo"],
+        "Where": ["Mozambique"],
+        "Cause": "End of colonial rule.",
+        "Result": "Establishment of Frelimo's governance."
+      },
+      "Context": "Historical reference to the year 1975.",
+      "Confidence": 1.0
+    }
+  ]
+}
+```
+=== Article 44: Daniel Chapo: Mozambique to get new president amid swirl of protest ===
+
+
+```json
+{
+  "PublicationDate": "2025-01-15",
+  "Events": [
+    {
+      "Date": "2025-01-17",
+      "Title": "Chapo's Inauguration Day",
+      "EventOrigin": true,
+      "EventType": "inauguration",
+      "Text": "Daniel Chapo is sworn in as Mozambique's president amid protests and a threatened national strike.",
+      "SourceSentence": "A 'national strike' is being threatened as Mozambique's president-elect is sworn in on Wednesday, more than three months since disputed elections.",
+      "Aspects": {
+        "Who": ["Daniel Chapo"],
+        "Where": ["Mozambique"],
+        "Cause": "Disputed elections",
+        "Result": "Protests and national strike threats"
+      },
+      "Context": "Publication [2025-01-15] - 2 days → [2025-01-17] for {on Wednesday}",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-15",
+      "Title": "Return from Exile",
+      "EventOrigin": false,
+      "EventType": "return",
+      "Text": "Venâncio Mondlane returns from self-imposed exile after surviving an assassination attempt.",
+      "SourceSentence": "Last week, he returned from self-imposed exile.",
+      "Aspects": {
+        "Who": ["Venâncio Mondlane"],
+        "Where": ["South Africa", "Mozambique"],
+        "Cause": "Assassination attempt",
+        "Result": "Calls for protests on inauguration day"
+      },
+      "Context": "Publication [2025-01-15] - 3 months → [2024-10-15] for {more than three months since disputed elections}",
+      "Confidence": 0.9
+    },
+    {
+      "Date": "2024-10-01",
+      "Title": "Killings of Aides",
+      "EventOrigin": false,
+      "EventType": "killing",
+      "Text": "Two close aides of Venâncio Mondlane are murdered, escalating tensions.",
+      "SourceSentence": "He alleges that last week while touring a market in Maputo a vendor in his vicinity was shot, echoing the murder of two of his close aides in October.",
+      "Aspects": {
+        "Who": ["Venâncio Mondlane"],
+        "Where": ["Maputo, Mozambique"],
+        "Cause": "Political tensions",
+        "Result": "Increased public unrest"
+      },
+      "Context": "Publication [2025-01-15] - 3 months → [2024-10-01] for {in October}",
+      "Confidence": 0.8
+    },
+    {
+      "Date": "1977-01-06",
+      "Title": "Chapo's Birth",
+      "EventOrigin": false,
+      "EventType": "birth",
+      "Text": "Daniel Chapo is born in Inhaminga, Sofala province.",
+      "SourceSentence": "Daniel Francisco Chapo was born on 6 January 1977 in a place called Inhaminga, Sofala province.",
+      "Aspects": {
+        "Who": ["Daniel Chapo"],
+        "Where": ["Inhaminga, Sofala province, Mozambique"],
+        "Cause": "N/A",
+        "Result": "N/A"
+      },
+      "Context": "Explicit date from narrative.",
+      "Confidence": 1.0
+    }
+  ]
+}
+```
+=== Article 45: Mozambique: Is Cabo Delgado the latest Islamic State outpost? ===
+
+
+```json
+{
+  "PublicationDate": "2020-05-04",
+  "Events": [
+    {
+      "Date": "2020-03-24",
+      "Title": "Seizure of Mocimboa da Praia",
+      "EventOrigin": true,
+      "EventType": "military assault",
+      "Text": "The strategic port of Mocimboa da Praia was briefly seized by militants.",
+      "SourceSentence": "That footage was filmed in the strategic port of Mocimboa da Praia, which was briefly - and dramatically - seized by the militants on 24 March.",
+      "Aspects": {
+        "Who": ["Islamic State militants"],
+        "Where": ["Mocimboa da Praia, Cabo Delgado, Mozambique"],
+        "Cause": "Militant strategy shift",
+        "Result": "Control of a strategic location"
+      },
+      "Context": "Explicit date mentioned in text: 24 March.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2020-03-26",
+      "Title": "Seizure of Quissanga",
+      "EventOrigin": false,
+      "EventType": "military assault",
+      "Text": "Two days after Mocimboa da Praia, militants seized another important town, Quissanga.",
+      "SourceSentence": "Two days later, they seized another important town, Quissanga.",
+      "Aspects": {
+        "Who": ["Islamic State militants"],
+        "Where": ["Quissanga, Cabo Delgado, Mozambique"],
+        "Cause": "Continuation of militant assaults",
+        "Result": "Further territorial control by militants"
+      },
+      "Context": "Calculated date: 2020-03-24 plus 2 days = 2020-03-26.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2020-04-01",
+      "Title": "Video Footage from Muidumbe",
+      "EventOrigin": false,
+      "EventType": "evidence of conflict",
+      "Text": "Video footage shot last month in Muidumbe provided evidence of the conflict escalating.",
+      "SourceSentence": "The video footage, shot last month on a mobile phone in Muidumbe was powerful new evidence that a murky conflict in the northern-most region of Mozambique has now moved out into the open.",
+      "Aspects": {
+        "Who": ["Islamic State militants"],
+        "Where": ["Muidumbe, Cabo Delgado, Mozambique"],
+        "Cause": "Escalation of conflict",
+        "Result": "Increased visibility of the insurgency"
+      },
+      "Context": "Calculated date: Publication date 2020-05-04 minus 1 month = 2020-04-01.",
+      "Confidence": 0.9
+    },
+    {
+      "Date": "2020-05-04",
+      "Title": "Publication of Article",
+      "EventOrigin": false,
+      "EventType": "news publication",
+      "Text": "The article discussing the insurgency in Cabo Delgado was published.",
+      "SourceSentence": "Publication Date: 2020-05-04T23:04:25.000Z",
+      "Aspects": {
+        "Who": ["BBC News"],
+        "Where": ["Cabo Delgado, Mozambique"],
+        "Cause": "Reporting on the insurgency",
+        "Result": "Increased awareness of the conflict"
+      },
+      "Context": "Explicit publication date from metadata.",
+      "Confidence": 1.0
+    }
+  ]
+}
+```
+=== Article 46: Mozambique: Chapo sworn into office amid social unrest ===
+
+
+```json
+{
+  "PublicationDate": "2024-10-20",
+  "Events": [
+    {
+      "Date": "2025-01-15",
+      "Title": "Chapo Sworn into Office",
+      "EventOrigin": true,
+      "EventType": "announcement",
+      "Text": "Daniel Chapo has taken office as the new president of Mozambique, continuing the hold of the FRELIMO party.",
+      "SourceSentence": "Daniel Chapo has taken office as the new president of Mozambique, continuing the hold of the FRELIMO party.",
+      "Aspects": {
+        "Who": ["Daniel Chapo", "FRELIMO party"],
+        "Where": ["Mozambique"],
+        "Cause": "Political transition following elections",
+        "Result": "Chapo's presidency amid ongoing political tensions"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-01",
+      "Title": "End of Elections",
+      "EventOrigin": false,
+      "EventType": "election",
+      "Text": "The end of elections in October 2024.",
+      "SourceSentence": "increasing the number of fatalities to 307 since the end of elections in October 2024.",
+      "Aspects": {
+        "Who": ["Mozambican electorate"],
+        "Where": ["Mozambique"],
+        "Cause": "Completion of electoral process",
+        "Result": "Political unrest and protests"
+      },
+      "Context": "Inferred date from the phrase 'end of elections in October 2024'.",
+      "Confidence": 0.9
+    },
+    {
+      "Date": "2024-10-16",
+      "Title": "Fatalities Increase",
+      "EventOrigin": false,
+      "EventType": "killing",
+      "Text": "Seven people died on Wednesday, increasing the number of fatalities to 307.",
+      "SourceSentence": "Supporters of opposition candidate Venancio Mondlane continue to protest as seven people died on Wednesday, increasing the number of fatalities to 307 since the end of elections in October 2024.",
+      "Aspects": {
+        "Who": ["protesters", "opposition supporters"],
+        "Where": ["Mozambique"],
+        "Cause": "Political protests",
+        "Result": "Increased fatalities during unrest"
+      },
+      "Context": "Calculated as the Wednesday following the end of elections on October 1, 2024.",
+      "Confidence": 0.8
+    }
+  ]
+}
+```
+=== Article 47: Mozambique: Daniel Chapo sworn in as president ===
+
+
+```json
+{
+  "PublicationDate": "2025-01-15",
+  "Events": [
+    {
+      "Date": "2025-01-14",
+      "Title": "Daniel Chapo inaugurated as president",
+      "EventOrigin": true,
+      "EventType": "inauguration",
+      "Text": "Daniel Chapo of Mozambique's long-ruling Frelimo party was inaugurated as president at a ceremony in the capital on Wednesday.",
+      "SourceSentence": "Daniel Chapo of Mozambique's long-ruling Frelimo party was inaugurated as president at a ceremony in the capital on Wednesday.",
+      "Aspects": {
+        "Who": ["Daniel Chapo", "Frelimo party"],
+        "Where": ["Mozambique", "capital city"],
+        "Cause": "Succeeding Filipe Nyusi after two terms",
+        "Result": "Chapo becomes the new president"
+      },
+      "Context": "Publication [2025-01-15] - 1 day → [2025-01-14] for {on Wednesday}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-01",
+      "Title": "October election held",
+      "EventOrigin": false,
+      "EventType": "election",
+      "Text": "The inauguration followed an October election decried as rigged by opposition parties.",
+      "SourceSentence": "The inauguration followed an October election decried as rigged by opposition parties.",
+      "Aspects": {
+        "Who": ["opposition parties"],
+        "Where": ["Mozambique"],
+        "Cause": "Election process",
+        "Result": "Claims of rigging by opposition"
+      },
+      "Context": "Publication [2025-01-15] - 3.5 months → [2024-10-01] for {October election}.",
+      "Confidence": 0.9
+    },
+    {
+      "Date": "2024-12-01",
+      "Title": "Constitutional Council upheld election results",
+      "EventOrigin": false,
+      "EventType": "legal decision",
+      "Text": "International observers reported irregularities in the vote and the alteration of some results, but the Constitutional Council upheld Frelimo’s victory last month.",
+      "SourceSentence": "International observers reported irregularities in the vote and the alteration of some results, but the Constitutional Council upheld Frelimo’s victory last month.",
+      "Aspects": {
+        "Who": ["Constitutional Council", "Frelimo"],
+        "Where": ["Mozambique"],
+        "Cause": "Election results controversy",
+        "Result": "Frelimo's victory confirmed"
+      },
+      "Context": "Publication [2025-01-15] - 1 month → [2024-12-01] for {last month}.",
+      "Confidence": 0.8
+    },
+    {
+      "Date": "2024-10-01",
+      "Title": "Protests against election results",
+      "EventOrigin": false,
+      "EventType": "protest",
+      "Text": "The inauguration followed months of violent protests against the vote results.",
+      "SourceSentence": "The inauguration followed months of violent protests against the vote results.",
+      "Aspects": {
+        "Who": ["protesters", "security forces"],
+        "Where": ["Mozambique"],
+        "Cause": "Discontent with election results",
+        "Result": "Violence and deaths reported"
+      },
+      "Context": "Publication [2025-01-15] - 3.5 months → [2024-10-01] for {months of protests}.",
+      "Confidence": 0.9
+    },
+    {
+      "Date": "2024-10-01",
+      "Title": "Violent protests reported",
+      "EventOrigin": false,
+      "EventType": "violence",
+      "Text": "International rights groups believe more than 100 people were killed by security forces, but some local groups put the death toll at more than 200.",
+      "SourceSentence": "International rights groups believe more than 100 people were killed by security forces, but some local groups put the death toll at more than 200.",
+      "Aspects": {
+        "Who": ["international rights groups", "security forces"],
+        "Where": ["Mozambique"],
+        "Cause": "Protests against election results",
+        "Result": "High death toll reported"
+      },
+      "Context": "Publication [2025-01-15] - 3.5 months → [2024-10-01] for {since October}.",
+      "Confidence": 0.8
+    }
+  ]
+}
+```
+=== Article 48: SADC must act now to save Mozambique from becoming a failed state ===
+
+
+```json
+{
+  "PublicationDate": "2025-02-04",
+  "Events": [
+    {
+      "Date": "2025-01-09",
+      "Title": "Mondlane Returns from Exile",
+      "EventOrigin": false,
+      "EventType": "return",
+      "Text": "Venancio Mondlane returned home after two months in self-imposed exile, declaring himself 'the president-elect of the Mozambican people'.",
+      "SourceSentence": "On January 9, Mozambique’s main opposition leader, Venancio Mondlane, made his return home after two months in self-imposed exile.",
+      "Aspects": {
+        "Who": ["Venancio Mondlane"],
+        "Where": ["Maputo International Airport"],
+        "Cause": "Self-imposed exile due to political tensions",
+        "Result": "Declared himself president-elect"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2025-01-06",
+      "Title": "Civil Society Plea to Ramaphosa",
+      "EventOrigin": false,
+      "EventType": "plea",
+      "Text": "A group of Mozambican civil society organisations delivered a plea to South African President Cyril Ramaphosa for intervention in the political crisis.",
+      "SourceSentence": "On January 6, a group of Mozambican civil society organisations delivered an extraordinary plea to the office of South African President Cyril Ramaphosa.",
+      "Aspects": {
+        "Who": ["Mozambican civil society organisations", "Cyril Ramaphosa"],
+        "Where": ["Pretoria, South Africa"],
+        "Cause": "Political crisis in Mozambique",
+        "Result": "Request for intervention"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2025-01-15",
+      "Title": "Chapo Sworn in as President",
+      "EventOrigin": true,
+      "EventType": "swearing-in",
+      "Text": "Daniel Chapo was sworn in as Mozambique’s new president, taking significant actions to address public trust.",
+      "SourceSentence": "On January 15, Chapo was sworn in as Mozambique’s new president.",
+      "Aspects": {
+        "Who": ["Daniel Chapo"],
+        "Where": ["Mozambique"],
+        "Cause": "Completion of electoral process",
+        "Result": "New presidency and actions taken against dissent"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-12-23",
+      "Title": "Constitutional Council Confirms Election Results",
+      "EventOrigin": false,
+      "EventType": "confirmation",
+      "Text": "Mozambique’s Constitutional Council confirmed Chapo’s electoral victory, extending Frelimo’s tenure.",
+      "SourceSentence": "On December 23, Mozambique’s Constitutional Council confirmed Chapo’s electoral victory.",
+      "Aspects": {
+        "Who": ["Mozambique’s Constitutional Council", "Daniel Chapo"],
+        "Where": ["Mozambique"],
+        "Cause": "Electoral process conclusion",
+        "Result": "Extended Frelimo's tenure"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-12-25",
+      "Title": "Prison Riot in Maputo",
+      "EventOrigin": false,
+      "EventType": "riot",
+      "Text": "A prison riot in Maputo led to the escape of 1,500 prisoners.",
+      "SourceSentence": "Moreover, a prison riot in Maputo on Christmas Day led to the escape of 1,500 prisoners.",
+      "Aspects": {
+        "Who": ["Prisoners"],
+        "Where": ["Maputo, Mozambique"],
+        "Cause": "Prison riot",
+        "Result": "Escape of prisoners"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-09",
+      "Title": "October Elections Held",
+      "EventOrigin": false,
+      "EventType": "election",
+      "Text": "The elections were held, leading to significant political unrest.",
+      "SourceSentence": "by the time the CNE announced the official results, several independent electoral missions... had already reached the conclusion that the electoral process that led to Chapo declaring victory was neither free nor fair.",
+      "Aspects": {
+        "Who": ["CNE", "Daniel Chapo", "Venancio Mondlane"],
+        "Where": ["Mozambique"],
+        "Cause": "Scheduled elections",
+        "Result": "Political unrest and allegations of fraud"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-01",
+      "Title": "Political Violence Escalates",
+      "EventOrigin": false,
+      "EventType": "violence",
+      "Text": "More than 300 people have died in the violence in the past three months.",
+      "SourceSentence": "More than 300 people, including several children, have died in the violence in the past three months.",
+      "Aspects": {
+        "Who": ["Protesters", "State security forces"],
+        "Where": ["Mozambique"],
+        "Cause": "Political unrest",
+        "Result": "High casualties"
+      },
+      "Context": "Inferred from the narrative context of violence since the elections.",
+      "Confidence": 0.8
+    }
+  ]
+}
+```
+=== Article 49: Mozambique cholera: Why outbreaks have sparked unrest ===
+
+
+```json
+{
+  "PublicationDate": "2023-05-28",
+  "Events": [
+    {
+      "Date": "2023-05-28",
+      "Title": "Cholera-related Protests Erupt",
+      "EventOrigin": true,
+      "EventType": "protest",
+      "Text": "False claims about the spread of a cholera outbreak in northern Mozambique have led to violent protests and deaths.",
+      "SourceSentence": "False claims about the spread of a cholera outbreak in northern Mozambique have led to violent protests and deaths, according to health officials.",
+      "Aspects": {
+        "Who": ["World Health Organization", "health officials"],
+        "Where": ["Mozambique"],
+        "Cause": "Misinformation about cholera spread",
+        "Result": "Violent protests and deaths"
+      },
+      "Context": "Publication date [2023-05-28] used as the anchor for the main event.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2023-05-28",
+      "Title": "Man Beaten to Death in Gurue",
+      "EventOrigin": false,
+      "EventType": "killing",
+      "Text": "A man was beaten to death in the town of Gurue by people who falsely accused him of spreading cholera.",
+      "SourceSentence": "In one recent incident, a man was beaten to death in the town of Gurue in Zambezia province by people who falsely accused him of spreading cholera, according to health officials.",
+      "Aspects": {
+        "Who": ["man", "people in Gurue"],
+        "Where": ["Gurue, Zambezia province"],
+        "Cause": "False accusations of spreading cholera",
+        "Result": "Death of the man"
+      },
+      "Context": "Date is inferred as the same day as the main event [2023-05-28].",
+      "Confidence": 0.9
+    },
+    {
+      "Date": "2023-05-28",
+      "Title": "Four Killed in Nacala Porto",
+      "EventOrigin": false,
+      "EventType": "killing",
+      "Text": "In another protest, four people were killed as police battled a group attacking homes and property belonging to local officials in Nacala Porto.",
+      "SourceSentence": "In another protest, four people were killed as police battled a group attacking homes and property belonging to local officials in Nacala Porto in Nampula province.",
+      "Aspects": {
+        "Who": ["four people", "police"],
+        "Where": ["Nacala Porto, Nampula province"],
+        "Cause": "Protest against local officials",
+        "Result": "Deaths of four individuals"
+      },
+      "Context": "Date is inferred as the same day as the main event [2023-05-28].",
+      "Confidence": 0.9
+    },
+    {
+      "Date": "2023-05-28",
+      "Title": "Police Disperse Crowd in Meluco",
+      "EventOrigin": false,
+      "EventType": "dispersal",
+      "Text": "Police fired into the air to disperse a crowd trying to attack a health centre in Meluco district.",
+      "SourceSentence": "Further north in Cabo Delgado province, police fired into the air to disperse a crowd trying to attack a health centre in Meluco district.",
+      "Aspects": {
+        "Who": ["police", "crowd"],
+        "Where": ["Meluco district, Cabo Delgado province"],
+        "Cause": "Crowd attempting to attack health centre",
+        "Result": "Dispersal of the crowd"
+      },
+      "Context": "Date is inferred as the same day as the main event [2023-05-28].",
+      "Confidence": 0.9
+    },
+    {
+      "Date": "2022-09-01",
+      "Title": "Cholera Outbreak Began",
+      "EventOrigin": false,
+      "EventType": "outbreak",
+      "Text": "Mozambique has been battling an outbreak of cholera since September last year.",
+      "SourceSentence": "Mozambique has been battling an outbreak of the disease since September last year.",
+      "Aspects": {
+        "Who": ["Mozambique"],
+        "Where": ["Mozambique"],
+        "Cause": "Cholera outbreak",
+        "Result": "Ongoing health crisis"
+      },
+      "Context": "Inferred start date of the cholera outbreak as September 2022.",
+      "Confidence": 0.8
+    }
+  ]
+}
+```
+=== Article 50: Bernadino Rafael: Mozambique's President Daniel Chapo sacks police chief accused of abuses ===
+
+
+```json
+{
+  "PublicationDate": "2025-01-24",
+  "Events": [
+    {
+      "Date": "2025-01-17",
+      "Title": "Daniel Chapo Takes Office",
+      "EventOrigin": true,
+      "EventType": "announcement",
+      "Text": "Daniel Chapo was inaugurated as the new President of Mozambique.",
+      "SourceSentence": "The country's new President Daniel Chapo, who took office last week, announced Mr Rafael's removal on Thursday.",
+      "Aspects": {
+        "Who": ["Daniel Chapo"],
+        "Where": ["Mozambique"],
+        "Cause": "Election victory",
+        "Result": "Initiation of new presidency"
+      },
+      "Context": "Publication [2025-01-24] - 7 days → [2025-01-17] for {last week}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2025-01-19",
+      "Title": "Police Chief Rafael Sacked",
+      "EventOrigin": false,
+      "EventType": "announcement",
+      "Text": "President Chapo announced the removal of police chief Bernadino Rafael.",
+      "SourceSentence": "He announced Mr Rafael's removal on Thursday.",
+      "Aspects": {
+        "Who": ["Daniel Chapo", "Bernadino Rafael"],
+        "Where": ["Mozambique"],
+        "Cause": "Allegations of brutality",
+        "Result": "Rafael's dismissal from position"
+      },
+      "Context": "Publication [2025-01-24] - 5 days → [2025-01-19] for {on Thursday}.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-10-01",
+      "Title": "October Election Crisis",
+      "EventOrigin": false,
+      "EventType": "crisis",
+      "Text": "Mozambique faced a severe post-election crisis following the disputed elections.",
+      "SourceSentence": "Mozambique is in the throes of one of its worst post-election crises since independence.",
+      "Aspects": {
+        "Who": ["Frelimo", "citizens"],
+        "Where": ["Mozambique"],
+        "Cause": "Disputed election results",
+        "Result": "Public unrest and protests"
+      },
+      "Context": "Inferred from context of 'October's disputed election'.",
+      "Confidence": 0.8
+    },
+    {
+      "Date": "2025-01-21",
+      "Title": "Protests Continue",
+      "EventOrigin": false,
+      "EventType": "protest",
+      "Text": "Protests continued in Mozambique, with reports of violence and casualties.",
+      "SourceSentence": "Some 300 people have been killed in protests since, say civil society groups.",
+      "Aspects": {
+        "Who": ["citizens", "police"],
+        "Where": ["Mozambique"],
+        "Cause": "Election tampering allegations",
+        "Result": "Increased violence and casualties"
+      },
+      "Context": "Publication [2025-01-24] - 3 days → [2025-01-21] for {earlier this week}.",
+      "Confidence": 0.9
+    },
+    {
+      "Date": "2019-06-25",
+      "Title": "Sive's Suspension",
+      "EventOrigin": false,
+      "EventType": "suspension",
+      "Text": "Joaquim Sive was suspended after a deadly incident at a Frelimo rally.",
+      "SourceSentence": "In 2019, Sive was suspended from his duties after at least 10 people died after a Frelimo rally at the 25 de Junho Stadium in Nampula.",
+      "Aspects": {
+        "Who": ["Joaquim Sive"],
+        "Where": ["Nampula, Mozambique"],
+        "Cause": "Violence at rally",
+        "Result": "Suspension from police duties"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    }
+  ]
+}
+```
+=== Article 51: Mozambique election crisis: Police accused of killing pot-banging protesters ===
+
+
+```json
+{
+  "PublicationDate": "2024-11-23",
+  "Events": [
+    {
+      "Date": "2024-10-24",
+      "Title": "Election Results Announced",
+      "EventOrigin": true,
+      "EventType": "announcement",
+      "Text": "The electoral commission declared Frelimo's candidate, Daniel Chapo, the winner of the presidential election with 71% of the vote.",
+      "SourceSentence": "After the result was announced on 24 October, Chapo was adamant that he and Frelimo had won in a free and fair contest.",
+      "Aspects": {
+        "Who": ["Frelimo", "Daniel Chapo"],
+        "Where": ["Mozambique"],
+        "Cause": "Presidential election",
+        "Result": "Frelimo declared winner"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-11-15",
+      "Title": "First Protest Held",
+      "EventOrigin": false,
+      "EventType": "protest",
+      "Text": "The protest against the election results was first held on the night of 15 November.",
+      "SourceSentence": "Mr Samuel said the protest was first held on the night of 15 November when huge numbers of people took to the streets to bang pots, pans and bottles or to blow whistles.",
+      "Aspects": {
+        "Who": ["protesters", "Venâncio Mondlane"],
+        "Where": ["Maputo, Mozambique"],
+        "Cause": "Opposition to election results",
+        "Result": "Protest against Frelimo's rule"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-11-17",
+      "Title": "Vigil for Alito Momad",
+      "EventOrigin": false,
+      "EventType": "vigil",
+      "Text": "Friends of Alito Momad held a night vigil for him, who was allegedly killed by police during the protests.",
+      "SourceSentence": "The BBC came across some of his friends in a neighbourhood outside Maputo, holding a night vigil for him on 17 November.",
+      "Aspects": {
+        "Who": ["friends of Alito Momad"],
+        "Where": ["neighbourhood outside Maputo"],
+        "Cause": "Commemoration of a victim of police violence",
+        "Result": "Vigil held in memory of Alito"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-11-19",
+      "Title": "Antonio's Funeral",
+      "EventOrigin": false,
+      "EventType": "funeral",
+      "Text": "Antonio's funeral took place four days after his killing.",
+      "SourceSentence": "At Antonio's funeral at the São Francisco Xavier Cemetery four days after his killing, one of his friends delivered his mother’s eulogy.",
+      "Aspects": {
+        "Who": ["Antonio Juaqim", "friends", "family"],
+        "Where": ["São Francisco Xavier Cemetery, Maputo"],
+        "Cause": "Funeral for a victim of police violence",
+        "Result": "Eulogy delivered and memorial held"
+      },
+      "Context": "Calculated date: 2024-11-15 (killing) + 4 days = 2024-11-19.",
+      "Confidence": 1.0
+    },
+    {
+      "Date": "2024-11-22",
+      "Title": "Three Days of Mourning",
+      "EventOrigin": false,
+      "EventType": "mourning",
+      "Text": "Mondlane's supporters mourned the dead for three days by stopping their vehicles and hooting at noon.",
+      "SourceSentence": "In an apparent attempt to keep up the pressure ahead of the ruling, many of Mondlane's supporters also heeded his call to mourn the dead for three days (until 22 November) by stopping their vehicles and hooting at noon.",
+      "Aspects": {
+        "Who": ["Mondlane's supporters"],
+        "Where": ["Mozambique"],
+        "Cause": "Commemoration of victims of police violence",
+        "Result": "Public display of mourning"
+      },
+      "Context": "Explicit date mentioned in text.",
+      "Confidence": 1.0
+    }
+  ]
+}
+```

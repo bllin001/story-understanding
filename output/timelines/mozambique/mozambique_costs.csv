@@ -1,0 +1,4 @@
+article_index,title,PublicationDate,start_utc,end_utc,time_seconds,input_tokens,output_tokens,total_tokens,cost_input_usd,cost_output_usd,total_cost_usd,model
+49,Mozambique cholera: Why outbreaks have sparked unrest,2023-05-28,2025-11-24T20:47:03.007070Z,2025-11-24T20:47:21.447374Z,18.44,654,987,1641,9.8e-05,0.000592,0.00069,gpt-4o-mini
+50,Bernadino Rafael: Mozambique's President Daniel Chapo sacks police chief accused of abuses,2025-01-24,2025-11-24T20:47:21.465884Z,2025-11-24T20:47:42.640132Z,21.174,638,883,1521,9.6e-05,0.00053,0.000625,gpt-4o-mini
+51,Mozambique election crisis: Police accused of killing pot-banging protesters,2024-11-23,2025-11-24T20:47:42.647020Z,2025-11-24T20:47:58.511921Z,15.865,1271,965,2236,0.000191,0.000579,0.00077,gpt-4o-mini
