@@ -1,79 +1,117 @@
 -Goal-
-Given a narrative news article and its metadata, extract all events as a chronological timeline. Each article MUST contain exactly ONE root event (“EventOrigin”: true), which represents the primary reason why the article exists (headline + lead narrative). All other events MUST be sub-events (“EventOrigin”: false) related to that root.
+Given a narrative text about events with accompanying metadata schema, extract and organize all temporal information into a chronological timeline. Identify dates, time periods, and sequences of events mentioned in the narrative to create a comprehensive timeline. Use schema metadata to provide additional temporal context and source attribution.
 
--Schema Rules-
-1. The root event (“EventOrigin”: true):
-   - MUST represent the central focus of the article
-   - MUST be linked to headline + narrative context
-   - MUST have ONE EventType only
-   - MAY use the publication date as its event date if no other explicit/implicit root date exists
+-Schema Context Integration-
+When available, incorporate schema metadata to enhance timeline accuracy:
+- Use publication date as a temporal anchor point for relative date calculations
+- Include source/publisher information for event credibility and attribution
+- Consider article categorization to understand the temporal scope and domain
+- Use metadata timestamps to establish precise temporal context for {{recent}} events
+- Leverage publication context to better interpret relative time references
 
-2. Sub-events (“EventOrigin”: false):
-   - MUST be directly connected to the root event
-   - MUST include explicit or inferred temporal evidence
-   - MUST have a quoted sentence showing the event happened
 
-3. Dates MUST be normalized to “YYYY-MM-DD” and MUST include a DateSource:
-   - "explicit" → date appears exactly in text
-   - "implicit_inferred" → date calculated using publication date anchor and temporal clues
-   - "historical_context" → date gives background context, not a current event
-   - "unknown" → insufficient information to infer a specific date
+**Root vs. Sub-Event Rules**
+- Exactly **one** event MUST be labeled `"EventOrigin": true` (root event).
+- The root event MUST:
+  - Represent the main purpose of the article (headline + lead narrative).
+  - Have exactly one `EventType`.
+  - MAY use the publication date **only if** no explicit or implicit date is provided in the text.
+- All other events MUST:
+  - Use `"EventOrigin": false`.
+  - Needs to be connected to the root event.
+  - Have explicit or inferred temporal evidence.
+  - MUST NOT default to the publication date unless explicitly stated.
+- If a sub-event does not contain explicit or inferable temporal evidence:
+  - `"Date"` MUST be `null`
+  - `"DateSource"` MUST be `"unknown"`
 
-4. SourceSentence MUST be an exact quote. No paraphrasing allowed.
+Follow these instructions as precisely as possible. Only provide the requested output, nothing more.
 
-5. Confidence MUST be a numeric value FROM **0.00 TO 1.00** estimating extraction certainty.
-
-6. Aspects MUST only include:
-   - Who (people, orgs)
-   - Where (geographical entities)
-   - Cause (trigger/motivation if known, else null)
-   - Result (consequence/outcome if known, else null)
-
-7. Do NOT:
-   - Invent information not present or inferable
-   - Duplicate events under different wording
-   - Assign multiple EventTypes to one event
-
--EventType Rules-
-1. Prefer one of the recommended event categories below.
-2. If none accurately describe the event, generate a NEW category:
-   - MUST be 1–3 words max
-   - MUST describe the action (not opinion)
-   - MUST NOT be abstract (e.g., “Problem”, “Update”, “Context”)
-   - MUST NOT be too broad (e.g., “Incident”)
-3. All events MUST have exactly ONE EventType.
-
--Recommended EventType List (not mandatory)-
-["protest", "killing", "arrest", "speech", "announcement", "policy", "investigation", "disaster", "displacement", "military_action", "conflict", "election", "economic_issue", "corruption", "trial", "strike", "campaign", "violence", "refugee_movement", "analysis"]
+1. Analyze the narrative text for all temporal information (explicit dates, relative time references, sequence indicators)
+2. Extract key events, developments, and milestones mentioned in the narrative
+3. Organize information chronologically by date or temporal sequence
+4. Infer dates when possible from context clues (e.g., {{late Friday night}}, {{on Monday}}, {{ahead of}}, {{since 1975}})
+5. **Critical**: Use schema metadata publication date as the primary temporal anchor for calculating exact dates from relative references:
+   - {{tuesday night}} = Calculate the most recent Friday before publication date
+   - {{Monday}} = Calculate the upcoming Monday after publication date (or previous if context suggests past)
+   - {{yesterday}} = Publication date minus 1 day
+   - {{next week}} = Add 7 days to publication date
+   - {{last month}} = Subtract approximately 30 days from publication date
+   - {{since [year]}} = Use the specified year as start date
+   - Always convert relative time references to specific dates using publication date as anchor
+6. For events without specific dates, calculate exact dates using publication date arithmetic and temporal context clues
+7. Only use information that is explicitly stated or can be reasonably inferred from the narrative and metadata
+8. **Priority**: Always provide specific YYYY/MM/DD dates when possible by anchoring to publication date, avoiding vague relative references
 
 -Output Format-
-{
-  "PublicationDate": "YYYY-MM-DD",
-  "Events": [
-    {
-      "Date": "YYYY-MM-DD",
-      "DateSource": "explicit | implicit_inferred | historical_context | unknown",
-      "Title": "Brief descriptive event title",
-      "EventOrigin": true/false,
-      "EventType": "one allowed type only",
+Provide a JSON array where each item contains:
+- "Date": **Always use "YYYY/MM/DD" format** - calculate exact dates using publication date as anchor for relative references
+- "Title": A brief, descriptive title for the event (2-6 words)
+- "Text": A concise description of what happened at that time
+- "Source": The exact sentence or text snippet from the narrative that mentions this event
+- "Context": Include the calculation method used (e.g., "Publication date 2024-10-20 minus 2 days = 2024-10-18 for {{Friday night}}")
 
-      "Text": "Detailed description in your own words based strictly on the narrative",
-      "SourceSentence": "Exact quoted sentence from the narrative",
+-Template-
+=== Article Metadata (if available) ===
+Publication Date: {{CRITICAL ANCHOR - Use this date to calculate all relative references}}
+Source: {{Publisher/Source for credibility context}}
+Category: {{Article section for scope understanding}}
 
-      "Aspects": {
-        "Who": [...],
-        "Where": [...],
-        "Cause": "... or null",
-        "Result": "... or null"
-      },
-
-      "Context": "Explain date resolution logic using publication anchor, or why this is historical context",
-      "Confidence": 0.00–1.00
-    }
-  ]
-}
+=== Calculation Examples ===
+If Publication Date = 2024-10-20 (Sunday):
+- {{tuesday night}} = 2024-10-17 (most recent Friday)
+- {{Monday}} = 2024-10-21 (upcoming Monday) or 2024-10-14 (previous Monday if context suggests past)
+- {{next week}} = dates starting from 2024-10-27
+- {{last month}} = approximately 2024-09-20
 
 === Narrative Text ===
 {narrative_text}
 
-=== End ===
+=== Timeline ===
+[
+    {{
+  "PublicationDate": "YYYY-MM-DD",
+  "Events": [
+    {{
+      "Date": "YYYY-MM-DD",              // Calculated or explicit in text
+      "Title": "Brief descriptive event title",
+      "EventOrigin": true/false,        // True = main event of the article
+      "EventType": "e.g., protest, killing, displacement, announcement, disaster, corruption, trial, etc.",
+      
+      "Text": "Detailed description of what happened based on the narrative",
+      "SourceSentence": "Exact quoted sentence or phrase that states this event",
+
+      "Aspects": {{
+        "Who": ["entities, individuals, orgs"],
+        "Where": ["geo-locations"],
+        "Cause": "Reason, motivation, trigger if identifiable",
+        "Result": "Outcome or consequences if mentioned"
+      }},
+
+      "Context": "Date resolution notes. Example: Publication [2024-10-20] - 2 days → [2024-10-18] for {{on Friday night}}.",
+      "Confidence": 0.0–1.0            // Model certainty assigned by LLM
+    }}
+  ]
+}}
+]
+
+=== End of Timeline ===
+
+-Real Data-
+######################
+Narrative: {narrative_text}
+
+Schema Metadata Context (if available):
+- Publication Date: {{REQUIRED TEMPORAL ANCHOR - e.g., 2024-10-20 - Use for ALL relative date calculations}}
+- Source/Publisher: {{For event credibility and attribution context}}
+- Article Category: {{For temporal scope and domain understanding}}  
+- URL: {{For external temporal reference verification}}
+- Time Zone Context: {{For precise temporal positioning - default to publication timezone}}
+
+**Date Calculation Priority**:
+1. Explicit dates mentioned in text (use as-is)
+2. Relative references + Publication date anchor = Exact calculated date
+3. Historical references (e.g., {{since 1975}}) = Use historical year as start date
+4. Avoid vague relative terms - always calculate specific dates when publication date available
+######################
+Timeline:
