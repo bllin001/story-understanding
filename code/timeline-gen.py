@@ -312,8 +312,8 @@ print("Processing narrative for timeline extraction...")
 articles = [a.strip() for a in re.split(r'\n={3,}\n', narrative_text) if a.strip()]
 
 # Output paths (timelines folder)
-raw_output_path = f'../output/timelines/{collection_name}/{collection_name}_narrative_timeline.txt'
-timeline_output_path = f'../output/timelines/{collection_name}/{collection_name}_narrative_timeline.json'
+raw_output_path = f'../output/timelines/{collection_name}/gpt-4o-mini/{collection_name}_narrative_timeline.txt'
+timeline_output_path = f'../output/timelines/{collection_name}/gpt-4o-mini/{collection_name}_narrative_timeline.json'
 os.makedirs(os.path.dirname(raw_output_path), exist_ok=True)
 
 # Path for costs file (used for appends)
