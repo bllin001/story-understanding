@@ -1,0 +1,59 @@
+Model: gemini-2.0-flash
+Collection: mozambique
+Articles: 51
+
+Total input tokens: 165518
+Total output tokens: 71590
+Total cost: $0.000000
+
+- idx=1 | Mozambique rocked by killing of two prominent opposition figures | in=2332 | out=1282 | time=7.5003s | cost=$0.0
+- idx=2 | Mozambique faces social media restrictions amid election disputes and tensions | in=2936 | out=1356 | time=8.2499s | cost=$0.0
+- idx=3 | Mozambique ruling party calls for dialogue as opposition rejects vote result | in=2132 | out=898 | time=5.6157s | cost=$0.0
+- idx=4 | Post-election protests in Mozambique leave 10 dead, dozens injured | in=2306 | out=1802 | time=37.3391s | cost=$0.0
+- idx=5 | EU observers flag irregularities and &#039;alteration of results&#039; in Mozambique election | in=2944 | out=926 | time=5.1015s | cost=$0.0
+- idx=6 | Mozambique: “Let us engage in dialogue,” says President-elect after days of opposition protest | in=3196 | out=1528 | time=8.3724s | cost=$0.0
+- idx=7 | UN: Southern Africa faces worst hunger crisis in decades due to El Niño | in=3228 | out=1121 | time=6.5153s | cost=$0.0
+- idx=8 | Mozambique&#039;s President urges an end to deadly protests against recent election results | in=2264 | out=852 | time=4.9601s | cost=$0.0
+- idx=9 | Post-election violence intensifies in Mozambique ahead of SADC meeting | in=2444 | out=1145 | time=6.3557s | cost=$0.0
+- idx=10 | Why Mozambique&#039;s election has sparked weeks of protests and a violent crackdown by police | in=3632 | out=1247 | time=7.0381s | cost=$0.0
+- idx=11 | Mozambique President Wants Talks to End Weeks of Post-Election Unrest | in=3034 | out=912 | time=5.9795s | cost=$0.0
+- idx=12 | Mozambique: Three More Protesters Shot Dead, Opposition Leader Declares Period of Mourning | in=6156 | out=2859 | time=18.1141s | cost=$0.0
+- idx=13 | Mozambique: The Roots of Unprecedented Protest in Mozambique | in=3900 | out=1638 | time=9.0786s | cost=$0.0
+- idx=14 | No Title | in=4602 | out=1298 | time=7.4531s | cost=$0.0
+- idx=15 | 10 children killed in Mozambique election protests: HRW | in=2826 | out=1766 | time=9.139s | cost=$0.0
+- idx=16 | Following deadly Mozambique protests NGO reports higher death toll | in=2314 | out=1062 | time=5.7384s | cost=$0.0
+- idx=17 | Mozambique's Deadly Protests - How the Country Got Here | in=5014 | out=2641 | time=15.8307s | cost=$0.0
+- idx=18 | Damage and rebuilding after Cyclone Chido hits Mozambique | in=2638 | out=1138 | time=6.3459s | cost=$0.0
+- idx=19 | Mozambique: Cyclone Chido Kills At Least 34 in Mozambique | in=2514 | out=1937 | time=10.8027s | cost=$0.0
+- idx=20 | Cyclone Chido kills at least 45 people in Mozambique and leaves hundreds injured | in=2180 | out=981 | time=6.0665s | cost=$0.0
+- idx=21 | More climate challenges ahead for Mozambique and Malawi | in=4328 | out=1324 | time=7.1652s | cost=$0.0
+- idx=22 | No Title | in=2334 | out=1413 | time=7.656s | cost=$0.0
+- idx=23 | Cyclone Chido leaves 94 dead in Mozambique | in=2282 | out=911 | time=5.4287s | cost=$0.0
+- idx=24 | Mozambique: Mondlane Threatens More Unrest | in=3898 | out=1731 | time=9.9813s | cost=$0.0
+- idx=25 | Mozambique: Chaos on Monday? Big Money at Stake, But Youth Can Bring Change | in=8018 | out=3523 | time=19.0553s | cost=$0.0
+- idx=26 | Mozambique: President Assures the Country He Will Leave Office in January | in=3172 | out=677 | time=4.0297s | cost=$0.0
+- idx=27 | Mozambique: Top Court confirms disputed Frelimo election win | in=2382 | out=861 | time=5.3668s | cost=$0.0
+- idx=28 | No Title | in=1902 | out=1103 | time=6.4826s | cost=$0.0
+- idx=29 | Mozambique's Highest Court Upholds Victory for the Ruling Frelimo Party | in=3370 | out=1447 | time=8.5117s | cost=$0.0
+- idx=30 | No Title | in=6658 | out=2924 | time=15.9547s | cost=$0.0
+- idx=31 | Mozambique unrest: Hundreds flee Maputo jail amid poll protests | in=2660 | out=1912 | time=10.8282s | cost=$0.0
+- idx=32 | Mozambique: Over 1,500 inmates escape Maputo jail after riot | in=2158 | out=977 | time=5.4893s | cost=$0.0
+- idx=33 | 21 dead as Mozambique erupts in violence after election court ruling | in=2640 | out=999 | time=5.8989s | cost=$0.0
+- idx=34 | 1,500 escape Mozambique prison; 33 dead in post-election chaos | in=2472 | out=916 | time=5.0774s | cost=$0.0
+- idx=35 | Mozambique's major cities paralyzed by post-election unrest | in=3782 | out=2148 | time=11.5901s | cost=$0.0
+- idx=36 | Mozambique: Thousands flee to Malawi amid election unrest | in=2670 | out=1373 | time=7.7619s | cost=$0.0
+- idx=37 | Mozambique: Mondlane announces break in election protests | in=2354 | out=1523 | time=8.4s | cost=$0.0
+- idx=38 | Mozambique: Over 13,000 Mozambicans Flee to Malawi Amid Post-Election Violence | in=2720 | out=1105 | time=6.2804s | cost=$0.0
+- idx=39 | Mozambique: State-Orchestrated Jailbreak - 134 Dead in 4 Days | in=3384 | out=1466 | time=8.1903s | cost=$0.0
+- idx=40 | Mozambique: South Africa sends special envoy to help quell unrest | in=2244 | out=673 | time=4.2488s | cost=$0.0
+- idx=41 | Exiled Mozambique opposition leader to return on January 9th | in=2108 | out=1018 | time=5.8691s | cost=$0.0
+- idx=42 | Mozambique: Post-Election Chaos in Mozambique Sparks Mass Exodus to Malawi | in=3590 | out=715 | time=4.1639s | cost=$0.0
+- idx=43 | Mozambique: Tensions rise as main opposition leader returns | in=2666 | out=1552 | time=8.774s | cost=$0.0
+- idx=44 | Daniel Chapo: Mozambique to get new president amid swirl of protest | in=4716 | out=1039 | time=5.964s | cost=$0.0
+- idx=45 | Mozambique: Is Cabo Delgado the latest Islamic State outpost? | in=4360 | out=1162 | time=6.4693s | cost=$0.0
+- idx=46 | Mozambique: Chapo sworn into office amid social unrest | in=1780 | out=651 | time=3.9006s | cost=$0.0
+- idx=47 | Mozambique: Daniel Chapo sworn in as president | in=2330 | out=1052 | time=6.5282s | cost=$0.0
+- idx=48 | SADC must act now to save Mozambique from becoming a failed state | in=6028 | out=3093 | time=16.5487s | cost=$0.0
+- idx=49 | Mozambique cholera: Why outbreaks have sparked unrest | in=2898 | out=1112 | time=6.4423s | cost=$0.0
+- idx=50 | Bernadino Rafael: Mozambique's President Daniel Chapo sacks police chief accused of abuses | in=2844 | out=1053 | time=5.8001s | cost=$0.0
+- idx=51 | Mozambique election crisis: Police accused of killing pot-banging protesters | in=4178 | out=1748 | time=9.8469s | cost=$0.0
