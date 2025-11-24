@@ -40,3 +40,6 @@ data/gdelt_characterization.json
 # OS files
 .DS_Store
 Thumbs.db
+
+# notes.md
+notes.md
