@@ -1,4 +1,4 @@
----
+
 Article Metadata:
 Title: Mozambique rocked by killing of two prominent opposition figures
 Source: Africanews
@@ -6,7 +6,6 @@ Publication Date: 2024-10-20T09:14:08+02:00
 URL: https://www.africanews.com/2024/10/20/mozambique-rocked-by-killing-of-two-prominent-opposition-figures/
 Section: World News
 Image: https://static.euronews.com/articles/stories/08/80/14/52/900x506_cmsv2_5519b8cb-0c77-5c0f-b1e8-484ec16eb58c-8801452.jpg
----
 
 Mozambique has been rocked by the murder of two prominent opposition figures, ratcheting up tensions ahead of planned protests against the election results.
 
